@@ -1,3 +1,9 @@
+---
+language: english
+---
+
+{% assign copy = site.data.languages[page.language] %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +16,8 @@
 </head>
 <body>
 
-<h3>Say hello to your Jekyll for me!hihi</h3>
+<h3>{{ copy.landing.title }}</h3>
+<h4>{{ copy.landing.subtitle }}</h4>
 
 <script src="/assets/js/jquery-2.1.1.min.js"></script>
 <script src="/assets/js/functions.js" type="text/javascript"></script>
