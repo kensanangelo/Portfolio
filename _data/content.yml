@@ -1,0 +1,66 @@
+---
+english:
+  header:
+    logo-link: "/logo.jpg"
+    buttons:
+      - name: "about"
+        link: "#about"
+
+      - name: "work"
+        link: "#work"
+
+      - name: "contact"
+        link: "#contact"
+
+      - name: "español"
+        link: "/es"
+
+  landing: 
+    title: "Ken San Angelo"
+    subtitle: "Web Developer"
+    img-link: "assets/img/portrait.jpg"
+
+  about:
+    header: "Hi, my name's Ken. I am a web developer based in Orlando, Florida."
+    bio:
+      - paragraph: "I am currently working as a technical developer at <a href='https://goldtone.com'>Gold Tone Music Group</a>, which allows me to constantly challenge myself and improve my skills. I’m not currently accepting freelance work, but I am always open to meeting new people so feel free to get in touch."
+      - paragraph: "I am a graduate of the Web Design program at the University of Central Florida. While there, I was included in the School of Visual Arts and Design Premiere and Exhibition 2 years in a row for web-based projects that I worked on. I am also a founder of Design+Code@UCF, the web design and development club at UCF."
+      - paragraph: "Besides web development, I also have a passion for photography and videography, which you can check out at <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>."
+    resume-link: "/resume.pdf"
+
+  testimonial:
+    quote: "Our new site has created huge opportunities for cross-promotion between our brands and makes it easier to inform customers and convert leads. Beyond that, Ken has always been knowledgable, professional, and a blast to work with."
+    name: "Mike Johnson"
+    position: "Sales Manager, Gold Tone Music Group"
+    img-link: "assets/img/testimonial.jpg"
+
+  work:
+    projects:
+      - name: "Gold Tone"
+        img-link: "assets/img/goldtone.jpg"
+      
+      - name: "Loop2Learn"
+        img-link: "assets/img/loop2learn.jpg"
+      
+      - name: "NadaMaps"
+        img-link: "assets/img/nadamaps.jpg"
+
+  contact:
+    header: "Have a project I’d be interested in?"
+    button: "Email Me"
+    social:
+      - img-link: " "
+        link: " "
+
+      - img-link: " "
+        link: " "
+
+      - img-link: " "
+        link: " "
+
+spanish:
+  landing: 
+    title: Ken San Angelo
+    subtitle: Diseñador Web
+
+---

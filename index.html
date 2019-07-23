@@ -2,7 +2,13 @@
 language: english
 ---
 
-{% assign copy = site.data.languages[page.language] %}
+{% assign copy = site.data.content[page.language] %}
+{% assign landing = copy.landing %}
+{% assign about = copy.about %}
+{% assign testimonial = copy.testimonial %}
+{% assign work = copy.work %}
+{% assign contact = copy.contact %}
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,8 +22,26 @@ language: english
 </head>
 <body>
 
-<h3>{{ copy.landing.title }}</h3>
-<h4>{{ copy.landing.subtitle }}</h4>
+<section>
+	<h3>{{ landing.title }}</h3>
+	<h4>{{ landing.subtitle }}</h4>
+</section>
+
+<section>
+	<h4>{{ about.header }}</h4>
+	{% for bio in about.bio %}
+		<p>{{ bio.paragraph }}</p>
+	{% endfor %}
+
+	<a href="{{ about.resume-link }}">Resume (pdf 100kb)</a>
+</section>
+
+<section>
+	<p>"{{ testimonial.quote }}</p>
+	<p>{{ testimonial.name }} {{ testimonial.position }}</p>
+</section>
+
+
 
 <script src="/assets/js/jquery-2.1.1.min.js"></script>
 <script src="/assets/js/functions.js" type="text/javascript"></script>
