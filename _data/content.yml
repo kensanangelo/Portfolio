@@ -19,6 +19,7 @@ english:
     title: "Ken San Angelo"
     subtitle: "Web Developer"
     img-link: "assets/img/portrait.jpg"
+    img-alt: ""
 
   about:
     header: "Hi, my name's Ken. I am a web developer based in Orlando, Florida."
@@ -33,21 +34,26 @@ english:
     name: "Mike Johnson"
     position: "Sales Manager, Gold Tone Music Group"
     img-link: "assets/img/testimonial.jpg"
+    img-alt: ""
 
   work:
     projects:
       - name: "Gold Tone"
         img-link: "assets/img/goldtone.jpg"
+        img-alt: ""
       
       - name: "Loop2Learn"
         img-link: "assets/img/loop2learn.jpg"
+        img-alt: ""
       
       - name: "NadaMaps"
         img-link: "assets/img/nadamaps.jpg"
+        img-alt: ""
 
   contact:
     header: "Have a project I’d be interested in?"
     button: "Email Me"
+    email-link: "ken@kensanangelo.com"
     social:
       - img-link: " "
         link: " "

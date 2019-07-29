@@ -3,6 +3,7 @@ language: english
 ---
 
 {% assign copy = site.data.content[page.language] %}
+{% assign header = copy.header %}
 {% assign landing = copy.landing %}
 {% assign about = copy.about %}
 {% assign testimonial = copy.testimonial %}
@@ -22,12 +23,18 @@ language: english
 </head>
 <body>
 
+<nav>
+	{% for button in header.buttons %}
+		<a href="{{ button.link }}">{{ button.name }}</a>
+	{% endfor %}
+</nav>
+
 <section>
 	<h3>{{ landing.title }}</h3>
 	<h4>{{ landing.subtitle }}</h4>
 </section>
 
-<section>
+<section id="about">
 	<h4>{{ about.header }}</h4>
 	{% for bio in about.bio %}
 		<p>{{ bio.paragraph }}</p>
@@ -39,6 +46,17 @@ language: english
 <section>
 	<p>"{{ testimonial.quote }}</p>
 	<p>{{ testimonial.name }} {{ testimonial.position }}</p>
+</section>
+
+<section id="work">
+	{% for project in work.projects %}
+		<p>{{ project.name }}</p>
+	{% endfor %}
+</section>
+
+<section id="contact">
+	<h4>{{ contact.header }}</h4>
+	<a href="mailto:{{ contact.email-link }}">{{ contact.button }}</a>
 </section>
 
 
