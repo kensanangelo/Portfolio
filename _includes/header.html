@@ -1,0 +1,7 @@
+{% assign header = copy.header %}
+
+<nav>
+	{% for button in header.buttons %}
+		<a href="{{ button.link }}">{{ button.name }}</a>
+	{% endfor %}
+</nav>

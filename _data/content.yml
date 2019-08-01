@@ -1,5 +1,5 @@
 ---
-english:
+en:
   header:
     logo-link: "/logo.jpg"
     buttons:
@@ -28,7 +28,7 @@ english:
       - paragraph: "I am currently working as a technical developer at <a href='https://goldtone.com'>Gold Tone Music Group</a>, which allows me to constantly challenge myself and improve my skills. I’m not currently accepting freelance work, but I am always open to meeting new people so feel free to get in touch."
       - paragraph: "I am a graduate of the Web Design program at the University of Central Florida. While there, I was included in the School of Visual Arts and Design Premiere and Exhibition 2 years in a row for web-based projects that I worked on. I am also a founder of Design+Code@UCF, the web design and development club at UCF."
       - paragraph: "Besides web development, I also have a passion for photography and videography, which you can check out at <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>."
-    resume-link: "/resume.pdf"
+    resume-link: "resume.pdf"
 
   testimonial:
     quote: "Our new site has created huge opportunities for cross-promotion between our brands and makes it easier to inform customers and convert leads. Beyond that, Ken has always been knowledgable, professional, and a blast to work with."
@@ -41,15 +41,15 @@ english:
     projects:
       - name: "Gold Tone"
         img-link: "assets/img/goldtone.jpg"
-        img-alt: ""
+        img-alt: "The home page of Gold Tone's website"
       
-      - name: "Loop2Learn"
-        img-link: "assets/img/loop2learn.jpg"
-        img-alt: ""
+      - name: "This Site"
+        img-link: "assets/img/thissite.jpg"
+        img-alt: "The landing page of this website"
       
       - name: "NadaMaps"
         img-link: "assets/img/nadamaps.jpg"
-        img-alt: ""
+        img-alt: "The landing page of the project, NadaMaps"
 
   contact:
     header: "Have a project I’d be interested in?"
@@ -65,9 +65,70 @@ english:
       - img-link: " "
         link: " "
 
-spanish:
+es:
+  header:
+    logo-link: "/logo.jpg"
+    buttons:
+      - name: "sobre"
+        link: "#about"
+
+      - name: "trabajo"
+        link: "#work"
+
+      - name: "contacto"
+        link: "#contact"
+
+      - name: "ingles"
+        link: "/"
+
   landing: 
     title: Ken San Angelo
     subtitle: Diseñador Web
+    img-link: "/assets/img/portrait.jpg"
+    img-small-link: "/assets/img/portrait-small.jpg"
+    img-alt: "A portrait of me, Ken San Angelo"
+
+  about:
+    header: "Hi, my name's Ken. I am a web developer based in Orlando, Florida."
+    bio:
+      - paragraph: "I am currently working as a technical developer at <a href='https://goldtone.com'>Gold Tone Music Group</a>, which allows me to constantly challenge myself and improve my skills. I’m not currently accepting freelance work, but I am always open to meeting new people so feel free to get in touch."
+      - paragraph: "I am a graduate of the Web Design program at the University of Central Florida. While there, I was included in the School of Visual Arts and Design Premiere and Exhibition 2 years in a row for web-based projects that I worked on. I am also a founder of Design+Code@UCF, the web design and development club at UCF."
+      - paragraph: "Besides web development, I also have a passion for photography and videography, which you can check out at <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>."
+    resume-link: "/resume.pdf"
+
+  testimonial:
+    quote: "Our new site has created huge opportunities for cross-promotion between our brands and makes it easier to inform customers and convert leads. Beyond that, Ken has always been knowledgable, professional, and a blast to work with."
+    name: "Mike Johnson"
+    position: "Sales Manager, Gold Tone Music Group"
+    img-link: "/assets/img/testimonial.jpg"
+    img-alt: ""
+
+  work:
+    projects:
+      - name: "Gold Tone"
+        img-link: "/assets/img/goldtone.jpg"
+        img-alt: "The home page of Gold Tone's website"
+      
+      - name: "This Site"
+        img-link: "/assets/img/thissite.jpg"
+        img-alt: "The landing page of this website"
+      
+      - name: "NadaMaps"
+        img-link: "/assets/img/nadamaps.jpg"
+        img-alt: "The landing page of the project, NadaMaps"
+
+  contact:
+    header: "Have a project I’d be interested in?"
+    button: "Email Me"
+    email-link: "ken@kensanangelo.com"
+    social:
+      - img-link: " "
+        link: " "
+
+      - img-link: " "
+        link: " "
+
+      - img-link: " "
+        link: " "
 
 ---

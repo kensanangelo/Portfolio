@@ -1,0 +1,38 @@
+#testimonial
+  text-align: center
+
+.name
+  color: $quote-source-color
+
+.position
+  display: block
+  font-size: .9em
+  margin-left: 9px
+
+#testimonial img
+  width: 130px
+  margin: 0 auto
+  display: block
+
+
+.quote:before 
+  content: open-quote
+  display: inline
+  height: 0
+  line-height: 0
+  left: -10px
+  position: relative
+  top: 20px
+  color: #ccc
+  font-size: 3em
+
+.quote::after 
+  content: close-quote
+  display: inline
+  height: 0
+  line-height: 0
+  left: 10px
+  position: relative
+  top: 25px
+  color: #ccc
+  font-size: 3em

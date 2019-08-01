@@ -1,0 +1,10 @@
+{% assign about = copy.about %}
+
+<section id="about" class="container">
+	<h3>{{ about.header }}</h3>
+	{% for bio in about.bio %}
+		<p>{{ bio.paragraph }}</p>
+	{% endfor %}
+
+	<a href="{{ about.resume-link }}">Resume (pdf 100kb)</a>
+</section>
