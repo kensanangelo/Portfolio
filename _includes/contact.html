@@ -3,4 +3,11 @@
 <section id="contact">
 	<h5>{{ contact.header }}</h5>
 	<a class="email-button" href="mailto:{{ contact.email-link }}">{{ contact.button }}</a>
+	<div class="social">
+		{% for site in contact.social %}
+			<a href="{{ site.link }}">
+				<i class="{{ site.icon }}"></i>
+			</a>
+		{% endfor %}
+	</div>
 </section>
