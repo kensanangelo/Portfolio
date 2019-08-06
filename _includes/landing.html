@@ -1,9 +1,11 @@
 {% assign landing = copy.landing %}
 
 <section>
-	<div class="title">
-		<h1>{{ landing.title }}</h1>
-		<h2>{{ landing.subtitle }}</h2>
+	<div class="title-container">
+		<div class="title">
+			<h1>{{ landing.title }}</h1>
+			<h2>{{ landing.subtitle }}</h2>
+		</div>
 	</div>
 	<img src="{{ landing.img-small-link }}" alt="{{ landing.img-alt }}">
 </section>

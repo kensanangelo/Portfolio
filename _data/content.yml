@@ -28,6 +28,7 @@ en:
       - paragraph: "I am currently working as a technical developer at <a href='https://goldtone.com'>Gold Tone Music Group</a>, which allows me to constantly challenge myself and improve my skills. I’m not currently accepting freelance work, but I am always open to meeting new people so feel free to get in touch."
       - paragraph: "I am a graduate of the Web Design program at the University of Central Florida. While there, I was included in the School of Visual Arts and Design Premiere and Exhibition 2 years in a row for web-based projects that I worked on. I am also a founder of Design+Code@UCF, the web design and development club at UCF."
       - paragraph: "Besides web development, I also have a passion for photography and videography, which you can check out at <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>."
+    resume: "Resume"
     resume-link: "resume.pdf"
 
   testimonial:
@@ -35,7 +36,7 @@ en:
     name: "Mike Johnson"
     position: "Sales Manager, Gold Tone Music Group"
     img-link: "assets/img/testimonial.jpg"
-    img-alt: ""
+    img-alt: "A portrait of Mike Johnson"
 
   work:
     projects:
@@ -72,10 +73,10 @@ es:
       - name: "trabajo"
         link: "#work"
 
-      - name: "contactar"
+      - name: "contacto"
         link: "#contact"
 
-      - name: "ingles"
+      - name: "inglés"
         link: "/"
 
   landing: 
@@ -89,43 +90,41 @@ es:
     header: "Hola, me llamo Ken. Soy un diseñador web trabajando en Orlando, Florida."
     bio:
       - paragraph: "Actualmente, estoy empleado como desarrollador technical en <a href='https://goldtone.com'>Gold Tone Music Group</a>, que me concede de retarme continuamente y mejorar mis habilidades. En este momento, no acepto trabajo freelance, pero siempre estoy abierto de conocer gente nueva entonces no dudes en contactarme."
-      - paragraph: "Me gradué de la programa de diseño web en la Universidad de Florida Central. Mientras allá, me incluían en el Estreno y Exhibición de la Escuela de Artes Visuales y Diseño 2 años consecutivos para proyectos del web lo en que trabajaba. I am also a founder of Design+Code@UCF, the web design and development club at UCF."
-      - paragraph: "Besides web development, I also have a passion for photography and videography, which you can check out at <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>."
-    resume-link: "/resume.pdf"
+      - paragraph: "Me gradué de la programa de diseño web en la Universidad de Florida Central. Mientras allá, me incluían en el Estreno y Exhibición de la Escuela de Artes Visuales y Diseño 2 años consecutivos para proyectos del web lo en que trabajaba. También soy un fundador en Design+Code@UCF, el club de diseño y desarrollo en UCF."
+      - paragraph: "Además de desarrollo web, también tengo una passión para fotografía y videografía, lo que puedes mirar en <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>."
+    resume: "Currículum"
+    resume-link: "/curriculum.pdf"
 
   testimonial:
-    quote: "Our new site has created huge opportunities for cross-promotion between our brands and makes it easier to inform customers and convert leads. Beyond that, Ken has always been knowledgable, professional, and a blast to work with."
+    quote: "Nuestro nuevo sitio ha creado oportunidades enormes para promoción mutua entre nuestras marcas y se hace más fácil para informar clientes y convertir prospectos. Además de eso, Ken siempre ha sido muy conocedor, profesional, y muy divertido en el trabajo."
     name: "Mike Johnson"
-    position: "Sales Manager, Gold Tone Music Group"
+    position: "Gerente de Ventas, Gold Tone Music Group"
     img-link: "/assets/img/testimonial.jpg"
-    img-alt: ""
+    img-alt: "Un retrato de Mike Johnson"
 
   work:
     projects:
       - name: "Gold Tone"
         img-link: "/assets/img/goldtone.jpg"
-        img-alt: "The home page of Gold Tone's website"
+        img-alt: "La página inicia de Gold Tone"
       
-      - name: "This Site"
+      - name: "Este Sitio"
         img-link: "/assets/img/thissite.jpg"
-        img-alt: "The landing page of this website"
+        img-alt: "La página inicia de este sitio"
       
       - name: "NadaMaps"
         img-link: "/assets/img/nadamaps.jpg"
-        img-alt: "The landing page of the project, NadaMaps"
+        img-alt: "La página inicia del proyecto, NadaMaps"
 
   contact:
-    header: "Have a project I’d be interested in?"
-    button: "Email Me"
+    header: "¿Tienes un proyecto que me interesaría?"
+    button: "Enviarme un email"
     email-link: "ken@kensanangelo.com"
     social:
-      - img-link: " "
-        link: " "
+      - icon: "fab fa-github-square"
+        link: "https://github.com/kensanangelo"
 
-      - img-link: " "
-        link: " "
-
-      - img-link: " "
-        link: " "
+      - icon: "fab fa-linkedin"
+        link: "https://www.linkedin.com/in/kensanangelo"
 
 ---
