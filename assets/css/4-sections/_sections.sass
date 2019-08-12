@@ -2,6 +2,11 @@ section
 	margin-bottom: 60px
 
 .container
-	max-width: 1000px
+	max-width: $breakpoint-monitor-sm
 	margin-left: auto
 	margin-right: auto
+
+@media only screen and (min-width: $breakpoint-mobile-l) and (max-width: $breakpoint-monitor-sm)
+	.container
+		max-width: $breakpoint-monitor-sm
+		padding: 0 20px
