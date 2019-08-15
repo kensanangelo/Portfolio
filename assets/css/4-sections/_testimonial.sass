@@ -37,10 +37,27 @@
   color: #ccc
   font-size: 3em
 
-@media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-monitor-sm)
+@media only screen and (min-width: $breakpoint-tablet)
   #testimonial
     display: flex
+    text-align: left
+
+  .quote-container
+    align-self: center
+    margin-left: 30px
+
+  .quote
+    margin-bottom: 4px
+
+  .name
+    margin-bottom: 0
+
+  .position
+    display: inline
+    margin-left: 0
+    font-size: .8em
+    font-style: italic
 
   #testimonial img
     order: -1
-    align-self: center
+    align-self: flex-start
