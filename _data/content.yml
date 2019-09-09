@@ -18,8 +18,8 @@ en:
   landing: 
     title: "Ken San Angelo"
     subtitle: "Web Developer"
-    img-link: "assets/img/portrait.jpg"
-    img-small-link: "assets/img/portrait-small.jpg"
+    img-link: "/assets/img/portrait.jpg"
+    img-small-link: "/assets/img/portrait-small.jpg"
     img-alt: "A portrait of me, Ken San Angelo"
 
   about:
