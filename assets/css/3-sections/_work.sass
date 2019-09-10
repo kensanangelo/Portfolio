@@ -1,5 +1,11 @@
+#work
+  //max-width: $container-m
+
 .project
   margin-bottom: 20px
+  max-width: 600px
+  margin-left: auto
+  margin-right: auto
 
 .project img
   transition: filter 1s ease-in-out
@@ -16,7 +22,20 @@
   filter: grayscale(0%)
   opacity: 1
 
-
 @media only screen and (min-width: $breakpoint-tablet)
   #work
     display: flex
+    justify-content: center
+
+
+@media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-monitor-sm)
+  .project
+    margin-left: 5px
+    margin-right: 5px
+
+
+@media only screen and (min-width: $breakpoint-monitor-sm)
+  .project
+    margin-left: 15px
+    margin-right: 15px
+    

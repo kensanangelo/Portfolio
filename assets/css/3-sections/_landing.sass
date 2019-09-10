@@ -1,6 +1,7 @@
 #landing
   max-width: $container-m
-  margin: 0 auto
+  margin-left: auto
+  margin-right: auto
 
 .title-container
   display: flex
@@ -31,6 +32,9 @@
   .portrait-container img
     width: 350px
 
+@media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-monitor-sm)
+  .title-container
+    padding-left: 25px
 
 @media only screen and (min-width: $breakpoint-monitor-sm)
   h1
