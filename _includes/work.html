@@ -3,8 +3,10 @@
 <section id="work">
 	{% for project in work.projects %}
 		<div class="project">
-			<h4>{{ project.name }}</h4>
-			<img class="project-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
+			<a href="#">
+				<h4>{{ project.name }}</h4>
+				<img class="project-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
+			</a>
 		</div>
 	{% endfor %}
 </section>
