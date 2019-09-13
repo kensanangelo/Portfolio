@@ -76,7 +76,7 @@ es:
       - name: "contacto"
         link: "#contact"
 
-      - name: "inglés"
+      - name: "english"
         link: "/"
 
   landing: 
