@@ -13,13 +13,23 @@
   display: block
   text-decoration: none
   text-align: center
-  color: #444
+  color: $link-color
   font-family: 'Playfair Display', serif
   font-size: 1.6em
   margin: 0 auto
   padding: 20px 62px 26px
   border: 2px solid $accent-color
   border-radius: 6px
+
+  moz-transition: all .4s ease-in-out
+  -o-transition: all .4s ease-in-out
+  -webkit-transition: all .4s ease-in-out
+  transition: all .4s ease-in-out
+
+  background-color: $bg-color
+  &:hover
+    background-color: $link-hover-color
+    color: $link-color
 
 .social
   text-align: center
@@ -29,4 +39,7 @@
   font-size: 3em
   color: #bbb
   text-decoration: none
+
+  &:hover
+    color: $link-hover-color
 
