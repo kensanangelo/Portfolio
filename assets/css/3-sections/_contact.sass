@@ -21,15 +21,20 @@
   border: 2px solid $accent-color
   border-radius: 6px
 
-  moz-transition: all .4s ease-in-out
-  -o-transition: all .4s ease-in-out
-  -webkit-transition: all .4s ease-in-out
-  transition: all .4s ease-in-out
+  moz-transition: all 1.2s ease-in-out
+  -o-transition: all 1.2s ease-in-out
+  -webkit-transition: all 1.2s ease-in-out
+  transition: all 1.2s ease-in-out
 
   background-color: $bg-color
+  background-image: linear-gradient(to right, $bg-color 0%, $bg-color 20%, $selection-color 21%, $bg-color 30%, $bg-color 31%, $selection-color 40%, $bg-color 41%, $selection-color 70%, $selection-color 100%)
+  background-size: 500%
+
   &:hover
     background-color: $link-hover-color
-    color: $link-color
+    background-position: right center
+    color: #719ec1
+    border-radius: 50px
 
 .social
   text-align: center
