@@ -5,7 +5,7 @@
 	<a class="email-button" href="mailto:{{ contact.email-link }}"><span>{{ contact.button }}</a>
 	<div class="social">
 		{% for site in contact.social %}
-			<a href="{{ site.link }}">
+			<a href="{{ site.link }}" target="_blank">
 				<i class="{{ site.icon }}"></i>
 			</a>
 		{% endfor %}

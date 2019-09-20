@@ -3,7 +3,7 @@
 <section id="work">
 	{% for project in work.projects %}
 		<div class="project">
-			<a href="#">
+			<a href="{{ project.site-link }}">
 				<h4>{{ project.name }}</h4>
 				<img class="project-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
 			</a>
