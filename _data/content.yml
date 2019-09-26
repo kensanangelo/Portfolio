@@ -44,16 +44,22 @@ en:
         img-link: "assets/img/goldtone.jpg"
         img-alt: "The home page of Gold Tone's website"
         site-link: "https://goldtone.com"
+        git-link: "www.test.com"
+        full-copy: "<p>This is a test</p>"
       
       - name: "This Site"
         img-link: "assets/img/thissite.jpg"
         img-alt: "The landing page of this website"
         site-link: "http://kensanangelo.com"
+        git-link: "www.test.com"
+        full-copy: "<p>This is a test</p>"
 
       - name: "NadaMaps"
         img-link: "assets/img/nadamaps.jpg"
         img-alt: "The landing page of the project, NadaMaps"
         site-link: "http://kensanangelo.com/classwork/nada"
+        git-link: "www.test.com"
+        full-copy: "<p>This is a test</p>"
 
   contact:
     header: "Have a project I’d be interested in?"
