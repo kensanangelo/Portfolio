@@ -2,7 +2,7 @@
 
 <section id="work">
 	<div class="slides">
-		<div class="thumb-container">
+		<div class="thumb-slide">
 			{% for project in work.projects %}
 				<div class="thumb">
 					<a href="{{ project.site-link }}">
@@ -13,14 +13,17 @@
 			{% endfor %}
 		</div>
 		{% for project in work.projects %}
-			<div class="project">
-				<h4>{{ project.name }}</h4>
-				<img class="project-main-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
-				<ul>
-					<li>Site Link: <a href="{{ project.site-link }}">{{ project.site-link }}</a></li>
-					<li>Github Link: <a href="{{ project.git-link }}">{{ project.git-link }}</a></li>
-				</ul>
-				{{ project.full-copy }}
+			<div class="project-slide">
+				<div class="project">
+					<i class="fas fa-arrow-left return-arrow"></i>
+					<h4>{{ project.name }}</h4>
+					<img class="project-main-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
+					<ul>
+						<li>Site Link: <a href="{{ project.site-link }}">{{ project.site-link }}</a></li>
+						<li>Github Link: <a href="{{ project.git-link }}">{{ project.git-link }}</a></li>
+					</ul>
+					{{ project.full-copy }}
+				</div>
 			</div>
 		{% endfor %}
 	</div>
