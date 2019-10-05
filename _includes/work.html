@@ -3,26 +3,27 @@
 <section id="work">
 	<div class="slides">
 		<div class="thumb-slide">
+			{% assign i = 1 %}
 			{% for project in work.projects %}
-				<div class="thumb">
-					<a href="{{ project.site-link }}">
+				<div class="thumb" data-order="{{ i }}">
 						<h4>{{ project.name }}</h4>
 						<img class="thumb-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
-					</a>
 				</div>
+
+				{% assign i = i | plus:1 %}
 			{% endfor %}
 		</div>
 		{% for project in work.projects %}
 			<div class="project-slide">
 				<div class="project">
 					<i class="fas fa-arrow-left return-arrow"></i>
-					<h4>{{ project.name }}</h4>
+					<h4>{{ project.slide.full-name }}</h4>
 					<img class="project-main-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
 					<ul>
-						<li>Site Link: <a href="{{ project.site-link }}">{{ project.site-link }}</a></li>
-						<li>Github Link: <a href="{{ project.git-link }}">{{ project.git-link }}</a></li>
+						<li>Site Link: <a href="{{ project.site-link }}">{{ project.slide.site-link }}</a></li>
+						<li>Github Link: <a href="{{ project.git-link }}">{{ project.slide.git-link }}</a></li>
 					</ul>
-					{{ project.full-copy }}
+					{{ project.slide.full-copy }}
 				</div>
 			</div>
 		{% endfor %}

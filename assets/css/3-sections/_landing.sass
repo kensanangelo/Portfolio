@@ -3,52 +3,52 @@
   margin-left: auto
   margin-right: auto
 
-.title-container
-  display: flex
-  justify-content: center
-
-.title
-  margin-top: 18px
-  margin-bottom: 34px
-
-.portrait-container img
-  display: block
-  margin: 0 auto
-
-
-@media only screen and (min-width: $breakpoint-tablet)
-  #landing
+  @media only screen and (min-width: $breakpoint-tablet)
     display: flex
     padding: 15px
 
   .title-container
-    flex-grow: 9
-    align-self: center
-    justify-content: left
+    display: flex
+    justify-content: center
+
+    @media only screen and (min-width: $breakpoint-tablet)
+      flex-grow: 9
+      align-self: center
+      justify-content: left
+
+    @media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-monitor-sm)
+      padding-left: 25px
+
+    .title
+      margin-top: 18px
+      margin-bottom: 34px
+
+      h1
+        @media only screen and (min-width: $breakpoint-monitor-sm)
+          font-size: 4.4em
+
+        @media only screen and (min-width: $container-m)
+          font-size: 4.5em
+
+      h2
+        @media only screen and (min-width: $breakpoint-monitor-sm)
+          font-size: 2.7em
+
+        @media only screen and (min-width: $container-m)
+          font-size: 2.8em
 
   .portrait-container
-    flex-grow: 1
+    @media only screen and (min-width: $breakpoint-tablet)
+      flex-grow: 1
 
-  .portrait-container img
-    width: 350px
+    img
+      display: block
+      margin: 0 auto
+      
+      @media only screen and (min-width: $breakpoint-tablet)
+        width: 350px
+      
+      @media only screen and (min-width: $breakpoint-monitor-sm)
+        width: 400px
 
-@media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-monitor-sm)
-  .title-container
-    padding-left: 25px
-
-@media only screen and (min-width: $breakpoint-monitor-sm)
-  h1
-    font-size: 4.4em
-
-  h2
-    font-size: 2.7em
-
-  .portrait-container img
-    width: 400px
-
-@media only screen and (min-width: 1200px)
-  h1
-    font-size: 4.5em
-
-  h2
-    font-size: 2.8em
+        

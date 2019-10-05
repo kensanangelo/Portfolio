@@ -2,16 +2,14 @@ section
 	padding-top: 20px
 	margin-bottom: 40px
 
+	@media only screen and (min-width: $breakpoint-monitor-sm)
+		margin-bottom: 140px
+
 .container
 	max-width: $container-sm
 	margin-left: auto
 	margin-right: auto
 
-@media only screen and (min-width: $breakpoint-mobile-l) and (max-width: $breakpoint-monitor-sm)
-	.container
+	@media only screen and (min-width: $breakpoint-mobile-l) and (max-width: $breakpoint-monitor-sm)
 		padding-left: 20px
 		padding-right: 20px
-
-@media only screen and (min-width: $breakpoint-monitor-sm)
-	section
-		margin-bottom: 140px

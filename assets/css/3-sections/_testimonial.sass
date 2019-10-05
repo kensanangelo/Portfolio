@@ -1,63 +1,65 @@
 #testimonial
   text-align: center
 
-.name
-  color: $quote-source-color
-
-.position
-  display: block
-  font-size: .9em
-  margin-left: 9px
-
-#testimonial img
-  width: 130px
-  margin: 0 auto
-  display: block
-
-
-.quote:before 
-  content: open-quote
-  display: inline
-  height: 0
-  line-height: 0
-  left: -10px
-  position: relative
-  top: 20px
-  color: #ccc
-  font-size: 3em
-
-.quote::after 
-  content: close-quote
-  display: inline
-  height: 0
-  line-height: 0
-  left: 10px
-  position: relative
-  top: 25px
-  color: #ccc
-  font-size: 3em
-
-@media only screen and (min-width: $breakpoint-tablet)
-  #testimonial
+  @media only screen and (min-width: $breakpoint-tablet)
     display: flex
     text-align: left
 
-  .quote-container
-    align-self: center
-    margin-left: 30px
-
-  .quote
-    margin-bottom: 4px
-
   .name
-    margin-bottom: 0
+    color: $quote-source-color
+
+    @media only screen and (min-width: $breakpoint-tablet)
+      margin-bottom: 0
 
   .position
-    display: inline
-    margin-left: 0
-    font-size: .8em
-    font-style: italic
+    display: block
+    font-size: .9em
+    margin-left: 9px
 
-  #testimonial img
-    order: -1
-    align-self: flex-start
+    @media only screen and (min-width: $breakpoint-tablet)
+      display: inline
+      margin-left: 0
+      font-size: .8em
+      font-style: italic
+
+  img
+    width: 130px
+    margin: 0 auto
+    display: block
+
+    @media only screen and (min-width: $breakpoint-tablet)
+      order: -1
+      align-self: flex-start
+
+  .quote-container
+    
+    @media only screen and (min-width: $breakpoint-tablet)
+      align-self: center
+      margin-left: 30px
+
+    .quote
+      @media only screen and (min-width: $breakpoint-tablet)
+        margin-bottom: 4px
+
+      &::before 
+        content: open-quote
+        display: inline
+        height: 0
+        line-height: 0
+        left: -10px
+        position: relative
+        top: 20px
+        color: #ccc
+        font-size: 3em
+
+      &::after 
+        content: close-quote
+        display: inline
+        height: 0
+        line-height: 0
+        left: 10px
+        position: relative
+        top: 25px
+        color: #ccc
+        font-size: 3em
+
