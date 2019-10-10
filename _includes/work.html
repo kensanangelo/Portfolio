@@ -16,14 +16,35 @@
 		{% for project in work.projects %}
 			<div class="project-slide">
 				<div class="project">
+					<div class="row">
+						<div class="img-container">
+							<img class="main-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
+						</div>
+						<div class="info-container">
+							<i class="fas fa-arrow-left return-arrow"></i>
+							<h4>{{ project.slide.full-name }}</h4>
+							<ul>
+								<li>Site Link: <a href="{{ project.site-link }}">{{ project.slide.site-link }}</a></li>
+
+								{% unless project.slide.git-link == "" %}
+									<li>Github Link: <a href="{{ project.slide.git-link }}">{{ project.slide.git-link }}</a></li>
+								{% endunless %}
+							</ul>
+							<p>{{ project.slide.summary }}</p>
+						</div>
+					</div>
+
+					{% for paragraph in project.slide.writeup %}
+					<div class="row">
+						<div class="img-container">
+							<img class="main-img" src="{{ paragraph.img }}" alt="">
+						</div>
+						<div class="info-container">
+							<p>{{ paragraph.copy }}</p>
+						</div>
+					</div>
+					{% endfor %}
 					<i class="fas fa-arrow-left return-arrow"></i>
-					<h4>{{ project.slide.full-name }}</h4>
-					<img class="project-main-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
-					<ul>
-						<li>Site Link: <a href="{{ project.site-link }}">{{ project.slide.site-link }}</a></li>
-						<li>Github Link: <a href="{{ project.git-link }}">{{ project.slide.git-link }}</a></li>
-					</ul>
-					{{ project.slide.full-copy }}
 				</div>
 			</div>
 		{% endfor %}

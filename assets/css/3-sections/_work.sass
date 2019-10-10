@@ -67,19 +67,49 @@ $slide-width: 100%/($num-projects+1)
     display: none
 
     .project
-      max-width: $breakpoint-tablet
+      max-width: $container-m
       margin-left: auto
       margin-right: auto
       position: relative
+
+      .row
+        display: block
+
+        @media only screen and (min-width: $breakpoint-tablet)
+          display: flex
+
+        .img-container, .info-container
+          padding: 15px
+
+          @media only screen and (min-width: $breakpoint-monitor-sm)
+            flex: 50%
+
+        .img-container
+          max-width: 450px
+          margin: 0 auto
+          
+          @media only screen and (min-width: $breakpoint-tablet)
+            max-width: none
+          
+          @media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-monitor-sm)
+            flex: 40%
+
+        .info-container
+          @media only screen and (min-width: $breakpoint-tablet)  and (max-width: $breakpoint-monitor-sm)
+            flex: 60%
+
+      h4
+        display: inline
+        margin-left: 5px
 
       .return-arrow
         color: $link-color
         border: 2px solid $link-color
         padding: 5px
         border-radius: 50%
-        position: absolute
-        left: -43px
-        top: 9px
+        display: inline
+        position: relative
+        top: -5px
         transition: color .1s ease-in-out, border-color .1s ease-in-out
 
         &:hover

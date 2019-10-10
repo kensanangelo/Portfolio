@@ -46,8 +46,13 @@ en:
         slide:
           full-name: "Gold Tone Music Group"
           site-link: "https://goldtone.com"
-          git-link: "www.test.com"
-          full-copy: "<p>This is a test</p>"
+          git-link: ""
+          summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+          writeup: 
+            - copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+              img: "https://via.placeholder.com/570x320?text=Img+of+Site"
+            - copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+              img: "https://via.placeholder.com/570x320?text=Img+of+Site"
       
       - name: "This Site"
         img-link: "assets/img/thissite.jpg"
@@ -56,7 +61,12 @@ en:
           full-name: "KenSanAngelo.com"
           site-link: "http://kensanangelo.com"
           git-link: "www.test.com"
-          full-copy: "<p>This is a test</p>"
+          summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+          writeup: 
+            - copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+              img: "https://via.placeholder.com/570x320?text=Img+of+Site"
+            - copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+              img: "https://via.placeholder.com/570x320?text=Img+of+Site"
 
       - name: "NadaMaps"
         img-link: "assets/img/nadamaps.jpg"
@@ -65,7 +75,12 @@ en:
           full-name: "NadaMaps"  
           site-link: "http://kensanangelo.com/classwork/nada"
           git-link: "www.test.com"
-          full-copy: "<p>This is a test</p>"
+          summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+          writeup: 
+            - copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+              img: "https://via.placeholder.com/570x320?text=Img+of+Site"
+            - copy: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+              img: "https://via.placeholder.com/570x320?text=Img+of+Site"
 
   contact:
     header: "Have a project I’d be interested in?"
