@@ -2,7 +2,7 @@
 
 <section id="contact">
 	<h5>{{ contact.header }}</h5>
-	<a class="email-button" href="mailto:{{ contact.email-link }}"><span>{{ contact.button }}</a>
+	<a class="email-button" href="mailto:{{ contact.button.link }}"><span>{{ contact.button.text }}</a>
 	<div class="social">
 		{% for site in contact.social %}
 			<a href="{{ site.link }}" target="_blank">

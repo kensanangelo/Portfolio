@@ -7,7 +7,7 @@
 			{% for project in work.projects %}
 				<div class="thumb" data-order="{{ i }}">
 						<h4>{{ project.name }}</h4>
-						<img class="thumb-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
+						<img class="thumb-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
 				</div>
 
 				{% assign i = i | plus:1 %}
@@ -18,7 +18,7 @@
 				<div class="project">
 					<div class="row">
 						<div class="img-container">
-							<img class="main-img" src="{{ project.img-link }}" alt="{{ project.img-alt }}">
+							<img class="main-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
 						</div>
 						<div class="info-container">
 							<i class="fas fa-arrow-left return-arrow"></i>
@@ -37,7 +37,7 @@
 					{% for paragraph in project.slide.writeup %}
 					<div class="row">
 						<div class="img-container">
-							<img class="main-img" src="{{ paragraph.img }}" alt="">
+							<img class="main-img" src="{{ paragraph.img.link }}" alt="{{ paragraph.img.alt }}">
 						</div>
 						<div class="info-container">
 							<p>{{ paragraph.copy }}</p>
