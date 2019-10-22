@@ -1,30 +1,31 @@
 //	Typography
  
 h1, h2, h3, h4, h5, h6
-  font-family: 'Playfair Display', serif
   font-weight: 400
 
 h1
-  font-size: 2.9em
+  font-size: 2.9rem
   line-height: 1.05
   letter-spacing: -1px
+  font-family: 'Playfair Display', serif
   margin: 0
 
 h2
-  font-size: 2.1em
+  font-size: 2.1rem
   line-height: 1.14
   font-family: 'Source Sans Pro', serif
   margin: 0
 
 h3 
-  font-size: 1.3em
+  font-size: 1.3rem
   line-height: 1
   font-family: 'Source Sans Pro', serif
   font-weight: 700
 
 h4
-  font-size: 2em
+  font-size: 2rem
   line-height: 1.38
+  font-family: 'Playfair Display', serif
 
 p
   margin: 0 0 20px 0
@@ -41,7 +42,7 @@ strong
 a
   color: $link-color
   outline: 0
-  transition: color .2s
+  @include transition(color .2s)
   
   &:hover, &:focus
     color: lighten($link-color, 20%)

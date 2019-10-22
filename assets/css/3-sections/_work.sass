@@ -13,7 +13,7 @@ $slide-width: 100%/($num-projects+1)
     width: (100%*$num-projects)+100%
     position: relative
     left: 0
-    transition: left .5s ease-in-out
+    @include transition(left .5s ease-in-out)
 
   .thumb-slide
     width: $slide-width
@@ -46,18 +46,16 @@ $slide-width: 100%/($num-projects+1)
       margin: 0 0 -20px
 
     img
-      transition: filter .5s ease-in-out
-      transition: opacity .5s ease-in-out
-      -webkit-filter: grayscale(100%)
-      filter: grayscale(100%)
+      @include transition(filter .5s ease-in-out)
+      @include transition(opacity .5s ease-in-out)
+      @include grayscale(100%)
       opacity: .4
       margin: 15px 0
 
       border: 1px solid #000
     
       &:hover
-        -webkit-filter: grayscale(0%)
-        filter: grayscale(0%)
+        @include grayscale(0%)
         opacity: 1
 
   .project-slide
@@ -110,7 +108,8 @@ $slide-width: 100%/($num-projects+1)
         display: inline
         position: relative
         top: -5px
-        transition: color .1s ease-in-out, border-color .1s ease-in-out
+        @include transition(color .1s ease-in-out)
+        @include transition(border-color .1s ease-in-out)
 
         &:hover
           cursor: pointer
