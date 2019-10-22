@@ -214,7 +214,7 @@ es:
                 alt: ""
 
   contact:
-    header: "¿Tienes un proyecto que me interesaría?"
+    header: "¿Tiene un proyecto que me interesaría?"
     button: 
       text: "Enviarme un email"
       link: "ken@kensanangelo.com"
