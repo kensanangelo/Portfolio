@@ -1,10 +1,11 @@
 {% assign testimonial = copy.testimonial %}
 
 <section id="testimonial" class="container">
-	<div class="quote-container">
+	<blockquote class="quote-container">
 		<p class="quote">{{ testimonial.quote }}</p>
-		
-		<p class="name">{{ testimonial.name }} <span class="position">{{ testimonial.position }}</span></p>
-	</div>
+		<footer>
+			<cite class="name">{{ testimonial.name }} <span class="position">{{ testimonial.position }}</span></cite>
+		</footer>
+	</blockquote>
 	<img src="{{ testimonial.img.link }}" alt="{{ testimonial.img.alt }}">
 </section>
