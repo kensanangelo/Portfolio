@@ -5,10 +5,10 @@
 		<div class="thumb-slide">
 			{% assign i = 1 %}
 			{% for project in work.projects %}
-				<div class="thumb" data-order="{{ i }}">
+				<button class="thumb" data-order="{{ i }}">
 						<h4>{{ project.name }}</h4>
 						<img class="thumb-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
-				</div>
+				</button>
 
 				{% assign i = i | plus:1 %}
 			{% endfor %}
