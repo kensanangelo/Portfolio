@@ -13,11 +13,11 @@ nav
 
   a
     text-decoration: none
-    color: #858585
+    color: $nav-link-color
   
     @media only screen and (min-width: $breakpoint-tablet)
       width: 100px
       @include transition(font-size .2s ease-in-out)
 
-      &:hover
+      &:hover, &:focus
           font-size: 1.2rem

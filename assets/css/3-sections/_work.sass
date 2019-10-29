@@ -31,9 +31,6 @@ $slide-width: 100%/($num-projects+1)
     margin-right: auto
     color: $text-color
 
-    &:hover
-      cursor: pointer
-
     @media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-monitor-sm)
       margin-left: 5px
       margin-right: 5px
@@ -53,8 +50,11 @@ $slide-width: 100%/($num-projects+1)
       margin: 15px 0
 
       border: 1px solid #000
-    
-      &:hover
+
+    &:hover, &:focus
+      cursor: pointer
+
+      img
         @include grayscale(0%)
         opacity: 1
 
