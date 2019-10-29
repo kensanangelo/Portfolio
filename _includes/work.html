@@ -13,15 +13,16 @@
 				{% assign i = i | plus:1 %}
 			{% endfor %}
 		</div>
+		{% assign i = 1 %}
 		{% for project in work.projects %}
-			<div class="project-slide">
+			<div class="project-slide" id="slide-{{ i }}">
 				<div class="project">
 					<div class="row">
 						<div class="img-container">
 							<img class="main-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
 						</div>
 						<div class="info-container">
-							<i class="fas fa-arrow-left return-arrow"></i>
+							<i class="fas fa-arrow-left return-arrow" data-slide="{{ i }}"></i>
 							<h4>{{ project.slide.full-name }}</h4>
 							<ul>
 								<li>Site Link: <a href="{{ project.site-link }}">{{ project.slide.site-link }}</a></li>
@@ -47,6 +48,7 @@
 					<i class="fas fa-arrow-left return-arrow"></i>
 				</div>
 			</div>
+			{% assign i = i | plus:1 %}
 		{% endfor %}
 	</div>
 </section>

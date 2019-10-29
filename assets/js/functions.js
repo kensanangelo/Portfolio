@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  $(".project-slide").addClass("hidden");
   navScroll();
   workSlide();
 });
@@ -21,19 +22,24 @@ function navScroll(){
 
 function workSlide(){
   $(".thumb").click(function(){
-    var slide = $(this).data("order");
-    var percent = "-"+(slide*100)+"%";
+    var which_slide = $(this).data("order");
+    var percent = "-100%";
 
     $(".slides").css("left", percent);
-    $(".project-slide").show();
+    $("#slide-"+which_slide).removeClass('hidden');
 
     scrollTo("#work");
 
   });
 
   $(".return-arrow").click(function(){
+    var which_slide = $(this).data("slide");
+    
     $(".slides").css("left", "0");
-    $(".project-slide").hide(800);
+    
+    setTimeout(function () {
+      $("#slide-"+which_slide).addClass('hidden');
+    }, 800);
 
     scrollTo("#work");
   });
