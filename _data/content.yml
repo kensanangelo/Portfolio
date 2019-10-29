@@ -27,19 +27,29 @@ en:
     header: "Hi, my name's Ken. I am a web developer based in Orlando, Florida."
     bio:
       - paragraph: >
-          "I am currently working as a technical developer at 
-          <a href='https://goldtone.com'>Gold Tone Music Group</a>, which allows me to constantly challenge myself and improve my skills. I’m not currently accepting freelance work, but I am always open to meeting new people so feel free to get in touch."
+          I am currently working as a technical developer at 
+          <a href='https://goldtone.com'>Gold Tone Music Group</a>, which allows me to
+          constantly challenge myself and improve my skills. I’m not currently accepting
+          freelance work, but I am always open to meeting new people so <strong>feel free to get in
+          touch.</strong>
       - paragraph: >
-          "I am a graduate of the Web Design program at the University of Central Florida. While there, I was included in the School of Visual Arts and Design Premiere and Exhibition 2 years in a row for web-based projects that I worked on. I am also a founder of Design+Code@UCF, the web design and development club at UCF."
+          I am a graduate of the Web Design program at the University of Central Florida.
+          While there, I was included in the School of Visual Arts and Design Premiere and
+          Exhibition 2 years in a row for web-based projects that I worked on. I am also a
+          founder of Design+Code@UCF, the web design and development club at UCF.
       - paragraph: >
-          "Besides web development, I also have a passion for photography and videography, which you can check out at <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>."
+          Besides web development, I also have a passion for photography and videography, 
+          which you can check out at 
+          <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>.
     resume: 
       title: "Resume"
       link: "/resume.pdf"
 
   testimonial:
     quote: >
-      "Our new site has created huge opportunities for cross-promotion between our brands and makes it easier to inform customers and convert leads. Beyond that, Ken has always been knowledgable, professional, and a blast to work with."
+      Our new site has created huge opportunities for cross-promotion between our brands
+      and makes it easier to inform customers and convert leads. Beyond that, Ken has
+      always been knowledgable, professional, and a blast to work with.
     name: "Mike Johnson"
     position: "Sales Manager, Gold Tone Music Group"
     img:
@@ -57,21 +67,53 @@ en:
           site-link: "https://goldtone.com"
           git-link: ""
           summary: >
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+            velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+            magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
           writeup: 
             - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
                 link: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
             - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
                 link: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
             - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
-              img: 
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+                  velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+                  magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+                  Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+                  scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+                  Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+                  Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+                  ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+                  vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+                  amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+                  fermentum diam ultricies pretium. Aenean gravida dolor nulla.
+              img:
                 link: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
       
@@ -84,10 +126,22 @@ en:
           site-link: "http://kensanangelo.com"
           git-link: "https://github.com/kensanangelo/Portfolio"
           summary: >
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+            velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+            magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
           writeup: 
             - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
                 link: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
@@ -101,15 +155,37 @@ en:
           site-link: "http://kensanangelo.com/classwork/nada"
           git-link: "https://github.com/kensanangelo/Nada"
           summary: >
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+            velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+            magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
           writeup: 
             - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
                 link: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
             - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
                 link: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
