@@ -22,7 +22,7 @@
 							<img class="main-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
 						</div>
 						<div class="info-container">
-							<i class="fas fa-arrow-left return-arrow" data-slide="{{ i }}"></i>
+							<button class="return-arrow" data-slide="{{ i }}"><i class="fas fa-arrow-left"></i></button>
 							<h4>{{ project.slide.full-name }}</h4>
 							<ul>
 								<li>Site Link: <a href="{{ project.site-link }}">{{ project.slide.site-link }}</a></li>
@@ -42,10 +42,14 @@
 						</div>
 						<div class="info-container">
 							<p>{{ paragraph.copy }}</p>
+							
+							{% if forloop.last == true %}
+								<button class="return-arrow" data-slide="{{ i }}"><i class="fas fa-arrow-left"></i><span class="go-back">Go Back</span></button>
+							{% endif %}
+						
 						</div>
 					</div>
 					{% endfor %}
-					<i class="fas fa-arrow-left return-arrow"></i>
 				</div>
 			</div>
 			{% assign i = i | plus:1 %}
