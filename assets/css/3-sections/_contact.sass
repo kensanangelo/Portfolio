@@ -9,6 +9,8 @@
     margin: 0 0 15px
 
   .email-button
+    position: relative
+    overflow-x: hidden
     max-width: 224px
     display: block
     text-decoration: none
@@ -17,21 +19,35 @@
     font-family: 'Playfair Display', serif
     font-size: 1.6em
     margin: 0 auto
-    padding: 20px 62px 26px
+    padding: 14px 20px 18px
     border: 2px solid $button-border-color
     border-radius: 6px
 
-    @include transition(all 1.4s ease-in-out)
+    @include transition(all .8s ease-in 300ms)
 
     background-color: $bg-color
     background-image: linear-gradient(to right, $bg-color 0%, $bg-color 24%, $selection-color 26%, $bg-color 30%, $bg-color 35%, $selection-color 40%, $bg-color 41%, $selection-color 70%, $selection-color 100%)
     background-size: 500%
+
+    .mail-icon
+      position: absolute
+      right: -40px
+      top: 50%
+      transform: translateY(-52%)
+      @include transition(right 500ms ease-in 0)
+      font-size: 2.4rem
+      opacity: .4
 
     &:hover
       background-color: $link-hover-color
       background-position: right center
       color: #719ec1
       border-radius: 50px
+      @include transition(all 1s ease-in 0)
+
+      .mail-icon
+        right: 20px
+        @include transition(right 500ms ease-in 800ms)
 
   .social
     text-align: center
