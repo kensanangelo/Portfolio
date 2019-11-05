@@ -9,6 +9,9 @@ $slide-width: 100%/($num-projects+1)
     margin-top: 0
     margin-bottom: 0
 
+  img
+    border: 1px solid #000
+
   .slides
     width: (100%*$num-projects)+100%
     position: relative
@@ -49,8 +52,6 @@ $slide-width: 100%/($num-projects+1)
       @include grayscale(100%)
       opacity: .4
       margin: 15px 0
-
-      border: 1px solid #000
 
     &:hover, &:focus
       cursor: pointer
@@ -102,6 +103,20 @@ $slide-width: 100%/($num-projects+1)
       h4
         display: inline
         margin-left: 5px
+
+      ul
+        margin-top: 0.9em
+        margin-bottom: 0.9em
+
+      .summary-title
+        margin-top: 0
+        margin-bottom: 0.3em
+        font-weight: 600
+        font-size: 1rem
+
+      .summary
+        margin-left: 1em
+      
 
       .return-arrow
         color: $link-color

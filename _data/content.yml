@@ -67,9 +67,13 @@ en:
           site-link: "https://goldtone.com"
           git-link: ""
           summary: >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-            velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-            magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+            Gold Tone is a company that has several very different brands under 
+            their umbrella. Originally, they had separate websites for each one, 
+            but were unhappy with the lack of cross-promotion and brand awareness. 
+            I designed and built one website for all the brands, allowing customers 
+            to explore the different brands (including adding products from any 
+            brand to the same cart). They then saw a substantial increase in sales 
+            and leads for their lesser known brands.
           writeup: 
             - copy: >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
@@ -126,9 +130,49 @@ en:
           site-link: "http://kensanangelo.com"
           git-link: "https://github.com/kensanangelo/Portfolio"
           summary: >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-            velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-            magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+            Now I know what you’re thinking: “You put this site I’m currently on 
+            as a project to showcase?”. I did and for good reason. I’m always 
+            looking forward to using new tools and when building this site, I was 
+            excited to try out technology that I hadn’t experienced before. I chose 
+            technology I could see being useful on future projects, both to 
+            familiarize myself with those specifically, and to learn of new 
+            concepts and ways of thinking that may give me an advantage in the 
+            future.
+          writeup: 
+            - copy: >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
+              img: 
+                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                alt: ""
+          
+      - name: "Robbin the Bank"
+        img:
+          link: "/assets/img/thissite.jpg"
+          alt: "The landing page of this Robbin the Bank"
+        slide:
+          full-name: "RobbinTheBank.com"
+          site-link: "http://robbinthebank.com"
+          git-link: ""
+          summary: >
+            Robbin the Bank is a rising Central Florida band that was looking for a 
+            way to provide event information and music samples to fans and 
+            promoters, but wanted a design that conveyed the energy of their live 
+            show (all while being memorable). I followed in the footsteps of 
+            brutalist design trends and created a site that appears to ‘break out 
+            of the grid’. Elements are scattered around, and some parts seem 
+            slightly disjointed and out of place. This tension makes the elements 
+            feel like they almost move on the page, thus conveying a sense of 
+            energy (without actually moving).
           writeup: 
             - copy: >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
@@ -146,49 +190,49 @@ en:
                 link: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
 
-      - name: "NadaMaps"
-        img:
-          link: "/assets/img/nadamaps.jpg"
-          alt: "The landing page of the project, NadaMaps"
-        slide:
-          full-name: "NadaMaps"  
-          site-link: "http://kensanangelo.com/classwork/nada"
-          git-link: "https://github.com/kensanangelo/Nada"
-          summary: >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-            velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-            magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-          writeup: 
-            - copy: >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-              img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
-            - copy: >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-              img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
+      # - name: "NadaMaps"
+      #   img:
+      #     link: "/assets/img/nadamaps.jpg"
+      #     alt: "The landing page of the project, NadaMaps"
+      #   slide:
+      #     full-name: "NadaMaps"  
+      #     site-link: "http://kensanangelo.com/classwork/nada"
+      #     git-link: "https://github.com/kensanangelo/Nada"
+      #     summary: >
+      #       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+      #       velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+      #       magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+      #     writeup: 
+      #       - copy: >
+      #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+      #           velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+      #           magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+      #           Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+      #           scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+      #           Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+      #           Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+      #           ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+      #           vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+      #           amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+      #           fermentum diam ultricies pretium. Aenean gravida dolor nulla.
+      #         img: 
+      #           link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+      #           alt: ""
+      #       - copy: >
+      #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
+      #           velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
+      #           magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
+      #           Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
+      #           scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
+      #           Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
+      #           Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
+      #           ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
+      #           vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
+      #           amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
+      #           fermentum diam ultricies pretium. Aenean gravida dolor nulla.
+      #         img: 
+      #           link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+      #           alt: ""
 
   contact:
     header: "Have a project I’d be interested in?"
