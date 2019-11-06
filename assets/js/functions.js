@@ -23,9 +23,8 @@ function navScroll(){
 function workSlide(){
   $(".thumb").click(function(){
     var which_slide = $(this).data("order");
-    var percent = "-100%";
 
-    $(".slides").css("left", percent);
+    $(".slides").addClass('project-open');
     $("#slide-"+which_slide).removeClass('hidden');
 
     scrollTo("#work");
@@ -35,7 +34,7 @@ function workSlide(){
   $(".return-arrow").click(function(){
     var which_slide = $(this).data("slide");
     
-    $(".slides").css("left", "0");
+    $(".slides").removeClass('project-open');
     
     setTimeout(function () {
       $("#slide-"+which_slide).addClass('hidden');
