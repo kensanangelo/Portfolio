@@ -34,7 +34,7 @@
       right: -40px
       top: 50%
       transform: translateY(-52%)
-      @include transition(right 500ms ease-in 0)
+      @include transition(right 500ms ease-in-out 0)
       font-size: 2.4rem
       opacity: .4
 
@@ -47,17 +47,22 @@
 
       .mail-icon
         right: 20px
-        @include transition(right 500ms ease-in 800ms)
+        @include transition(right 500ms ease-in-out 800ms)
 
   .social
     text-align: center
     margin-top: 16px
 
-  a
-    font-size: 3em
-    color: #bbb
-    text-decoration: none
+    a
+      font-size: 3rem
+      color: #bbb
+      text-decoration: none
 
-    &:hover
-      color: $link-hover-color
+      i
+        transition: transform 400ms ease-in-out
 
+      &:hover
+        color: $link-hover-color
+
+        i
+          transform: scale(1.1)
