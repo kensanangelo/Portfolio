@@ -34,7 +34,7 @@
       right: -40px
       top: 50%
       transform: translateY(-52%)
-      @include transition(right 500ms ease-in-out 0)
+      @include transition(right 500ms cubic-bezier(.6,-0.28,.74,.05) 0ms)
       font-size: 2.4rem
       opacity: .4
 
@@ -43,11 +43,11 @@
       background-position: right center
       color: #719ec1
       border-radius: 50px
-      @include transition(all 1s ease-in 0)
+      @include transition(all 1s ease-in 0ms)
 
       .mail-icon
         right: 20px
-        @include transition(right 500ms ease-in-out 800ms)
+        @include transition(right 300ms ease-in 800ms)
 
   .social
     text-align: center
@@ -59,7 +59,7 @@
       text-decoration: none
 
       i
-        transition: transform 400ms ease-in-out
+        @include transition(transform 400ms ease-in-out)
 
       &:hover
         color: $link-hover-color
