@@ -2,6 +2,6 @@
 
 <nav>
 	{% for button in header.buttons %}
-		<a href="{{ button.link }}">{{ button.name }}</a>
+		<a href="{{ button.link }}" aria-label="Scroll down to {{ button.name }}">{{ button.name }}</a>
 	{% endfor %}
 </nav>

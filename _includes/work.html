@@ -5,7 +5,7 @@
 		<div class="thumb-slide">
 			{% assign i = 1 %}
 			{% for project in work.projects %}
-				<button class="thumb" data-order="{{ i }}">
+				<button class="thumb" data-order="{{ i }}" aria-label="Go to {{ project.name }} slide">
 						<h4>{{ project.name }}</h4>
 						<img class="thumb-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
 				</button>
@@ -22,7 +22,7 @@
 							<img class="main-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
 						</div>
 						<div class="info-container">
-							<button class="return-arrow" data-slide="{{ i }}"><i class="fas fa-arrow-left"></i></button>
+							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back to main slide"><i class="fas fa-arrow-left"></i></button>
 							<h4>{{ project.slide.full-name }}</h4>
 							<ul>
 								<li>Site Link: <a href="{{ project.site-link }}">{{ project.slide.site-link }}</a></li>
@@ -45,7 +45,7 @@
 							<p>{{ paragraph.copy }}</p>
 							
 							{% if forloop.last == true %}
-								<button class="return-arrow" data-slide="{{ i }}"><i class="fas fa-arrow-left"></i><span class="go-back">Go Back</span></button>
+								<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back tp main slide"><i class="fas fa-arrow-left"></i><span class="go-back">Go Back</span></button>
 							{% endif %}
 						
 						</div>

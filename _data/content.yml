@@ -242,9 +242,11 @@ en:
     social:
       - icon: "fab fa-github-square"
         link: "https://github.com/kensanangelo"
+        title: "GitHub"
 
       - icon: "fab fa-linkedin"
         link: "https://www.linkedin.com/in/kensanangelo"
+        title: "LinkedIn"
 
 es:
   header:

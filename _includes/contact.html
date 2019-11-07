@@ -5,7 +5,7 @@
 	<a class="email-button" href="mailto:{{ contact.button.link }}">{{ contact.button.text }}<i class="far fa-envelope mail-icon"></i></a>
 	<div class="social">
 		{% for site in contact.social %}
-			<a href="{{ site.link }}" target="_blank">
+			<a href="{{ site.link }}" target="_blank" aria-label="{{ site.title }}" title="{{ site.title }}">
 				<i class="{{ site.icon }}"></i>
 			</a>
 		{% endfor %}
