@@ -8,6 +8,15 @@
 		</div>
 	</div>
 	<div class="portrait-container">
-		<img src="{{ landing.img.small-link }}" srcset="{{ landing.img.small-link }} 320w, {{ landing.img.link }} 768w" alt="{{ landing.img.alt }}">
+		<picture>
+			<source 
+			   media="(min-width: 768px)"
+			   srcset="{{ landing.img.link }}">
+			<source 
+			   media="(min-width: 320px)"
+			   srcset="{{ landing.img.small-link }}">
+			<img src="{{ landing.img.small-link }}" 
+			alt="{{ landing.img.alt }}">
+		 </picture>
 	</div>
 </section>
