@@ -23,31 +23,46 @@
     border: 2px solid $button-border-color
     border-radius: 6px
 
-    @include transition(all .8s ease-in 300ms)
+    transition: all .8s ease-in 300ms, box-shadow 0ms
+    //Box-shadow transition is so it doesn't affect focus highlight
 
     background-color: $bg-color
     background-image: linear-gradient(to right, $bg-color 0%, $bg-color 24%, $selection-color 26%, $bg-color 30%, $bg-color 35%, $selection-color 40%, $bg-color 41%, $selection-color 70%, $selection-color 100%)
     background-size: 500%
+
+    .button-text
+      display: block
+      @include transition(transform 600ms ease-in 300ms)
 
     .mail-icon
       position: absolute
       right: -40px
       top: 50%
       transform: translateY(-52%)
-      @include transition(right 500ms cubic-bezier(.6,-0.28,.74,.05) 0ms)
+      transition: right 600ms cubic-bezier(.6,-0.28,.74,.05) 0ms, opacity 700ms ease 100ms
       font-size: 2.4rem
-      opacity: .4
+      opacity: 0
 
-    &:hover
+    &:hover,&:focus
       background-color: $link-hover-color
       background-position: right center
       color: #719ec1
       border-radius: 50px
       @include transition(all 1s ease-in 0ms)
 
+      .button-text
+        transform: translateX(-28px)
+        @include transition(transform 600ms ease-in 750ms)
+
       .mail-icon
-        right: 20px
-        @include transition(right 300ms ease-in 800ms)
+        right: 34px
+        opacity: .4
+        transition: right 500ms ease-in 800ms, opacity 600ms ease 1100ms
+
+    &:focus
+      outline: none
+      box-shadow: 0 0 0 3px $bg-color, 0 0 0 6px $link-hover-color
+      @include transition(box-shadow 0ms)
 
   .social
     text-align: center
@@ -61,7 +76,7 @@
       i
         @include transition(transform 400ms ease-in-out)
 
-      &:hover
+      &:hover,&:focus
         color: $link-hover-color
 
         i

@@ -54,6 +54,17 @@ button
   padding: 0
   border: none
 
+*:focus
+  outline: none
+  box-shadow: 0 0 0 3px $link-hover-color
+  //outline: 3px solid $link-hover-color
+
+//Needed to remove Firefox default focus styling
+-moz-focusring, *::-moz-focus-inner
+  color: transparent !important
+  text-shadow: 0 0 0 #000 !important
+  background-image: none !important
+  border: 0
 
 // Selection colors
 
