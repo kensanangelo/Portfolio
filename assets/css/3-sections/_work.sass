@@ -5,6 +5,9 @@ $slide-width: 50%
   width: 100%
   overflow-x: hidden
 
+  .hidden
+      display: none !important
+
   h4
     margin-top: 0
     margin-bottom: 0
@@ -58,7 +61,6 @@ $slide-width: 50%
       margin: 15px 0
 
     &:hover, &:focus
-      cursor: pointer
 
       img
         @include grayscale(0%)
@@ -67,10 +69,8 @@ $slide-width: 50%
   .project-slide
     width: $slide-width
     margin-bottom: 20px
-    float: left
+    float: right
 
-    &.hidden
-      display: none
 
     .project
       max-width: $container-m
@@ -103,6 +103,12 @@ $slide-width: 50%
         .info-container
           @media only screen and (min-width: $breakpoint-tablet)  and (max-width: $breakpoint-monitor-sm)
             flex: 60%
+
+        .info-container:not(.first-info)
+          display: flex
+          flex-flow: column
+          justify-content: center
+          align-items: flex-start
 
       h4
         display: inline
@@ -141,8 +147,9 @@ $slide-width: 50%
           position: relative
           left: 6px
           top: 2px
+          padding-right: 6px
 
-        &:hover
+        &:hover,&:focus
           color: $link-hover-color
 
           i

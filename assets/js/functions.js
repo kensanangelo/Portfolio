@@ -27,7 +27,12 @@ function workSlide(){
     $(".slides").addClass('project-open');
     $("#slide-"+which_slide).removeClass('hidden');
 
+    setTimeout(function () {
+      $(".thumb-slide").addClass('hidden');
+    }, 800);
+
     scrollTo("#work");
+    $("#work").focus();
 
   });
 
@@ -35,10 +40,13 @@ function workSlide(){
     var which_slide = $(this).data("slide");
     
     $(".slides").removeClass('project-open');
+    $(".thumb-slide").removeClass('hidden');
     
     setTimeout(function () {
       $("#slide-"+which_slide).addClass('hidden');
     }, 800);
+
+    $("#work").focus();
 
     scrollTo("#work");
   });
