@@ -157,7 +157,7 @@ en:
           
       - name: "Robbin the Bank"
         img:
-          link: "/assets/img/thissite.jpg"
+          link: "/assets/img/robbinthebank.jpg"
           alt: "The landing page of this Robbin the Bank"
         slide:
           full-name: "RobbinTheBank.com"
