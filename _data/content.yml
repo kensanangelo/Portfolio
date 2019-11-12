@@ -61,7 +61,7 @@ en:
     projects:
       - name: "Gold Tone"
         img:
-          name: "goldtone.jpg"
+          name: "/goldtone/main.jpg"
           alt: "The home page of Gold Tone's website"
         slide:
           full-name: "Gold Tone Music Group"
@@ -124,7 +124,7 @@ en:
       
       - name: "This Site"
         img:
-          name: "thissite.jpg"
+          name: "thissite/main.jpg"
           alt: "The landing page of this website"
         slide:
           full-name: "KenSanAngelo.com"
@@ -158,7 +158,7 @@ en:
           
       - name: "Robbin the Bank"
         img:
-          name: "robbinthebank.jpg"
+          name: "robbinthebank/main.jpg"
           alt: "The landing page of this Robbin the Bank"
         slide:
           full-name: "RobbinTheBank.com"
@@ -193,7 +193,7 @@ en:
 
       # - name: "NadaMaps"
       #   img:
-      #     name: "nadamaps.jpg"
+      #     name: "nadamaps/main.jpg"
       #     alt: "The landing page of the project, NadaMaps"
       #   slide:
       #     full-name: "NadaMaps"  
