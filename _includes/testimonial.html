@@ -1,5 +1,10 @@
 {% assign testimonial = copy.testimonial %}
 
+{% comment %}Splits apart image urls so we can put in the 2x and -small when needed{% endcomment %}
+{% assign testimonial-array = testimonial.img.name | split: "." %}
+{% assign testimonial-src = img-src | append: testimonial-array[0] %}
+{% assign testimonial-type = '.' | append: testimonial-array[1] %}
+
 <section id="testimonial" class="container">
 	<blockquote class="quote-container">
 		<p class="quote">{{ testimonial.quote }}</p>
@@ -7,5 +12,8 @@
 			<cite class="name">{{ testimonial.name }} <span class="position">{{ testimonial.position }}</span></cite>
 		</footer>
 	</blockquote>
-	<img src="{{ img-src }}{{ testimonial.img.name }}" alt="{{ testimonial.img.alt }}">
+	<picture>
+		<source srcset="{{ testimonial-src }}@2x{{ testimonial-type }} 2x, {{ testimonial-src }}{{ testimonial-type }}  1x">
+		<img src="{{ testimonial-src }}-small{{ testimonial-type }}" alt="{{ landing.img.alt }}">
+	 </picture>
 </section>
