@@ -1,5 +1,6 @@
 {% assign landing = copy.landing %}
 
+{% comment %}Splits apart image urls so we can put in the 2x and -small when needed{% endcomment %}
 {% assign portrait-array = landing.img.name | split: "." %}
 {% assign portrait-src = img-src | append: portrait-array[0] %}
 {% assign portrait-type = '.' | append: portrait-array[1] %}
@@ -16,11 +17,11 @@
 		<picture>
 			<source 
 			   media="(min-width: 768px)"
-			   srcset="{{ portrait-src }}@2x{{ portrait-type }} 2x, {{ portrait-src }}@1x{{ portrait-type }}  1x">
+			   srcset="{{ portrait-src }}@2x{{ portrait-type }} 2x, {{ portrait-src }}{{ portrait-type }}  1x">
 			<source 
 			   media="(min-width: 320px)"
-			   srcset="{{ portrait-src }}-small@2x{{ portrait-type }} 2x, {{ portrait-src }}-small@1x{{ portrait-type }} 1x">
-			<img src="{{ portrait-src }}-small@1x{{ portrait-type }}" 
+			   srcset="{{ portrait-src }}-small@2x{{ portrait-type }} 2x, {{ portrait-src }}-small{{ portrait-type }} 1x">
+			<img src="{{ portrait-src }}-small{{ portrait-type }}" 
 			alt="{{ landing.img.alt }}">
 		 </picture>
 	</div>
