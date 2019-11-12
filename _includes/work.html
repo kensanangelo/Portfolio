@@ -7,7 +7,7 @@
 			{% for project in work.projects %}
 				<button class="thumb" data-order="{{ i }}" aria-label="Go to {{ project.name }} slide" type="button">
 						<h4>{{ project.name }}</h4>
-						<img class="thumb-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
+						<img class="thumb-img" src="{{ img-src }}{{ project.img.name }}" alt="{{ project.img.alt }}">
 				</button>
 
 				{% assign i = i | plus:1 %}
@@ -19,7 +19,7 @@
 				<div class="project">
 					<div class="row">
 						<div class="img-container">
-							<img class="main-img" src="{{ project.img.link }}" alt="{{ project.img.alt }}">
+							<img class="main-img" src="{{ img-src }}{{ project.img.name }}" alt="{{ project.img.alt }}">
 						</div>
 						<div class="info-container first-info">
 							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back to main slide" type="button"><i class="fas fa-arrow-left"></i></button>
@@ -39,7 +39,7 @@
 					{% for paragraph in project.slide.writeup %}
 					<div class="row">
 						<div class="img-container">
-							<img class="main-img" src="{{ paragraph.img.link }}" alt="{{ paragraph.img.alt }}">
+							<img class="main-img" src="{{ paragraph.img.name }}" alt="{{ paragraph.img.alt }}">
 						</div>
 						<div class="info-container">
 							<p>{{ paragraph.copy }}</p>

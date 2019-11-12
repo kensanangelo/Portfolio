@@ -1,4 +1,6 @@
 ---
+img-src: "/assets/img/"
+
 en:
   header:
     logo-link: "/logo.jpg"
@@ -19,8 +21,7 @@ en:
     title: "Ken San Angelo"
     subtitle: "Web Developer"
     img:
-      link: "/assets/img/portrait.jpg"
-      small-link: "/assets/img/portrait-small.jpg"
+      name: "portrait.jpg"
       alt: "A portrait of me, Ken San Angelo"
 
   about:
@@ -53,14 +54,14 @@ en:
     name: "Mike Johnson"
     position: "Sales Manager, Gold Tone Music Group"
     img:
-      link: "/assets/img/testimonial.jpg"
+      name: "testimonial.jpg"
       alt: "A portrait of Mike Johnson"
 
   work:
     projects:
       - name: "Gold Tone"
         img:
-          link: "/assets/img/goldtone.jpg"
+          name: "goldtone.jpg"
           alt: "The home page of Gold Tone's website"
         slide:
           full-name: "Gold Tone Music Group"
@@ -88,7 +89,7 @@ en:
                 amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
                 fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
             - copy: >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
@@ -103,7 +104,7 @@ en:
                 amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
                 fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
             - copy: >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
@@ -118,12 +119,12 @@ en:
                   amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
                   fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img:
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
       
       - name: "This Site"
         img:
-          link: "/assets/img/thissite.jpg"
+          name: "thissite.jpg"
           alt: "The landing page of this website"
         slide:
           full-name: "KenSanAngelo.com"
@@ -152,12 +153,12 @@ en:
                 amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
                 fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
           
       - name: "Robbin the Bank"
         img:
-          link: "/assets/img/robbinthebank.jpg"
+          name: "robbinthebank.jpg"
           alt: "The landing page of this Robbin the Bank"
         slide:
           full-name: "RobbinTheBank.com"
@@ -187,12 +188,12 @@ en:
                 amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
                 fermentum diam ultricies pretium. Aenean gravida dolor nulla.
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
 
       # - name: "NadaMaps"
       #   img:
-      #     link: "/assets/img/nadamaps.jpg"
+      #     name: "nadamaps.jpg"
       #     alt: "The landing page of the project, NadaMaps"
       #   slide:
       #     full-name: "NadaMaps"  
@@ -216,7 +217,7 @@ en:
       #           amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
       #           fermentum diam ultricies pretium. Aenean gravida dolor nulla.
       #         img: 
-      #           link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+      #           name: "https://via.placeholder.com/570x320?text=Img+of+Site"
       #           alt: ""
       #       - copy: >
       #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
@@ -231,7 +232,7 @@ en:
       #           amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
       #           fermentum diam ultricies pretium. Aenean gravida dolor nulla.
       #         img: 
-      #           link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+      #           name: "https://via.placeholder.com/570x320?text=Img+of+Site"
       #           alt: ""
 
   contact:
@@ -268,8 +269,7 @@ es:
     title: Ken San Angelo
     subtitle: Diseñador Web
     img:
-      link: "/assets/img/portrait.jpg"
-      small-link: "/assets/img/portrait-small.jpg"
+      name: "portrait.jpg"
       alt: "Un retrato de mi, Ken San Angelo"
 
   about:
@@ -291,14 +291,14 @@ es:
     name: "Mike Johnson"
     position: "Gerente de Ventas, Gold Tone Music Group"
     img:
-      link: "/assets/img/testimonial.jpg"
+      name: "testimonial.jpg"
       alt: "Un retrato de Mike Johnson"
 
   work:
     projects:
       - name: "Gold Tone"
         img:
-          link: "/assets/img/goldtone.jpg"
+          name: "goldtone.jpg"
           alt: "La página inicia de Gold Tone"
         slide:
           full-name: "Gold Tone Music Group"
@@ -310,22 +310,22 @@ es:
             - copy: >
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
             - copy: >
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
             - copy: >
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
 
       - name: "Este Sitio"
         img:
-          link: "/assets/img/thissite.jpg"
+          name: "thissite.jpg"
           img-alt: "La página inicia de este sitio"
         slide:
           full-name: "KenSanAngelo.com"
@@ -337,12 +337,12 @@ es:
             - copy: >
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
 
       - name: "NadaMaps"
         img:
-          link: "/assets/img/nadamaps.jpg"
+          name: "nadamaps.jpg"
           alt: "La página inicia del proyecto, NadaMaps"
         slide:
           full-name: "NadaMaps"  
@@ -354,12 +354,12 @@ es:
             - copy: >
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
             - copy: >
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
               img: 
-                link: "https://via.placeholder.com/570x320?text=Img+of+Site"
+                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
                 alt: ""
 
   contact:
