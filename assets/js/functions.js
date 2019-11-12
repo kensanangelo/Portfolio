@@ -41,7 +41,7 @@ function workSlide(){
     }, 800);
 
     scrollTo("#work"); //Scrolls to top of section (less awkward to start reading from)
-    $("#work").focus(); //For accessability
+    $("#work").focus(); //For accessibility
   });
 
   //For project slides
