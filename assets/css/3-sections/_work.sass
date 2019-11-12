@@ -5,6 +5,11 @@ $slide-width: 50%
   width: 100%
   overflow-x: hidden
 
+  //Prevents outline on whole section when clicking back and forth
+    //#work is focused on for screenreaders/tabbing
+  &:focus
+    box-shadow: none
+
   .hidden
       display: none !important
 

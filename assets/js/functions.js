@@ -46,9 +46,8 @@ function workSlide(){
       $("#slide-"+which_slide).addClass('hidden');
     }, 800);
 
-    $("#work").focus();
-
     scrollTo("#work");
+    $("#work").focus();
   });
 }
 
