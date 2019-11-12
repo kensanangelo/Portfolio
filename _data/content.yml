@@ -61,7 +61,7 @@ en:
     projects:
       - name: "Gold Tone"
         img:
-          name: "/goldtone/main.jpg"
+          name: "goldtone/main.jpg"
           alt: "The home page of Gold Tone's website"
         slide:
           full-name: "Gold Tone Music Group"
