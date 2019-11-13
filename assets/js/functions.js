@@ -7,16 +7,14 @@ $(document).ready(function(){
 });
 
 
-//Smooth scrolls to selected section from top nav
+//Scrolls to selected section from top nav
 function navScroll(){
   $("nav a").click(function(event) {
     if (this.hash !== "") {
       event.preventDefault();
       var hash = this.hash;
 
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800);
+      scrollTo(hash);
     }
   });
 }
@@ -59,4 +57,11 @@ function workSlide(){
     scrollTo("#work");
     $("#work").focus();
   });
+}
+
+//Smooth scroll function
+function scrollTo(location) {
+  $('html, body').animate({
+      scrollTop: $(location).offset().top
+  }, 800);
 }
