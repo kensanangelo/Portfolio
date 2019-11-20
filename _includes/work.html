@@ -1,5 +1,6 @@
 {% assign work = copy.work %}
 
+
 <section id="work" tabindex="-1">
 	<div class="slides">
 		<div class="thumb-slide">
@@ -25,32 +26,39 @@
 							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back to main slide" type="button"><i class="fas fa-arrow-left"></i></button>
 							<h4>{{ project.slide.full-name }}</h4>
 							<ul>
-								<li>Site Link: <a href="{{ project.site-link }}">{{ project.slide.site-link }}</a></li>
+								<li>Site Link: <a href="{{ project.slide.site-link }}">{{ project.slide.site-link }}</a></li>
 
 								{% unless project.slide.git-link == "" %}
 									<li>Github Link: <a href="{{ project.slide.git-link }}">{{ project.slide.git-link }}</a></li>
 								{% endunless %}
 							</ul>
-							<h5 class="summary-title">Non-Technical Summary</h5>
-							<p class="summary">{{ project.slide.summary }}</p>
+							<h5 class="info-title">Non-Technical Summary</h5>
+							<p class="info">{{ project.slide.summary }}</p>
 						</div>
 					</div>
-
-					{% for paragraph in project.slide.writeup %}
 					<div class="row">
 						<div class="img-container">
-							<img class="main-img" src="{{ paragraph.img.name }}" alt="{{ paragraph.img.alt }}">
+							<img class="main-img" src="{{ img-src }}{{ project.slide.writeup.img-1.name }}" alt="{{ project.slide.writeup.img-1.alt }}">
 						</div>
 						<div class="info-container">
-							<p>{{ paragraph.copy }}</p>
-							
-							{% if forloop.last == true %}
-								<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back tp main slide" type="button"><i class="fas fa-arrow-left"></i><span class="go-back">Go Back</span></button>
-							{% endif %}
-						
+							<h5 class="info-title">My Role:</h5>
+							<p class="info"> {{ project.slide.writeup.role }}</p>
+							<h5 class="info-title">The Problem:</h5>
+							<p class="info"> {{ project.slide.writeup.problem }}</p>
 						</div>
 					</div>
-					{% endfor %}
+					<div class="row">
+						<div class="img-container">
+							<img class="main-img" src="{{ img-src }}{{ project.slide.writeup.img-2.name }}" alt="{{ project.slide.writeup.img-2.alt }}">
+						</div>
+						<div class="info-container">
+							<h5 class="info-title">Solution:</h5>
+							<p class="solution">{{ project.slide.writeup.solution }}</p>
+							<h5 class="info-title">Results</h5>
+							<p class="results">{{ project.slide.writeup.results }}</p>
+							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back tp main slide" type="button"><i class="fas fa-arrow-left"></i><span class="go-back">Go Back</span></button>
+						</div>
+					</div>
 				</div>
 			</div>
 			{% assign i = i | plus:1 %}

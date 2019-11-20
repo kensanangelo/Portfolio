@@ -68,59 +68,35 @@ en:
           site-link: "https://goldtone.com"
           git-link: ""
           summary: >
-            Gold Tone is a company that has several very different brands under 
-            their umbrella. Originally, they had separate websites for each one, 
-            but were unhappy with the lack of cross-promotion and brand awareness. 
-            I designed and built one website for all the brands, allowing customers 
-            to explore the different brands (including adding products from any 
-            brand to the same cart). They then saw a substantial increase in sales 
-            and leads for their lesser known brands.
+            Gold Tone is a company that has several very different brands under their 
+            umbrella. Originally, they had separate websites for each one, but were 
+            unhappy with the lack of cross-promotion and brand awareness. I designed 
+            and built one website for all the brands, allowing customers to explore 
+            the different brands (including adding products from any brand to the same 
+            cart). They then saw a substantial increase in sales and leads for their 
+            lesser known brands.
           writeup: 
-            - copy: >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
-            - copy: >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
-            - copy: >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-                  velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-                  magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-                  Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-                  scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-                  Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-                  Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-                  ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-                  vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-                  amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-                  fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-              img:
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
+            role: >
+              I was brought on at Gold Tone Music Group as their technical developer, 
+              responsible for building and maintaining their websites (full-stack), 
+              as well as overseeing software/app development.
+            problem: >
+              They wanted to increase cross-promotion and brand awareness between 
+              the customers of the different brand sites, as they were missing leads 
+              due to the separate sites.
+            solution: >
+              I built one website that encompassed all of the brands, so customers 
+              could explore the different brands, switch between them, as well as 
+              add a mix of products to purchase all at once.
+            results: >
+              They saw an enormous boost in sales and leads on all sites, especially 
+              in their smaller/newer brands.
+            img-1: 
+              name: "goldtone/old-site.jpg"
+              alt: "The company had 5 different brands spread across 5 different websites"
+            img-2: 
+              name: "goldtone/gt-home.jpg"
+              alt: "Gold Tone's Home Page"
       
       - name: "This Site"
         img:
@@ -140,21 +116,36 @@ en:
             concepts and ways of thinking that may give me an advantage in the 
             future.
           writeup: 
-            - copy: >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
+            role: >
+              Owner, Design & Development
+            problem: >
+              I needed a new portfolio site that would be clean, lasting, and very easy
+               to maintain and update. I also wanted to take the opportunity to learn 
+               some new tools and methods.
+            solution: >
+              I chose Jekyll as a way of abstracting different parts of the site to 
+              their own files, as well as to put the actual content to its own file, 
+              which made it very easy to include both English and Spanish versions of 
+              the site (without repeating any code) and makes it easier to update at a 
+              later time. I was pleasantly surprised at just how easy this tool made 
+              it to build and manage my site. Not only did it include preprocessors 
+              (SASS in my case), but it was incredibly flexible and allowed me to set 
+              up and organize the project in a way that I felt most comfortable with.
+              
+              In addition, I researched web accessibility best practices to ensure 
+              that I would be able to provide a great user experience no matter how 
+              the site was being accessed (which I can bring with me into future 
+              projects).
+            results: >
+              As you can see, the site was a success! Well-designed, accessible, and 
+              maintainable. Plus I have some new tools and methodology under my belt, 
+              which I can bring with me into future projects.
+            img-1: 
+              name: "goldtone/old-site.jpg"
+              alt: "The company had 5 different brands spread across 5 different websites"
+            img-2: 
+              name: "goldtone/gt-home.jpg"
+              alt: "Gold Tone's Home Page"
           
       - name: "Robbin the Bank"
         img:
@@ -175,65 +166,27 @@ en:
             feel like they almost move on the page, thus conveying a sense of 
             energy (without actually moving).
           writeup: 
-            - copy: >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-                velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-                magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-                Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-                scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-                Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-                Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-                ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-                vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-                amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-                fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
-
-      # - name: "NadaMaps"
-      #   img:
-      #     name: "nadamaps/main.jpg"
-      #     alt: "The landing page of the project, NadaMaps"
-      #   slide:
-      #     full-name: "NadaMaps"  
-      #     site-link: "http://kensanangelo.com/classwork/nada"
-      #     git-link: "https://github.com/kensanangelo/Nada"
-      #     summary: >
-      #       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-      #       velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-      #       magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-      #     writeup: 
-      #       - copy: >
-      #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-      #           velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-      #           magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-      #           Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-      #           scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-      #           Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-      #           Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-      #           ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-      #           vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-      #           amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-      #           fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-      #         img: 
-      #           name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-      #           alt: ""
-      #       - copy: >
-      #           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet,
-      #           velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla
-      #           magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis.
-      #           Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin
-      #           scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod.
-      #           Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi.
-      #           Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis,
-      #           ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in
-      #           vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit
-      #           amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit
-      #           fermentum diam ultricies pretium. Aenean gravida dolor nulla.
-      #         img: 
-      #           name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-      #           alt: ""
+            role: >
+              Designer/Front-End Developer
+            problem: >
+              Create a memorable site that conveyed their energy, showcased the band 
+              and provided event information. Their goal was to book more events and 
+              get more attendees to their shows.
+            solution: >
+              Using CSS Grids and other development tricks, I created a design that 
+              appears disjointed and slightly off (design elements in the wrong place, 
+              things not quite lining up). This creates an almost jolting feeling, 
+              which makes the page feel like it’s almost moving, similar to the moving 
+              energy of the band’s live show.
+            results: >
+              Robbin the Bank saw a noticeable uptick in event promotors reaching out 
+              to them, and people attending events after the launch of the site.
+            img-1: 
+              name: "robbinthebank/about.jpg"
+              alt: "The company had 5 different brands spread across 5 different websites"
+            img-2: 
+              name: "robbinthebank/events.jpg"
+              alt: "Gold Tone's Home Page"
 
   contact:
     header: "Have a project I’d be interested in?"
