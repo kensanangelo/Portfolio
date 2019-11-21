@@ -141,11 +141,11 @@ en:
               maintainable. Plus I have some new tools and methodology under my belt, 
               which I can bring with me into future projects.
             img-1: 
-              name: "goldtone/old-site.jpg"
-              alt: "The company had 5 different brands spread across 5 different websites"
+              name: "thissite/editor.jpg"
+              alt: "The code editor VSCode showing the source of this site"
             img-2: 
-              name: "goldtone/gt-home.jpg"
-              alt: "Gold Tone's Home Page"
+              name: "thissite/wcag.jpg"
+              alt: "The site for the Web Content Accessibility Guidelines (WCAG)"
           
       - name: "Robbin the Bank"
         img:
