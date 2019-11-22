@@ -27,6 +27,9 @@
       margin-bottom: 34px
 
       h1
+        animation: slide-right 600ms ease-out
+        animation-fill-mode: backwards
+
         @media only screen and (min-width: $breakpoint-monitor-sm)
           font-size: 4.4em
 
@@ -34,6 +37,9 @@
           font-size: 4.5em
 
       h2
+        animation: slide-right 600ms ease-out 200ms
+        animation-fill-mode: backwards
+
         @media only screen and (min-width: $breakpoint-monitor-sm)
           font-size: 2.7em
 
@@ -47,11 +53,10 @@
     img
       display: block
       margin: 0 auto
+      animation: fade-in 1000ms ease-out
       
       @media only screen and (min-width: $breakpoint-tablet)
         width: 350px
       
       @media only screen and (min-width: $breakpoint-monitor-sm)
         width: 400px
-
-        
