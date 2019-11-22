@@ -96,7 +96,7 @@ en:
               alt: "Gold Tone's Home Page"
             img-2: 
               name: "goldtone/product-page.jpg"
-              alt: "The site's product page"
+              alt: "One of Gold Tone's product pages"
       
       - name: "This Site"
         img:
@@ -150,7 +150,7 @@ en:
       - name: "Robbin the Bank"
         img:
           name: "robbinthebank/main.jpg"
-          alt: "The landing page of this Robbin the Bank"
+          alt: "The landing page of the band, Robbin the Bank"
         slide:
           full-name: "RobbinTheBank.com"
           site-link: "http://robbinthebank.com"
@@ -183,10 +183,10 @@ en:
               to them, and people attending events after the launch of the site.
             img-1: 
               name: "robbinthebank/about.jpg"
-              alt: "The company had 5 different brands spread across 5 different websites"
+              alt: "The about section of Robbin the Bank's site"
             img-2: 
               name: "robbinthebank/events.jpg"
-              alt: "Gold Tone's Home Page"
+              alt: "The events section of Robbin the Bank's site"
 
   contact:
     header: "Have a project I’d be interested in?"
