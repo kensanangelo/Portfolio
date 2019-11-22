@@ -32,14 +32,13 @@
 
     .button-text
       display: block
-      @include transition(transform 600ms ease-in 300ms)
+      transition: transform 600ms ease-in 300ms
 
     .mail-icon
       position: absolute
-      right: -40px
       top: 50%
-      transform: translateY(-52%)
-      transition: right 600ms cubic-bezier(.6,-0.28,.74,.05) 0ms, opacity 700ms ease 100ms
+      transform: translate(100px, -52%)
+      transition: transform 600ms cubic-bezier(.6,-0.28,.74,.05) 0ms, opacity 700ms ease 100ms
       font-size: 2.4rem
       opacity: 0
 
@@ -48,21 +47,21 @@
       background-position: right center
       color: #719ec1
       border-radius: 50px
-      @include transition(all 1s ease-in 0ms)
+      transition: all 1s ease-in 0ms
 
       .button-text
         transform: translateX(-28px)
-        @include transition(transform 600ms ease-in 750ms)
+        transition: transform 600ms ease-in 750ms
 
       .mail-icon
-        right: 34px
+        transform: translate(50px, -52%)
         opacity: .4
-        transition: right 500ms ease-in 800ms, opacity 600ms ease 1100ms
+        transition: transform 500ms ease-in 800ms, opacity 600ms ease 1100ms
 
     &:focus
       outline: none
       box-shadow: 0 0 0 3px $bg-color, 0 0 0 6px $link-hover-color
-      @include transition(box-shadow 0ms)
+      transition: box-shadow 0ms
 
   .social
     text-align: center
@@ -74,7 +73,7 @@
       text-decoration: none
 
       i
-        @include transition(transform 400ms ease-in-out)
+        transition: transform 400ms ease-in-out
 
       &:hover,&:focus
         color: $link-hover-color

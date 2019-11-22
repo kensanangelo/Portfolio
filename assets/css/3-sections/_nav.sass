@@ -17,7 +17,8 @@ nav
   
     @media only screen and (min-width: $breakpoint-tablet)
       width: 100px
-      @include transition(font-size .2s ease-in-out)
+      transform-origin: top center
+      transition: transform .2s ease-in-out
 
       &:hover, &:focus
-          font-size: 1.2rem
+          transform: scale(1.2)

@@ -24,7 +24,7 @@ $slide-width: 50%
     width: $total-width
     position: relative
     left: 0
-    @include transition(left .5s ease-in-out)
+    transition: left .5s ease-in-out
 
     &.project-open
       left: -101%
@@ -60,8 +60,7 @@ $slide-width: 50%
       text-align: left
 
     img
-      @include transition(filter .5s ease-in-out)
-      @include transition(opacity .5s ease-in-out)
+      transition: filter .5s ease-in-out, opacity .5s ease-in-out
       @include grayscale(100%)
       opacity: .4
       margin: 15px 0
@@ -141,14 +140,14 @@ $slide-width: 50%
         display: inline
         position: relative
         top: -6px
-        @include transition(color 200ms ease-in-out)
+        transition: color 200ms ease-in-out
 
         i
           border: 2px solid $link-color
           font-size: 0.8rem
           padding: 5px
           border-radius: 50%
-          @include transition(border-color 200ms ease-in-out)
+          transition: border-color 200ms ease-in-out
 
         .go-back
           position: relative

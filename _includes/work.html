@@ -7,8 +7,8 @@
 			{% assign i = 1 %}
 			{% for project in work.projects %}
 				<button class="thumb" data-order="{{ i }}" aria-label="Go to {{ project.name }} slide" type="button">
-						<h4>{{ project.name }}</h4>
-						<img class="thumb-img" src="{{ img-src }}{{ project.img.name }}" alt="{{ project.img.alt }}">
+					<h4>{{ project.name }}</h4>
+					<img class="thumb-img" src="{{ img-src }}{{ project.img.name }}" alt="{{ project.img.alt }}">
 				</button>
 
 				{% assign i = i | plus:1 %}
