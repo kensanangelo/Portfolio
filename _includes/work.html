@@ -8,7 +8,18 @@
 			{% for project in work.projects %}
 				<button class="thumb" data-order="{{ i }}" aria-label="Go to {{ project.name }} slide" type="button">
 					<h4>{{ project.name }}</h4>
-					<img class="thumb-img" src="{{ img-src }}{{ project.img.name }}" alt="{{ project.img.alt }}">
+
+					{% include img-url-fixer.html img-url=project.img.name %}
+					<picture>
+						<source 
+							media="(min-width: 768px)"
+							srcset="{{ img-url-2x }} 2x, {{ img-url }}  1x">
+						 <source 
+							media="(min-width: 320px)"
+							srcset="{{ img-url-small-2x }} 2x, {{ img-url-small }} 1x">
+						 <img src="{{ img-url-small }}" 
+						 alt="{{ project.img.alt }}">
+					 </picture>
 				</button>
 
 				{% assign i = i | plus:1 %}
@@ -20,7 +31,11 @@
 				<div class="project">
 					<div class="row">
 						<div class="img-container">
-							<img class="main-img" src="{{ img-src }}{{ project.img.name }}" alt="{{ project.img.alt }}">
+							{% include img-url-fixer.html img-url=project.img.name %}
+							<picture>
+								<source srcset="{{ img-url-2x }} 2x, {{ img-url }}  1x">
+								<img class="main-img" src="{{ img-url }}" alt="{{ project.img.alt }}">
+							</picture>
 						</div>
 						<div class="info-container first-info">
 							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back to main slide" type="button"><i class="fas fa-arrow-left"></i></button>
@@ -38,7 +53,11 @@
 					</div>
 					<div class="row">
 						<div class="img-container">
-							<img class="main-img" src="{{ img-src }}{{ project.slide.writeup.img-1.name }}" alt="{{ project.slide.writeup.img-1.alt }}">
+							{% include img-url-fixer.html img-url=project.slide.writeup.img-1.name %}
+							<picture>
+								<source srcset="{{ img-url-2x }} 2x, {{ img-url }}  1x">
+								<img class="main-img" src="{{ img-url }}" alt="{{ project.slide.writeup.img-1.alt }}">
+							</picture>
 						</div>
 						<div class="info-container">
 							<h5 class="info-title">My Role:</h5>
@@ -49,7 +68,11 @@
 					</div>
 					<div class="row">
 						<div class="img-container">
-							<img class="main-img" src="{{ img-src }}{{ project.slide.writeup.img-2.name }}" alt="{{ project.slide.writeup.img-2.alt }}">
+							{% include img-url-fixer.html img-url=project.slide.writeup.img-2.name %}
+							<picture>
+								<source srcset="{{ img-url-2x }} 2x, {{ img-url }}  1x">
+								<img class="main-img" src="{{ img-url }}" alt="{{ project.slide.writeup.img-2.alt }}">
+							</picture>
 						</div>
 						<div class="info-container">
 							<h5 class="info-title">Solution:</h5>

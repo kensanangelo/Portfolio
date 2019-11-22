@@ -1,0 +1,15 @@
+{% comment %}
+    This file acts a a function to split apart image urls so we can put in the 
+    2x and -small for different screens & resolutions
+{% endcomment %}
+
+{% assign img-url-old = include.img-url %}
+
+{% assign img-array = img-url-old | split: "." %}
+{% assign img-path = img-src | append: img-array[0] %}
+{% assign img-type = '.' | append: img-array[1] %}
+
+{% capture img-url %}{{ img-path }}{{ img-type }}{% endcapture %}
+{% capture img-url-2x %}{{ img-path }}@2x{{ img-type }}{% endcapture %}
+{% capture img-url-small %}{{ img-path }}-small{{ img-type }}{% endcapture %}
+{% capture img-url-small-2x %}{{ img-path }}-small@2x{{ img-type }}{% endcapture %}
