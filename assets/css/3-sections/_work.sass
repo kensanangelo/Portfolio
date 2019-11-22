@@ -32,9 +32,12 @@ $slide-width: 50%
   .thumb-slide
     width: $slide-width
     float: left
+    display: flex
+    flex-flow: column
+    align-items: center
 
-    @media only screen and (min-width: $breakpoint-tablet)
-      display: flex
+    @media only screen and (min-width: $breakpoint-monitor-sm)
+      flex-flow: row
       justify-content: center
 
 
@@ -87,7 +90,7 @@ $slide-width: 50%
       .row
         display: block
 
-        @media only screen and (min-width: $breakpoint-tablet)
+        @media only screen and (min-width: $breakpoint-monitor-sm)
           display: flex
 
         .img-container, .info-container
@@ -99,12 +102,16 @@ $slide-width: 50%
         .img-container
           max-width: 450px
           margin: 0 auto
+          text-align: center
           
           @media only screen and (min-width: $breakpoint-tablet)
             max-width: none
           
           @media only screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-monitor-sm)
             flex: 40%
+
+          img
+            max-width: 600px
 
         .info-container
           @media only screen and (min-width: $breakpoint-tablet)  and (max-width: $breakpoint-monitor-sm)
@@ -117,8 +124,15 @@ $slide-width: 50%
           align-items: flex-start
 
       h4
-        display: inline
-        margin-left: 5px
+        display: block
+        font-size: 1.6rem
+        text-align: center
+
+        @media only screen and (min-width: $breakpoint-mobile-l)
+          display: inline
+          font-size: 2rem
+          margin-left: 5px
+          text-align: left
 
       ul
         margin-top: 0.9em
