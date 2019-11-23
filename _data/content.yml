@@ -66,30 +66,40 @@ en:
           full-name: "Gold Tone Music Group"
           site-link: "https://goldtone.com"
           git-link: ""
-          summary: >
-            Gold Tone is a company that has several very different brands under their 
-            umbrella. Originally, they had separate websites for each one, but were 
-            unhappy with the lack of cross-promotion and brand awareness. I designed 
-            and built one website for all the brands, allowing customers to explore 
-            the different brands (including adding products from any brand to the same 
-            cart). They then saw a substantial increase in sales and leads for their 
-            lesser known brands.
+          summary: 
+            title: "Summary"
+            text: >
+              Gold Tone is a company that has several very different brands under their 
+              umbrella. Originally, they had separate websites for each one, but were 
+              unhappy with the lack of cross-promotion and brand awareness. I designed 
+              and built one website for all the brands, allowing customers to explore 
+              the different brands (including adding products from any brand to the same 
+              cart). They then saw a substantial increase in sales and leads for their 
+              lesser known brands.
           writeup: 
-            role: >
-              I was brought on at Gold Tone Music Group as their technical developer, 
-              responsible for building and maintaining their websites (full-stack), 
-              as well as overseeing software/app development.
-            problem: >
-              They wanted to increase cross-promotion and brand awareness between 
-              the customers of the different brand sites, as they were missing leads 
-              due to the separate sites.
-            solution: >
-              I built one website that encompassed all of the brands, so customers 
-              could explore the different brands, switch between them, as well as 
-              add a mix of products to purchase all at once.
-            results: >
-              They saw an enormous boost in sales and leads on all sites, especially 
-              in their smaller/newer brands.
+            role: 
+              title: "My Role"
+              text: >
+                I was brought on at Gold Tone Music Group as their technical developer, 
+                responsible for building and maintaining their websites (full-stack), 
+                as well as overseeing software/app development.
+            problem: 
+              title: "Problem"
+              text: >
+                They wanted to increase cross-promotion and brand awareness between 
+                the customers of the different brand sites, as they were missing leads 
+                due to the separate sites.
+            solution: 
+              title: "Solution"
+              text: >
+                I built one website that encompassed all of the brands, so customers 
+                could explore the different brands, switch between them, as well as 
+                add a mix of products to purchase all at once.
+            results: 
+              title: "Results"
+              text: >
+                They saw an enormous boost in sales and leads on all sites, especially 
+                in their smaller/newer brands.
             img-1: 
               name: "goldtone/gt-home.jpg"
               alt: "Gold Tone's Home Page"
@@ -105,40 +115,50 @@ en:
           full-name: "KenSanAngelo.com"
           site-link: "http://kensanangelo.com"
           git-link: "https://github.com/kensanangelo/Portfolio"
-          summary: >
-            Now I know what you’re thinking: “You put this site I’m currently on 
-            as a project to showcase?”. I did and for good reason. I’m always 
-            looking forward to using new tools and when building this site, I was 
-            excited to try out technology that I hadn’t experienced before. I chose 
-            technology I could see being useful on future projects, both to 
-            familiarize myself with those specifically, and to learn of new 
-            concepts and ways of thinking that may give me an advantage in the 
-            future.
+          summary: 
+            title: "Summary"
+            text: >
+              Now I know what you’re thinking: “You put this site I’m currently on 
+              as a project to showcase?”. I did and for good reason. I’m always 
+              looking forward to using new tools and when building this site, I was 
+              excited to try out technology that I hadn’t experienced before. I chose 
+              technology I could see being useful on future projects, both to 
+              familiarize myself with those specifically, and to learn of new 
+              concepts and ways of thinking that may give me an advantage in the 
+              future.
           writeup: 
-            role: >
-              Owner, Design & Development
-            problem: >
-              I needed a new portfolio site that would be clean, lasting, and very easy
-               to maintain and update. I also wanted to take the opportunity to learn 
-               some new tools and methods.
-            solution: >
-              I chose Jekyll as a way of abstracting different parts of the site to 
-              their own files, as well as to put the actual content to its own file, 
-              which made it very easy to include both English and Spanish versions of 
-              the site (without repeating any code) and makes it easier to update at a 
-              later time. I was pleasantly surprised at just how easy this tool made 
-              it to build and manage my site. Not only did it include preprocessors 
-              (SASS in my case), but it was incredibly flexible and allowed me to set 
-              up and organize the project in a way that I felt most comfortable with.
-              
-              In addition, I researched web accessibility best practices to ensure 
-              that I would be able to provide a great user experience no matter how 
-              the site was being accessed (which I can bring with me into future 
-              projects).
-            results: >
-              As you can see, the site was a success! Well-designed, accessible, and 
-              maintainable. Plus I have some new tools and methodology under my belt, 
-              which I can bring with me into future projects.
+            role: 
+              title: "My Role"
+              text: >
+                Owner, Design & Development
+            problem: 
+              title: "Problem"
+              text: >
+                I needed a new portfolio site that would be clean, lasting, and very easy
+                to maintain and update. I also wanted to take the opportunity to learn 
+                some new tools and methods.
+            solution: 
+              title: "Solution"
+              text: >
+                I chose Jekyll as a way of abstracting different parts of the site to 
+                their own files, as well as to put the actual content to its own file, 
+                which made it very easy to include both English and Spanish versions of 
+                the site (without repeating any code) and makes it easier to update at a 
+                later time. I was pleasantly surprised at just how easy this tool made 
+                it to build and manage my site. Not only did it include preprocessors 
+                (SASS in my case), but it was incredibly flexible and allowed me to set 
+                up and organize the project in a way that I felt most comfortable with.
+                
+                In addition, I researched web accessibility best practices to ensure 
+                that I would be able to provide a great user experience no matter how 
+                the site was being accessed (which I can bring with me into future 
+                projects).
+            results: 
+              title: "Results"
+              text: >
+                As you can see, the site was a success! Well-designed, accessible, and 
+                maintainable. Plus I have some new tools and methodology under my belt, 
+                which I can bring with me into future projects.
             img-1: 
               name: "thissite/editor.jpg"
               alt: "The code editor VSCode showing the source of this site"
@@ -154,32 +174,42 @@ en:
           full-name: "RobbinTheBank.com"
           site-link: "http://robbinthebank.com"
           git-link: ""
-          summary: >
-            Robbin the Bank is a rising Central Florida band that was looking for a 
-            way to provide event information and music samples to fans and 
-            promoters, but wanted a design that conveyed the energy of their live 
-            show (all while being memorable). I followed in the footsteps of 
-            brutalist design trends and created a site that appears to ‘break out 
-            of the grid’. Elements are scattered around, and some parts seem 
-            slightly disjointed and out of place. This tension makes the elements 
-            feel like they almost move on the page, thus conveying a sense of 
-            energy (without actually moving).
+          summary: 
+            title: "Summary"
+            text: >
+              Robbin the Bank is a rising Central Florida band that was looking for a 
+              way to provide event information and music samples to fans and 
+              promoters, but wanted a design that conveyed the energy of their live 
+              show (all while being memorable). I followed in the footsteps of 
+              brutalist design trends and created a site that appears to ‘break out 
+              of the grid’. Elements are scattered around, and some parts seem 
+              slightly disjointed and out of place. This tension makes the elements 
+              feel like they almost move on the page, thus conveying a sense of 
+              energy (without actually moving).
           writeup: 
-            role: >
-              Designer/Front-End Developer
-            problem: >
-              Create a memorable site that conveyed their energy, showcased the band 
-              and provided event information. Their goal was to book more events and 
-              get more attendees to their shows.
-            solution: >
-              Using CSS Grids and other development tricks, I created a design that 
-              appears disjointed and slightly off (design elements in the wrong place, 
-              things not quite lining up). This creates an almost jolting feeling, 
-              which makes the page feel like it’s almost moving, similar to the moving 
-              energy of the band’s live show.
-            results: >
-              Robbin the Bank saw a noticeable uptick in event promotors reaching out 
-              to them, and people attending events after the launch of the site.
+            role: 
+              title: "My Role"
+              text: >
+                Designer/Front-End Developer
+            problem: 
+              title: "Problem"
+              text: >
+                Create a memorable site that conveyed their energy, showcased the band 
+                and provided event information. Their goal was to book more events and 
+                get more attendees to their shows.
+            solution: 
+              title: "Solution"
+              text: >
+                Using CSS Grids and other development tricks, I created a design that 
+                appears disjointed and slightly off (design elements in the wrong place, 
+                things not quite lining up). This creates an almost jolting feeling, 
+                which makes the page feel like it’s almost moving, similar to the moving 
+                energy of the band’s live show.
+            results: 
+              title: "Results"
+              text: >
+                Robbin the Bank saw a noticeable uptick in event promotors reaching out 
+                to them, and people attending events after the launch of the site.
             img-1: 
               name: "robbinthebank/about.jpg"
               alt: "The about section of Robbin the Bank's site"
@@ -203,7 +233,6 @@ en:
 
 es:
   header:
-    logo-link: "/logo.jpg"
     buttons:
       - name: "sobre"
         link: "#about"
@@ -228,18 +257,31 @@ es:
     header: "Hola, me llamo Ken. Soy un diseñador web trabajando en Orlando, Florida."
     bio:
       - paragraph: >
-          "Actualmente, estoy empleado como desarrollador technical en <a href='https://goldtone.com'>Gold Tone Music Group</a>, que me concede de retarme continuamente y mejorar mis habilidades. En este momento, no acepto trabajo freelance, pero siempre estoy abierto de conocer gente nueva entonces no dudes en contactarme."
+          "Actualmente, estoy empleado como desarrollador technical en 
+          <a href='https://goldtone.com'>Gold Tone Music Group</a>, que me concede de 
+          retarme continuamente y mejorar mis habilidades. En este momento, no acepto 
+          trabajo freelance, pero siempre estoy abierto de conocer gente nueva entonces 
+          no dudes en contactarme."
       - paragraph: >
-          "Me gradué de la programa de diseño web en la Universidad de Florida Central. Mientras allá, me incluían en el Estreno y Exhibición de la Escuela de Artes Visuales y Diseño 2 años consecutivos para proyectos del web lo en que trabajaba. También soy un fundador en Design+Code@UCF, el club de diseño y desarrollo en UCF."
+          "Me gradué de la programa de diseño web en la Universidad de Florida Central. 
+          Mientras allá, me incluían en el Estreno y Exhibición de la Escuela de Artes 
+          Visuales y Diseño 2 años consecutivos para proyectos del web lo en que 
+          trabajaba. También soy un fundador en Design+Code@UCF, el club de diseño y 
+          desarrollo en UCF."
       - paragraph: >
-          "Además de desarrollo web, también tengo una passión para fotografía y videografía, lo que puedes mirar en <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>."
+          "Además de desarrollo web, también tengo una passión para fotografía y 
+          videografía, lo que puedes mirar en <a href='https://photo.kensanangelo.com'>
+          photo.kensanangelo.com</a>."
     resume: 
       title: "Currículum"
       link: "/curriculum.pdf"
 
   testimonial:
     quote: >
-      "Nuestro nuevo sitio ha creado oportunidades enormes para promoción mutua entre nuestras marcas y se hace más fácil para informar clientes y convertir prospectos. Además de eso, Ken siempre ha sido muy conocedor, profesional, y muy divertido en el trabajo."
+      Nuestro nuevo sitio ha creado oportunidades enormes para promoción mutua entre 
+      nuestras marcas y se hace más fácil para informar clientes y convertir 
+      prospectos. Además de eso, Ken siempre ha sido muy conocedor, profesional, y 
+      muy divertido en el trabajo.
     name: "Mike Johnson"
     position: "Gerente de Ventas, Gold Tone Music Group"
     img:
@@ -250,69 +292,164 @@ es:
     projects:
       - name: "Gold Tone"
         img:
-          name: "goldtone.jpg"
-          alt: "La página inicia de Gold Tone"
+          name: "goldtone/main.jpg"
+          alt: "La página de aterrizaje de Gold Tone Music Group"
         slide:
           full-name: "Gold Tone Music Group"
           site-link: "https://goldtone.com"
           git-link: ""
-          summary: >
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+          summary: 
+            title: "Resumen"
+            text: >
+              Gold Tone es una companía que tiene varias marcas muy diferentes abajo de 
+              su paraguas. Originalmente, tenían sitios separados para cada marca, pero 
+              estaban discontentos con la falta de interpromoción y conciencia de marca.
+              Diseñé y construí un sitio para todas las marcas, concede los clientes 
+              explorar las marcas distintas (incluso añadir productos de cualquier marca 
+              al mismo carrito). Entonces vieron un aumento considerable en ventas y 
+              clientes potenciales para sus marcas menos conocidas.
           writeup: 
-            - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
-            - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
-            - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
-
+            role: 
+              title: "Papel"
+              text: >
+                Yo estaba empleado en Gold Tone Music Group como su desarrollador 
+                técnico, responsable para construir y mantener sus sitios (full-stack),
+                además de supervisar el desarrollo de software y una app.
+            problem: 
+              title: "Problema"
+              text: >
+                Querían aumentar interpromoción y conciencia de marca entre los clientes 
+                de los sitios de las marcas distintas, porque se perdían clientes potenciales
+                debido a los sitios separados.
+            solution: 
+              title: "Solución"
+              text: >
+                Construí un sitio que abarcó todas las marcas, así que los clientes 
+                podían explorar las marcas diferentes, cambiar entre ellas, además de
+                añadir una mezcla de productos para comprar al mismo tiempo.
+            results: 
+              title: "Resultados"
+              text: >
+                Vieron un aumento enorme de ventas y clientes potenciales para todas 
+                marcas, especialmente las mas pequeñas/nuevas.
+            img-1: 
+              name: "goldtone/gt-home.jpg"
+              alt: "La página de aterrizaje de la marca, Gold Tone"
+            img-2: 
+              name: "goldtone/product-page.jpg"
+              alt: "Unas de las páginas de productos de Gold Tone"
+      
       - name: "Este Sitio"
         img:
-          name: "thissite.jpg"
-          img-alt: "La página inicia de este sitio"
+          name: "thissite/main.jpg"
+          alt: "La página de aterrizaje de este sitio"
         slide:
           full-name: "KenSanAngelo.com"
           site-link: "http://kensanangelo.com"
           git-link: "https://github.com/kensanangelo/Portfolio"
-          summary: >
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+          summary: 
+            title: "Resumen"
+            text: >
+              Bueno, sé que estas pensando: "¿Pusiste este sitio, en que estoy en este 
+              momento, como un proyecto para exhibir?". Sí y para una razón buena. 
+              Siempre tengo muchas ganas de usar herramientas nuevas, y durante la 
+              construcción de este sitio, estaba emocionado de probar tecnología 
+              que no había usado en el pasado. Elegí tecnología que podría ver útil en 
+              proyectos futuros, ambos para acostumbrarme a esas específicamente, y para 
+              aprender de conceptos nuevos y maneras de pensar que podría darme una 
+              ventaja en el futuro.
           writeup: 
-            - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
+            role: 
+              title: "Papel"
+              text: >
+                Dueño, Diseño y Desarrollo
+            problem: 
+              title: "Problema"
+              text: >
+                Necesitaba un sitio nuevo de portfolio que sería limpio, duradero, y muy 
+                fácil para mantener y actualizar. También quise tomar la oportunidad para
+                aprender unas herramientas y métodos nuevos.
+            solution: 
+              title: "Solución"
+              text: >
+                Elegí Jekyll como una manera de abstraer partes diferentes del sitio a
+                sus archivos propios, además de poner el contento en su archivo propio,
+                que sea muy fácil de incluir ambos versiones en inglés y español del 
+                sitio (sin repetir ningún código) y hace más fácil para actualizar más 
+                adelante. Sorprendía agradablemente a tan fácil esta herramienta se 
+                hace para construir y manejar my sitio. No solamente se incluyó 
+                preprocesadores (SASS en mi caso), pero fue increíblemente flexible y
+                me permitó establecer y organizar el proyecto en una manera con que 
+                sentí lo más cómodo.
 
-      - name: "NadaMaps"
+                Además, investigué las pautas mejores de accesibilidad para el contenido 
+                web para asegurar que podría proveer una experiencia gran para los 
+                usuarios, sin importar como se acceden el sitio (que puedo llevar conmgio
+                a proyectos futuros).
+            results:
+              title: "Resultados"
+              text: >
+                Como puedes ver, ¡el sitio fue un éxito! Bien diseñado, accesible, y
+                mantenible. Además tengo unas herramientas y metodología nuevas, lo que 
+                puedo traer a proyectos futuros.
+            img-1: 
+              name: "thissite/editor.jpg"
+              alt: "El editor de código, VSCode, mostrando el fuente de este sitio"
+            img-2: 
+              name: "thissite/wcag.jpg"
+              alt: "El sitio de las Pautas de Accesibilidad para el Contenido Web (WCAG)"
+          
+      - name: "Robbin the Bank"
         img:
-          name: "nadamaps.jpg"
-          alt: "La página inicia del proyecto, NadaMaps"
+          name: "robbinthebank/main.jpg"
+          alt: "La página de aterrizaje del grupo, Robbin the Bank"
         slide:
-          full-name: "NadaMaps"  
-          site-link: "http://kensanangelo.com/classwork/nada"
-          git-link: "https://github.com/kensanangelo/Nada"
-          summary: >
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. "
+          full-name: "RobbinTheBank.com"
+          site-link: "http://robbinthebank.com"
+          git-link: ""
+          summary: 
+            title: "Resumen"
+            text: >
+              Robbin the Bank es un grupo creciente de Florida central que buscaba de 
+              una manera para proveer información de eventos y muestras de música a
+              los fanáticos y promotores, pero querían un diseño que expresa la energía
+              de sus shows en vivo (al tiempo que ser memorable). Seguí los pasos de 
+              las modas de diseño brutalista y creé un sitio que pareció de 'liberarse
+              de la cuadrícula'. Elementos están esparcido por todo, y algunas partes 
+              parecen un poco desarticulado y fuera de lugar. Esta tensión hace que los 
+              elementos sienten como mueven en la página, de este modo transmitiendo un
+              sentido de energía (sin mover de verdad).
           writeup: 
-            - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
-            - copy: >
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet, velit bibendum tincidunt posuere, odio nunc interdum tellus, ut fringilla magna nisl a est. Nunc aliquam a mi at sodales. Nulla sed ornare felis. Nunc eget tellus vestibulum, vestibulum odio non, commodo ligula. Proin scelerisque tempor consectetur. Vivamus bibendum sit amet nibh et euismod. Donec at nulla ut nisi sollicitudin euismod quis quis sem. Nulla facilisi. Nam odio nibh, fringilla a elementum at, pretium at est. Sed ligula turpis, ullamcorper eu nibh vel, posuere egestas ligula. Vestibulum iaculis dui in vulputate ullamcorper. Pellentesque tincidunt risus in leo accumsan, sit amet convallis dolor consectetur. Nullam sed maximus elit. Mauris at elit fermentum diam ultricies pretium. Aenean gravida dolor nulla."
-              img: 
-                name: "https://via.placeholder.com/570x320?text=Img+of+Site"
-                alt: ""
+            role: 
+              title: "Papel"
+              text: >
+                Diseñador/Desarrollador Front-End
+            problem: 
+              title: "Problema"
+              text: >
+                Crear un sitio memorable que transmitió su energía, exhibió el grupo,
+                y proveyó información de eventos. Su meta fue para reservar más eventos 
+                y tener más asistentes en sus shows.
+            solution: 
+              title: "Solución"
+              text: >
+                Utilizando CSS Grids y otros trucos de desarrollo, creé un diseño que
+                parece un poco desarticulado y fuera de lugar (elementos de diseño en 
+                lugares incorrectos, cosas no alinean perfectamente). Este crea una 
+                sensibilidad casí sacudida, que hace la página sentir como casí mueve,
+                similar de la energía emotiva del show en vivo del grupo.
+            results:
+              title: "Resultados"
+              text: >
+                Robbin the Bank vieron un repunte distinguible de promotores de eventos 
+                contactandolos, y asistentes yendo a sus eventos después del lanzamiento
+                del sitio.
+            img-1: 
+              name: "robbinthebank/about.jpg"
+              alt: "La sección de sobre en el sitio de Robbin the Bank"
+            img-2: 
+              name: "robbinthebank/events.jpg"
+              alt: "La sección de eventos en el sitio de Robbin the Bank"
 
   contact:
     header: "¿Tiene un proyecto que me interesaría?"
@@ -322,8 +459,10 @@ es:
     social:
       - icon: "fab fa-github-square"
         link: "https://github.com/kensanangelo"
+        title: "GitHub"
 
       - icon: "fab fa-linkedin"
         link: "https://www.linkedin.com/in/kensanangelo"
+        title: "LinkedIn"
 
 ---
