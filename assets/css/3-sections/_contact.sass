@@ -2,6 +2,8 @@
   padding: 40px 0 42px
   border-top: 1px solid #ddd
   border-bottom: 1px solid #ddd
+  display: flex
+  flex-flow: column
 
   h5
     font-size: 1.8em
@@ -11,7 +13,6 @@
   .email-button
     position: relative
     overflow-x: hidden
-    max-width: 224px
     display: block
     text-decoration: none
     text-align: center
@@ -19,7 +20,7 @@
     font-family: 'Playfair Display', serif
     font-size: 1.6em
     margin: 0 auto
-    padding: 14px 20px 18px
+    padding: 14px 30px 18px
     border: 2px solid $button-border-color
     border-radius: 6px
 
@@ -31,16 +32,24 @@
     background-size: 500%
 
     .button-text
-      display: block
-      transition: transform 600ms ease-in 300ms
+      @media only screen and (min-width: $breakpoint-mobile-l)
+        position: relative
+        transform: translateX(.8em)
+        display: inline-block
+        top: -.06em
+        transition: transform 600ms ease-in 300ms
 
     .mail-icon
-      position: absolute
-      top: 50%
-      transform: translate(100px, -52%)
-      transition: transform 600ms cubic-bezier(.6,-0.28,.74,.05) 0ms, opacity 700ms ease 100ms
-      font-size: 2.4rem
-      opacity: 0
+      display: none
+
+      @media only screen and (min-width: $breakpoint-mobile-l)
+        display: inline-block
+        position: relative
+        bottom: -.08em
+        transform: translateX(100px)
+        transition: transform 600ms cubic-bezier(.6,-0.28,.74,.05) 0ms, opacity 700ms ease 100ms
+        font-size: 2.4rem
+        opacity: 0
 
     &:hover,&:focus
       background-color: $link-hover-color
@@ -49,14 +58,15 @@
       border-radius: 50px
       transition: all 1s ease-in 0ms
 
-      .button-text
-        transform: translateX(-28px)
-        transition: transform 600ms ease-in 750ms
+      @media only screen and (min-width: $breakpoint-mobile-l)
+        .button-text
+          transform: translateX(-2px)
+          transition: transform 600ms ease-in 750ms
 
-      .mail-icon
-        transform: translate(50px, -52%)
-        opacity: .4
-        transition: transform 500ms ease-in 800ms, opacity 600ms ease 1100ms
+        .mail-icon
+          transform: translateX(0)
+          opacity: .4
+          transition: transform 500ms ease-in 800ms, opacity 600ms ease 1100ms
 
     &:focus
       outline: none
