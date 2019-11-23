@@ -1,9 +1,8 @@
 ---
-img-src: "/assets/img/"
+img-src-path: "/assets/img/"
 
 en:
   header:
-    logo-link: "/logo.jpg"
     buttons:
       - name: "about"
         link: "#about"

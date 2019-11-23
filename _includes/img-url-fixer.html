@@ -6,7 +6,7 @@
 {% assign img-url-old = include.img-url %}
 
 {% assign img-array = img-url-old | split: "." %}
-{% assign img-path = img-src | append: img-array[0] %}
+{% assign img-path = site.data.content.img-src-path | append: img-array[0] %}
 {% assign img-type = '.' | append: img-array[1] %}
 
 {% capture img-url %}{{ img-path }}{{ img-type }}{% endcapture %}
