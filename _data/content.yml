@@ -40,7 +40,7 @@ en:
       - paragraph: >
           Besides web development, I also have a passion for photography and videography, 
           which you can check out at 
-          <a href='https://photo.kensanangelo.com'>photo.kensanangelo.com</a>.
+          <a href='https://sanangelophoto.com'>sanangelophoto.com</a>.
     resume: 
       title: "Resume"
       link: "/resume.pdf"
@@ -257,21 +257,20 @@ es:
     header: "Hola, me llamo Ken. Soy un diseñador web trabajando en Orlando, Florida."
     bio:
       - paragraph: >
-          "Actualmente, estoy empleado como desarrollador technical en 
+          Actualmente, estoy empleado como desarrollador technical en 
           <a href='https://goldtone.com'>Gold Tone Music Group</a>, que me concede de 
           retarme continuamente y mejorar mis habilidades. En este momento, no acepto 
           trabajo freelance, pero siempre estoy abierto de conocer gente nueva entonces 
-          no dudes en contactarme."
+          no dudes en contactarme.
       - paragraph: >
-          "Me gradué de la programa de diseño web en la Universidad de Florida Central. 
+          Me gradué de la programa de diseño web en la Universidad de Florida Central. 
           Mientras allá, me incluían en el Estreno y Exhibición de la Escuela de Artes 
           Visuales y Diseño 2 años consecutivos para proyectos del web lo en que 
           trabajaba. También soy un fundador en Design+Code@UCF, el club de diseño y 
-          desarrollo en UCF."
+          desarrollo en UCF.
       - paragraph: >
-          "Además de desarrollo web, también tengo una passión para fotografía y 
-          videografía, lo que puedes mirar en <a href='https://photo.kensanangelo.com'>
-          photo.kensanangelo.com</a>."
+          Además de desarrollo web, también tengo una passión para fotografía y 
+          videografía, lo que puedes mirar en <a href='https://sanangelophoto.com'>sanangelophoto.com</a>.
     resume: 
       title: "Currículum"
       link: "/curriculum.pdf"
