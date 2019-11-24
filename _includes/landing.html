@@ -11,15 +11,17 @@
 		</div>
 	</div>
 	<div class="portrait-container">
-		<picture>
-			<source 
-			   media="(min-width: 768px)"
-			   srcset="{{ img-url-2x }} 2x, {{ img-url }}  1x">
-			<source 
-			   media="(min-width: 320px)"
-			   srcset="{{ img-url-small-2x }} 2x, {{ img-url-small }} 1x">
-			<img src="{{ img-url-small }}" 
-			alt="{{ landing.img.alt }}">
-		 </picture>
+		<div class="portrait-inner">
+			<picture>
+				<source 
+				media="(min-width: 768px)"
+				srcset="{{ img-url-2x }} 2x, {{ img-url }}  1x">
+				<source 
+				media="(min-width: 320px)"
+				srcset="{{ img-url-small-2x }} 2x, {{ img-url-small }} 1x">
+				<img src="{{ img-url-small }}" 
+				alt="{{ landing.img.alt }}">
+			</picture>
+		</div>
 	</div>
 </section>
