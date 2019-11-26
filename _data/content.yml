@@ -234,7 +234,7 @@ en:
 es:
   header:
     buttons:
-      - name: "sobre"
+      - name: "acerca de"
         link: "#about"
 
       - name: "trabajo"
@@ -257,20 +257,21 @@ es:
     header: "Hola, me llamo Ken. Soy un diseñador web trabajando en Orlando, Florida."
     bio:
       - paragraph: >
-          Actualmente, estoy empleado como desarrollador technical en 
-          <a href='https://goldtone.com'>Gold Tone Music Group</a>, que me concede de 
-          retarme continuamente y mejorar mis habilidades. En este momento, no acepto 
-          trabajo freelance, pero siempre estoy abierto de conocer gente nueva entonces 
-          no dudes en contactarme.
+          Actualmente, soy empleado como desarrollador técnico en  
+          <a href='https://goldtone.com'>Gold Tone Music Group</a>, que me ayuda a 
+          superar retos continuamente y mejorar mis habilidades. Por el momento, no 
+          acepto trabajo independiente, pero siempre estoy abierto de conocer gente 
+          nueva entonces no dudes en contactarme.
       - paragraph: >
-          Me gradué de la programa de diseño web en la Universidad de Florida Central. 
+          Me gradué del programa de diseño web en la Universidad Central de Florida. 
           Mientras allá, me incluían en el Estreno y Exhibición de la Escuela de Artes 
-          Visuales y Diseño 2 años consecutivos para proyectos del web lo en que 
-          trabajaba. También soy un fundador en Design+Code@UCF, el club de diseño y 
+          Visuales y Diseño, estuvé 2 años consecutivos trabajando para proyectos de 
+          web. Soy uno de los fundadores de Design+Code@UCF, el club de diseño y 
           desarrollo en UCF.
       - paragraph: >
-          Además de desarrollo web, también tengo una passión para fotografía y 
-          videografía, lo que puedes mirar en <a href='https://sanangelophoto.com'>sanangelophoto.com</a>.
+          Además de desarrollo web, también tengo una pasión por la fotografía y 
+          videografía, el cuál puedes mirar en 
+          <a href='https://sanangelophoto.com'>sanangelophoto.com</a>.
     resume: 
       title: "Currículum"
       link: "/curriculum.pdf"
@@ -278,9 +279,9 @@ es:
   testimonial:
     quote: >
       Nuestro nuevo sitio ha creado oportunidades enormes para promoción mutua entre 
-      nuestras marcas y se hace más fácil para informar clientes y convertir 
+      nuestras marcas y se hace más fácil para informar a los clientes y convertir 
       prospectos. Además de eso, Ken siempre ha sido muy conocedor, profesional, y 
-      muy divertido en el trabajo.
+      muy divertido en el trabajo. 
     name: "Mike Johnson"
     position: "Gerente de Ventas, Gold Tone Music Group"
     img:
@@ -300,43 +301,44 @@ es:
           summary: 
             title: "Resumen"
             text: >
-              Gold Tone es una companía que tiene varias marcas muy diferentes abajo de 
-              su paraguas. Originalmente, tenían sitios separados para cada marca, pero 
-              estaban discontentos con la falta de interpromoción y conciencia de marca.
-              Diseñé y construí un sitio para todas las marcas, concede los clientes 
-              explorar las marcas distintas (incluso añadir productos de cualquier marca 
-              al mismo carrito). Entonces vieron un aumento considerable en ventas y 
-              clientes potenciales para sus marcas menos conocidas.
+              Gold Tone es una compañía que maneja varias marcas muy diferentes entre 
+              sí. Originalmente, tenían sitios separados para cada marca, pero estaban 
+              discontentos con la falta de interpromoción y conciencia de marca. 
+              Diseñé y construí un sitio para explorar todas las marcas en un mismo 
+              lugar (incluso añadir productos de cualquier marca al mismo carrito). 
+              Entonces vieron un aumento considerable en ventas y clientes potenciales 
+              para sus marcas menos conocidas.
           writeup: 
             role: 
               title: "Papel"
               text: >
                 Yo estaba empleado en Gold Tone Music Group como su desarrollador 
-                técnico, responsable para construir y mantener sus sitios (full-stack),
-                además de supervisar el desarrollo de software y una app.
+                técnico, responsable para construir y mantener sus sitios 
+                (full-stack), además de supervisar el desarrollo de software y una 
+                app.
             problem: 
               title: "Problema"
               text: >
-                Querían aumentar interpromoción y conciencia de marca entre los clientes 
-                de los sitios de las marcas distintas, porque se perdían clientes potenciales
-                debido a los sitios separados.
+                Querían aumentar interpromoción y conciencia de marca entre los 
+                clientes de los sitios de las marcas distintas, porque se perdían 
+                clientes potenciales debido a los sitios separados.
             solution: 
               title: "Solución"
               text: >
                 Construí un sitio que abarcó todas las marcas, así que los clientes 
-                podían explorar las marcas diferentes, cambiar entre ellas, además de
-                añadir una mezcla de productos para comprar al mismo tiempo.
+                podían explorarlas todas, cambiar entre ellas y además de añadir una 
+                mezcla de productos para comprar al mismo tiempo.
             results: 
               title: "Resultados"
               text: >
                 Vieron un aumento enorme de ventas y clientes potenciales para todas 
-                marcas, especialmente las mas pequeñas/nuevas.
+                las marcas, especialmente las mas pequeñas/nuevas.
             img-1: 
               name: "goldtone/gt-home.jpg"
               alt: "La página de aterrizaje de la marca, Gold Tone"
             img-2: 
               name: "goldtone/product-page.jpg"
-              alt: "Unas de las páginas de productos de Gold Tone"
+              alt: "Una de las páginas de productos de Gold Tone"
       
       - name: "Este Sitio"
         img:
@@ -349,14 +351,13 @@ es:
           summary: 
             title: "Resumen"
             text: >
-              Bueno, sé que estas pensando: "¿Pusiste este sitio, en que estoy en este 
-              momento, como un proyecto para exhibir?". Sí y para una razón buena. 
-              Siempre tengo muchas ganas de usar herramientas nuevas, y durante la 
-              construcción de este sitio, estaba emocionado de probar tecnología 
-              que no había usado en el pasado. Elegí tecnología que podría ver útil en 
-              proyectos futuros, ambos para acostumbrarme a esas específicamente, y para 
-              aprender de conceptos nuevos y maneras de pensar que podría darme una 
-              ventaja en el futuro.
+              Bueno, sé que estas pensando: "¿Pusiste este sitio como un proyecto para 
+              exhibir?" Sí. Y por una buena razón. Siempre tengo muchas ganas de usar 
+              herramientas nuevas, y durante la construcción de este sitio, estaba 
+              emocionado de probar tecnologías que no había usado en el pasado. Elegí 
+              tecnología que podría ser útil en proyectos futuros, para acostumbrarme 
+              a esas específicamente, y para aprender de conceptos nuevos y formas de 
+              pensar que podría darme una ventaja en el futuro.
           writeup: 
             role: 
               title: "Papel"
@@ -365,35 +366,34 @@ es:
             problem: 
               title: "Problema"
               text: >
-                Necesitaba un sitio nuevo de portfolio que sería limpio, duradero, y muy 
-                fácil para mantener y actualizar. También quise tomar la oportunidad para
-                aprender unas herramientas y métodos nuevos.
+                Necesitaba un sitio nuevo de portafolio limpio, duradero, y muy fácil 
+                para mantener y actualizar. También quise tomar la oportunidad para 
+                aprender a usar herramientas y métodos nuevos.
             solution: 
               title: "Solución"
               text: >
-                Elegí Jekyll como una manera de abstraer partes diferentes del sitio a
-                sus archivos propios, además de poner el contento en su archivo propio,
-                que sea muy fácil de incluir ambos versiones en inglés y español del 
-                sitio (sin repetir ningún código) y hace más fácil para actualizar más 
-                adelante. Sorprendía agradablemente a tan fácil esta herramienta se 
-                hace para construir y manejar my sitio. No solamente se incluyó 
-                preprocesadores (SASS en mi caso), pero fue increíblemente flexible y
-                me permitó establecer y organizar el proyecto en una manera con que 
-                sentí lo más cómodo.
+                Elegí Jekyll como una manera de abstraer partes diferentes del sitio a 
+                sus archivos propios, además de poner el contenido en su archivo 
+                propio, que sea muy fácil de incluir ambas versiones en inglés y 
+                español del sitio (sin repetir ningún código) y hace más fácil su 
+                actualización. Me tomó por sorpresa lo fácil que esta herramienta me 
+                permitía construir y manejar mi sitio. No solamente se incluyó 
+                preprocesadores (SASS en mi caso), pero fue increíblemente flexible y 
+                me permitó establecer y organizar el proyecto de una manera más cómoda. 
 
-                Además, investigué las pautas mejores de accesibilidad para el contenido 
-                web para asegurar que podría proveer una experiencia gran para los 
-                usuarios, sin importar como se acceden el sitio (que puedo llevar conmgio
-                a proyectos futuros).
+                Además, investigué las mejores pautas de accesibilidad para el 
+                contenido web y asegurar que podría proveer una gran experiencia para 
+                los usuarios, sin importar como se accede al sitio (que puedo usar en 
+                proyectos futuros).
             results:
               title: "Resultados"
               text: >
-                Como puedes ver, ¡el sitio fue un éxito! Bien diseñado, accesible, y
-                mantenible. Además tengo unas herramientas y metodología nuevas, lo que 
-                puedo traer a proyectos futuros.
+                Como puede ver, ¡el sitio fue un éxito! Bien diseñado, accesible, y 
+                mantenible. Además tengo herramientas y metodología nueva que siempre 
+                podré usar en mis nuevos proyectos.
             img-1: 
               name: "thissite/editor.jpg"
-              alt: "El editor de código, VSCode, mostrando el fuente de este sitio"
+              alt: "El editor de código, VSCode, mostrando la fuente de este sitio"
             img-2: 
               name: "thissite/wcag.jpg"
               alt: "El sitio de las Pautas de Accesibilidad para el Contenido Web (WCAG)"
@@ -409,15 +409,16 @@ es:
           summary: 
             title: "Resumen"
             text: >
-              Robbin the Bank es un grupo creciente de Florida central que buscaba de 
-              una manera para proveer información de eventos y muestras de música a
-              los fanáticos y promotores, pero querían un diseño que expresa la energía
-              de sus shows en vivo (al tiempo que ser memorable). Seguí los pasos de 
-              las modas de diseño brutalista y creé un sitio que pareció de 'liberarse
-              de la cuadrícula'. Elementos están esparcido por todo, y algunas partes 
-              parecen un poco desarticulado y fuera de lugar. Esta tensión hace que los 
-              elementos sienten como mueven en la página, de este modo transmitiendo un
-              sentido de energía (sin mover de verdad).
+              Robbin the Bank es un grupo creciente de Florida central que buscaba una 
+              manera para proveer información de eventos y muestras de música a los 
+              fanáticos y promotores, pero querían un diseño que expresará la energía 
+              de sus shows en vivo (al mismo tiempo de ser memorable). Seguí los pasos 
+              de las modas de diseño brutalista y creé un sitio que pareció 'liberarse 
+              de la cuadrícula'. Los elementos están esparcidos por todo el sitio, y 
+              algunas partes parecen un poco desarticuladas y fuera de lugar. Esta 
+              tensión hace que los elementos le den un toque de movimiento a la 
+              página, de este modo transmiten un sentido de energía (sin moverse de 
+              verdad).
           writeup: 
             role: 
               title: "Papel"
@@ -426,34 +427,34 @@ es:
             problem: 
               title: "Problema"
               text: >
-                Crear un sitio memorable que transmitió su energía, exhibió el grupo,
-                y proveyó información de eventos. Su meta fue para reservar más eventos 
-                y tener más asistentes en sus shows.
+                Crear un sitio memorable que transmite su energía, exhibe al grupo, y 
+                provee información de eventos. Su meta fue para reservar más eventos y 
+                tener más asistentes en sus shows.
             solution: 
               title: "Solución"
               text: >
-                Utilizando CSS Grids y otros trucos de desarrollo, creé un diseño que
+                Utilizando CSS Grids y otros trucos de desarrollo, creé un diseño que 
                 parece un poco desarticulado y fuera de lugar (elementos de diseño en 
-                lugares incorrectos, cosas no alinean perfectamente). Este crea una 
-                sensibilidad casí sacudida, que hace la página sentir como casí mueve,
-                similar de la energía emotiva del show en vivo del grupo.
+                lugares incorrectos, cosas que no alinean perfectamente). Este crea 
+                una sensibilidad casí sacudida, que hace a la página sentir como casí 
+                se mueve, similar al de la energía emotiva del show en vivo del grupo.
             results:
               title: "Resultados"
               text: >
-                Robbin the Bank vieron un repunte distinguible de promotores de eventos 
-                contactandolos, y asistentes yendo a sus eventos después del lanzamiento
-                del sitio.
+                Robbin the Bank vieron un repunte distinguible de promotores de 
+                eventos contactandolos, y asistentes yendo a sus eventos después del 
+                lanzamiento del sitio.
             img-1: 
               name: "robbinthebank/about.jpg"
-              alt: "La sección de sobre en el sitio de Robbin the Bank"
+              alt: "Sección acerca del sitio de Robbin the Bank"
             img-2: 
               name: "robbinthebank/events.jpg"
-              alt: "La sección de eventos en el sitio de Robbin the Bank"
+              alt: "Sección de eventos en el sitio de Robbin the Bank"
 
   contact:
     header: "¿Tiene un proyecto que me interesaría?"
     button: 
-      text: "Enviarme un email"
+      text: "Envieme un email"
       link: "ken@kensanangelo.com"
     social:
       - icon: "fab fa-github-square"
