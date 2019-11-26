@@ -41,10 +41,10 @@
 							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back to main slide" type="button"><i class="fas fa-arrow-left"></i></button>
 							<h4>{{ project.slide.full-name }}</h4>
 							<ul>
-								<li>{{ project.slide.site-link.name }} <a href="{{ project.slide.site-link.url }}">{{ project.slide.site-link.url }}</a></li>
+								<li>{{ project.slide.site-link.name }} <a href="{{ project.slide.site-link.url }}" target="_blank">{{ project.slide.site-link.url }}</a></li>
 
 								{% unless project.slide.git-link.url == "" %}
-									<li>{{ project.slide.git-link.name }} <a href="{{ project.slide.git-link.url }}">{{ project.slide.git-link.url }}</a></li>
+									<li>{{ project.slide.git-link.name }} <a href="{{ project.slide.git-link.url }}" target="_blank">{{ project.slide.git-link.url }}</a></li>
 								{% endunless %}
 							</ul>
 							<h5 class="info-title">{{ project.slide.summary.title }}</h5>

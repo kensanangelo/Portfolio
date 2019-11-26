@@ -28,7 +28,7 @@ en:
     bio:
       - paragraph: >
           I am currently working as a technical developer at 
-          <a href='https://goldtone.com'>Gold Tone Music Group</a>, which allows me to
+          <a href='https://goldtone.com' target="_blank">Gold Tone Music Group</a>, which allows me to
           constantly challenge myself and improve my skills. I’m not currently accepting
           freelance work, but I am always open to meeting new people so <strong>feel free to get in
           touch.</strong>
@@ -40,7 +40,7 @@ en:
       - paragraph: >
           Besides web development, I also have a passion for photography and videography, 
           which you can check out at 
-          <a href='https://sanangelophoto.com'>sanangelophoto.com</a>.
+          <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
     resume: 
       title: "Resume"
       link: "/resume.pdf"
@@ -271,7 +271,7 @@ es:
     bio:
       - paragraph: >
           Actualmente, soy empleado como desarrollador técnico en  
-          <a href='https://goldtone.com'>Gold Tone Music Group</a>, que me ayuda a 
+          <a href='https://goldtone.com' target="_blank">Gold Tone Music Group</a>, que me ayuda a 
           superar retos continuamente y mejorar mis habilidades. Por el momento, no 
           acepto trabajo independiente, pero siempre estoy abierto de conocer gente 
           nueva entonces no dudes en contactarme.
@@ -284,7 +284,7 @@ es:
       - paragraph: >
           Además de desarrollo web, también tengo una pasión por la fotografía y 
           videografía, el cuál puedes mirar en 
-          <a href='https://sanangelophoto.com'>sanangelophoto.com</a>.
+          <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
     resume: 
       title: "Currículum"
       link: "/curriculum.pdf"
