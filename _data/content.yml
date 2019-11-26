@@ -57,6 +57,7 @@ en:
       alt: "A portrait of Mike Johnson"
 
   work:
+    back-button: "Go Back"
     projects:
       - name: "Gold Tone"
         img:
@@ -64,8 +65,12 @@ en:
           alt: "The home page of Gold Tone's website"
         slide:
           full-name: "Gold Tone Music Group"
-          site-link: "https://goldtone.com"
-          git-link: ""
+          site-link: 
+            name: "Site Link:"
+            url: "https://goldtone.com"
+          git-link:  
+            name: "Git Link:"
+            url: ""
           summary: 
             title: "Summary"
             text: >
@@ -113,8 +118,12 @@ en:
           alt: "The landing page of this website"
         slide:
           full-name: "KenSanAngelo.com"
-          site-link: "http://kensanangelo.com"
-          git-link: "https://github.com/kensanangelo/Portfolio"
+          site-link: 
+            name: "Site Link:"
+            url: "http://kensanangelo.com"
+          git-link:  
+            name: "Git Link:"
+            url: "https://github.com/kensanangelo/Portfolio"
           summary: 
             title: "Summary"
             text: >
@@ -172,8 +181,12 @@ en:
           alt: "The landing page of the band, Robbin the Bank"
         slide:
           full-name: "RobbinTheBank.com"
-          site-link: "http://robbinthebank.com"
-          git-link: ""
+          site-link:
+            name: "Site Link:"
+            url: "http://robbinthebank.com"
+          git-link:
+            name: "Git Link:"
+            url: ""
           summary: 
             title: "Summary"
             text: >
@@ -289,6 +302,7 @@ es:
       alt: "Un retrato de Mike Johnson"
 
   work:
+    back-button: "Atrás"
     projects:
       - name: "Gold Tone"
         img:
@@ -296,8 +310,12 @@ es:
           alt: "La página de aterrizaje de Gold Tone Music Group"
         slide:
           full-name: "Gold Tone Music Group"
-          site-link: "https://goldtone.com"
-          git-link: ""
+          site-link: 
+            name: "Enlace del Sitio:"
+            url: "https://goldtone.com"
+          git-link:  
+            name: "Enlace de Git:"
+            url: ""
           summary: 
             title: "Resumen"
             text: >
@@ -346,8 +364,12 @@ es:
           alt: "La página de aterrizaje de este sitio"
         slide:
           full-name: "KenSanAngelo.com"
-          site-link: "http://kensanangelo.com"
-          git-link: "https://github.com/kensanangelo/Portfolio"
+          site-link: 
+            name: "Enlace del Sitio:"
+            url: "http://kensanangelo.com"
+          git-link:  
+            name: "Enlace de Git:"
+            url: "https://github.com/kensanangelo/Portfolio"
           summary: 
             title: "Resumen"
             text: >
@@ -404,8 +426,12 @@ es:
           alt: "La página de aterrizaje del grupo, Robbin the Bank"
         slide:
           full-name: "RobbinTheBank.com"
-          site-link: "http://robbinthebank.com"
-          git-link: ""
+          site-link:
+            name: "Enlace del Sitio:"
+            url: "http://robbinthebank.com"
+          git-link:
+            name: "Enlace de Git:"
+            url: ""
           summary: 
             title: "Resumen"
             text: >

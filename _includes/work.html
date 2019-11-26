@@ -41,10 +41,10 @@
 							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back to main slide" type="button"><i class="fas fa-arrow-left"></i></button>
 							<h4>{{ project.slide.full-name }}</h4>
 							<ul>
-								<li>Site Link: <a href="{{ project.slide.site-link }}">{{ project.slide.site-link }}</a></li>
+								<li>{{ project.slide.site-link.name }} <a href="{{ project.slide.site-link.url }}">{{ project.slide.site-link.url }}</a></li>
 
-								{% unless project.slide.git-link == "" %}
-									<li>Github Link: <a href="{{ project.slide.git-link }}">{{ project.slide.git-link }}</a></li>
+								{% unless project.slide.git-link.url == "" %}
+									<li>{{ project.slide.git-link.name }} <a href="{{ project.slide.git-link.url }}">{{ project.slide.git-link.url }}</a></li>
 								{% endunless %}
 							</ul>
 							<h5 class="info-title">{{ project.slide.summary.title }}</h5>
@@ -79,7 +79,7 @@
 							<p class="solution">{{ project.slide.writeup.solution.text }}</p>
 							<h5 class="info-title">{{ project.slide.writeup.results.title }}</h5>
 							<p class="results">{{ project.slide.writeup.results.text }}</p>
-							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back tp main slide" type="button"><i class="fas fa-arrow-left"></i><span class="go-back">Go Back</span></button>
+							<button class="return-arrow" data-slide="{{ i }}" aria-label="Go back tp main slide" type="button"><i class="fas fa-arrow-left"></i><span class="go-back">{{ work.back-button }}</span></button>
 						</div>
 					</div>
 				</div>
