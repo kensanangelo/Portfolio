@@ -2,6 +2,7 @@
 img-src-path: "/assets/img/"
 
 en:
+  title: "Ken San Angelo - Web Developer"
   header:
     buttons:
       - name: "about"
@@ -245,6 +246,7 @@ en:
         title: "LinkedIn"
 
 es:
+  title: "Ken San Angelo - Diseñador Web"
   header:
     buttons:
       - name: "acerca de"
