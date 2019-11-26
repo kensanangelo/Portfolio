@@ -246,7 +246,7 @@ en:
         title: "LinkedIn"
 
 es:
-  title: "Ken San Angelo - Diseñador Web"
+  title: "Ken San Angelo - Desarrollador Web"
   header:
     buttons:
       - name: "acerca de"
@@ -263,7 +263,7 @@ es:
 
   landing: 
     title: Ken San Angelo
-    subtitle: Diseñador Web
+    subtitle: Desarrollador Web
     img:
       name: "portrait.jpg"
       alt: "Un retrato de mi, Ken San Angelo"
