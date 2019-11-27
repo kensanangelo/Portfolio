@@ -64,4 +64,6 @@ function scrollTo(location) {
   $('html, body').animate({
       scrollTop: $(location).offset().top
   }, 800);
+
+  $(location).focus();
 }
