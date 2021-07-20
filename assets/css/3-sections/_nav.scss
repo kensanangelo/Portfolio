@@ -1,1 +1,37 @@
+.nav{
+	max-width: $container-m;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 
+	padding: 97px $container-padding 118px;
+
+	&__logo-link{
+		svg path{
+			transition: fill .2s;
+		}
+
+		&:hover{
+			svg path{
+				fill: $flamenco;
+			}
+		}
+	}
+
+	&__links{
+		display: flex;
+		align-items: center;
+	}
+
+	&__link{
+		color: $white-pure;
+		text-decoration: none;
+		font-family: $text-font-title;
+		font-size: 1.31rem;
+
+		&:not(:last-child){
+			margin-right: 31px;
+		}
+	}
+}

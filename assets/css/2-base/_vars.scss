@@ -1,19 +1,20 @@
 $text-font-title: 'DM Sans', serif;
 $text-font-body: 'Inter', sans-serif;
 
-$shark-gray: #1E1F23;
+$white-pure: #ffffff;
+$gray-shark: #1E1F23;
+$flamenco: #FF7A03;
 
-$text-color: #000000;
+$text-color: $white-pure;
 $lighter-text-color: #717171;
-$bg-color: $shark-gray;
+$bg-color: $gray-shark;
 $selection-color: #c6dff0;
-$link-color: #3e6c8f;
-$link-hover-color: #78a3c4;
-$link-hover-bg-color: $selection-color;
-$button-border-color: #45779c;
+$link-color: $text-color;
+$link-hover-color: $flamenco;
 
 $container-sm: 800px;
-$container-m: 1200px;
+$container-m: 1160px;
+$container-padding: 20px;
 
 $breakpoint-mobile-l: 426px;
 $breakpoint-tablet: 768px;

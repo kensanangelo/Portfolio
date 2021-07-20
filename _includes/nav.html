@@ -1,3 +1,12 @@
 {% assign copy = site.data.nav[page.language] %}
 
-{% include icons/logo.svg %}
+<nav class="nav">
+	<a class="nav__logo-link" href="/">
+		{% include icons/logo.svg %}
+	</a>
+	<div class="nav__links">
+		{% for button in copy %}
+		<a class="nav__link" href="{{ button.link }}" aria-label="Go to {{ button.name }}">{{ button.name }}</a>
+		{% endfor %}
+	</div>
+</nav>

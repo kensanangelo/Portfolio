@@ -1,4 +1,66 @@
-//	Typography
+// Basic Styles
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+  background: $bg-color;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: .006em;
+  font-family: $text-font-body;
+  color: $text-color;
+  margin: 5px 10px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: $selection-color;
+  }
+
+
+// Focus/selection states
+*:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px $link-hover-color;
+  //outline: 3px solid $link-hover-color
+  }
+
+//Needed to remove Firefox default focus styling
+-moz-focusring, *::-moz-focus-inner{
+  color: transparent !important;
+  text-shadow: 0 0 0 #000 !important;
+  background-image: none !important;
+  border: 0;
+  }
+
+// Selection colors
+
+::selection{
+  background: $selection-color;
+  }
+  
+::-moz-selection{
+  background: $selection-color;
+  }
+  
+img::selection{
+  background: transparent;
+  }
+  
+img::-moz-selection{
+  background: transparent;
+  }
+
+
+img{
+  width: 100%;
+  margin: 0;
+  }
+
+  //	Typography
  
 h1, h2, h3, h4, h5, h6{
   font-weight: 400;
@@ -67,59 +129,3 @@ button{
   border: none;
   }
 
-*:focus{
-  outline: none;
-  box-shadow: 0 0 0 3px $link-hover-color;
-  //outline: 3px solid $link-hover-color
-  }
-
-//Needed to remove Firefox default focus styling
--moz-focusring, *::-moz-focus-inner{
-  color: transparent !important;
-  text-shadow: 0 0 0 #000 !important;
-  background-image: none !important;
-  border: 0;
-  }
-
-// Selection colors
-
-::selection{
-  background: $selection-color;
-  }
-  
-::-moz-selection{
-  background: $selection-color;
-  }
-  
-img::selection{
-  background: transparent;
-  }
-  
-img::-moz-selection{
-  background: transparent;
-  }
-  
-body{
-  -webkit-tap-highlight-color: $selection-color;
-  }
-
-
-
-// Basic Styles
-
-body{
-  background: $bg-color;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: .006em;
-  font-family: $text-font-body;
-  color: $text-color;
-  margin: 5px 10px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  }
-
-img{
-  width: 100%;
-  margin: 0;
-  }
