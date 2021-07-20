@@ -1,0 +1,23 @@
+$text-font-title: 'DM Sans', serif;
+$text-font-body: 'Inter', sans-serif;
+
+$shark-gray: #1E1F23;
+
+$text-color: #000000;
+$lighter-text-color: #717171;
+$bg-color: $shark-gray;
+$selection-color: #c6dff0;
+$link-color: #3e6c8f;
+$link-hover-color: #78a3c4;
+$link-hover-bg-color: $selection-color;
+$button-border-color: #45779c;
+
+$container-sm: 800px;
+$container-m: 1200px;
+
+$breakpoint-mobile-l: 426px;
+$breakpoint-tablet: 768px;
+$breakpoint-monitor-sm: 1024px;
+$breakpoint-monitor-m: 1440px;
+$breakpoint-monitor-l: 1920px;
+$breakpoint-monitor-4k: 2560px;
