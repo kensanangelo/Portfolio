@@ -1,7 +1,0 @@
-{% assign header = copy.header %}
-
-<nav>
-	{% for button in header.buttons %}
-		<a href="{{ button.link }}" aria-label="Scroll down to {{ button.name }}">{{ button.name }}</a>
-	{% endfor %}
-</nav>

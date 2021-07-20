@@ -3,21 +3,21 @@ img-src-path: "/assets/img/"
 
 en:
   title: "Ken San Angelo - Web Developer"
-  header:
+  nav:
     buttons:
-      - name: "about"
-        link: "#about"
-
-      - name: "work"
+      - name: "Work"
         link: "#work"
 
-      - name: "contact"
+      - name: "About"
+        link: "#about"
+
+      - name: "Contact"
         link: "#contact"
 
-      - name: "español"
+      - name: "ES"
         link: "/es"
 
-  landing: 
+  landing:
     title: "Ken San Angelo"
     subtitle: "Web Developer"
     img:
@@ -42,7 +42,7 @@ en:
           Besides web development, I also have a passion for photography and videography, 
           which you can check out at 
           <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
-    resume: 
+    resume:
       title: "Resume"
       link: "/resume.pdf"
 
@@ -66,13 +66,13 @@ en:
           alt: "The home page of Gold Tone's website"
         slide:
           full-name: "Gold Tone Music Group"
-          site-link: 
+          site-link:
             name: "Site Link:"
             url: "https://goldtone.com"
-          git-link:  
+          git-link:
             name: "Git Link:"
             url: ""
-          summary: 
+          summary:
             title: "Summary"
             text: >
               Gold Tone is a company that has several very different brands under their 
@@ -82,50 +82,50 @@ en:
               the different brands (including adding products from any brand to the same 
               cart). They then saw a substantial increase in sales and leads for their 
               lesser known brands.
-          writeup: 
-            role: 
+          writeup:
+            role:
               title: "My Role"
               text: >
                 I was brought on at Gold Tone Music Group as their technical developer, 
                 responsible for building and maintaining their websites (full-stack), 
                 as well as overseeing software/app development.
-            problem: 
+            problem:
               title: "Problem"
               text: >
                 They wanted to increase cross-promotion and brand awareness between 
                 the customers of the different brand sites, as they were missing leads 
                 due to the separate sites.
-            solution: 
+            solution:
               title: "Solution"
               text: >
                 I built one website that encompassed all of the brands, so customers 
                 could explore the different brands, switch between them, as well as 
                 add a mix of products to purchase all at once.
-            results: 
+            results:
               title: "Results"
               text: >
                 They saw an enormous boost in sales and leads on all sites, especially 
                 in their smaller/newer brands.
-            img-1: 
+            img-1:
               name: "goldtone/gt-home.jpg"
               alt: "Gold Tone's Home Page"
-            img-2: 
+            img-2:
               name: "goldtone/product-page.jpg"
               alt: "One of Gold Tone's product pages"
-      
+
       - name: "This Site"
         img:
           name: "thissite/main.jpg"
           alt: "The landing page of this website"
         slide:
           full-name: "KenSanAngelo.com"
-          site-link: 
+          site-link:
             name: "Site Link:"
             url: "http://kensanangelo.com"
-          git-link:  
+          git-link:
             name: "Git Link:"
             url: "https://github.com/kensanangelo/Portfolio"
-          summary: 
+          summary:
             title: "Summary"
             text: >
               Now I know what you’re thinking: “You put this site I’m currently on 
@@ -136,18 +136,18 @@ en:
               familiarize myself with those specifically, and to learn of new 
               concepts and ways of thinking that may give me an advantage in the 
               future.
-          writeup: 
-            role: 
+          writeup:
+            role:
               title: "My Role"
               text: >
                 Owner, Design & Development
-            problem: 
+            problem:
               title: "Problem"
               text: >
                 I needed a new portfolio site that would be clean, lasting, and very easy
                 to maintain and update. I also wanted to take the opportunity to learn 
                 some new tools and methods.
-            solution: 
+            solution:
               title: "Solution"
               text: >
                 I chose Jekyll as a way of abstracting different parts of the site to 
@@ -158,24 +158,24 @@ en:
                 it to build and manage my site. Not only did it include preprocessors 
                 (SASS in my case), but it was incredibly flexible and allowed me to set 
                 up and organize the project in a way that I felt most comfortable with.
-                
+
                 In addition, I researched web accessibility best practices to ensure 
                 that I would be able to provide a great user experience no matter how 
                 the site was being accessed (which I can bring with me into future 
                 projects).
-            results: 
+            results:
               title: "Results"
               text: >
                 As you can see, the site was a success! Well-designed, accessible, and 
                 maintainable. Plus I have some new tools and methodology under my belt, 
                 which I can bring with me into future projects.
-            img-1: 
+            img-1:
               name: "thissite/editor.jpg"
               alt: "The code editor VSCode showing the source of this site"
-            img-2: 
+            img-2:
               name: "thissite/wcag.jpg"
               alt: "The site for the Web Content Accessibility Guidelines (WCAG)"
-          
+
       - name: "Robbin the Bank"
         img:
           name: "robbinthebank/main.jpg"
@@ -188,7 +188,7 @@ en:
           git-link:
             name: "Git Link:"
             url: ""
-          summary: 
+          summary:
             title: "Summary"
             text: >
               Robbin the Bank is a rising Central Florida band that was looking for a 
@@ -200,18 +200,18 @@ en:
               slightly disjointed and out of place. This tension makes the elements 
               feel like they almost move on the page, thus conveying a sense of 
               energy (without actually moving).
-          writeup: 
-            role: 
+          writeup:
+            role:
               title: "My Role"
               text: >
                 Designer/Front-End Developer
-            problem: 
+            problem:
               title: "Problem"
               text: >
                 Create a memorable site that conveyed their energy, showcased the band 
                 and provided event information. Their goal was to book more events and 
                 get more attendees to their shows.
-            solution: 
+            solution:
               title: "Solution"
               text: >
                 Using CSS Grids and other development tricks, I created a design that 
@@ -219,21 +219,21 @@ en:
                 things not quite lining up). This creates an almost jolting feeling, 
                 which makes the page feel like it’s almost moving, similar to the moving 
                 energy of the band’s live show.
-            results: 
+            results:
               title: "Results"
               text: >
                 Robbin the Bank saw a noticeable uptick in event promotors reaching out 
                 to them, and people attending events after the launch of the site.
-            img-1: 
+            img-1:
               name: "robbinthebank/about.jpg"
               alt: "The about section of Robbin the Bank's site"
-            img-2: 
+            img-2:
               name: "robbinthebank/events.jpg"
               alt: "The events section of Robbin the Bank's site"
 
   contact:
     header: "Have a project I’d be interested in?"
-    button: 
+    button:
       text: "Email Me"
       link: "ken@kensanangelo.com"
     social:
@@ -261,7 +261,7 @@ es:
       - name: "english"
         link: "/"
 
-  landing: 
+  landing:
     title: Ken San Angelo
     subtitle: Desarrollador Web
     img:
@@ -287,7 +287,7 @@ es:
           Además de desarrollo web, también tengo una pasión por la fotografía y 
           videografía, el cuál puedes mirar en 
           <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
-    resume: 
+    resume:
       title: "Currículum"
       link: "/curriculum.pdf"
 
@@ -296,7 +296,7 @@ es:
       Nuestro nuevo sitio ha creado oportunidades enormes para promoción mutua entre 
       nuestras marcas y se hace más fácil para informar a los clientes y convertir 
       prospectos. Además de eso, Ken siempre ha sido muy conocedor, profesional, y 
-      muy divertido en el trabajo. 
+      muy divertido en el trabajo.
     name: "Mike Johnson"
     position: "Gerente de Ventas, Gold Tone Music Group"
     img:
@@ -312,13 +312,13 @@ es:
           alt: "La página de aterrizaje de Gold Tone Music Group"
         slide:
           full-name: "Gold Tone Music Group"
-          site-link: 
+          site-link:
             name: "Enlace del Sitio:"
             url: "https://goldtone.com"
-          git-link:  
+          git-link:
             name: "Enlace de Git:"
             url: ""
-          summary: 
+          summary:
             title: "Resumen"
             text: >
               Gold Tone es una compañía que maneja varias marcas muy diferentes entre 
@@ -328,51 +328,51 @@ es:
               lugar (incluso añadir productos de cualquier marca al mismo carrito). 
               Entonces vieron un aumento considerable en ventas y clientes potenciales 
               para sus marcas menos conocidas.
-          writeup: 
-            role: 
+          writeup:
+            role:
               title: "Papel"
               text: >
                 Yo estaba empleado en Gold Tone Music Group como su desarrollador 
                 técnico, responsable para construir y mantener sus sitios 
                 (full-stack), además de supervisar el desarrollo de software y una 
                 app.
-            problem: 
+            problem:
               title: "Problema"
               text: >
                 Querían aumentar interpromoción y conciencia de marca entre los 
                 clientes de los sitios de las marcas distintas, porque se perdían 
                 clientes potenciales debido a los sitios separados.
-            solution: 
+            solution:
               title: "Solución"
               text: >
                 Construí un sitio que abarcó todas las marcas, así que los clientes 
                 podían explorarlas todas, cambiar entre ellas y además de añadir una 
                 mezcla de productos para comprar al mismo tiempo.
-            results: 
+            results:
               title: "Resultados"
               text: >
                 Vieron un aumento enorme de ventas y clientes potenciales para todas 
                 las marcas, especialmente las mas pequeñas/nuevas.
-            img-1: 
+            img-1:
               name: "goldtone/gt-home.jpg"
               alt: "La página de aterrizaje de la marca, Gold Tone"
-            img-2: 
+            img-2:
               name: "goldtone/product-page.jpg"
               alt: "Una de las páginas de productos de Gold Tone"
-      
+
       - name: "Este Sitio"
         img:
           name: "thissite/main.jpg"
           alt: "La página de aterrizaje de este sitio"
         slide:
           full-name: "KenSanAngelo.com"
-          site-link: 
+          site-link:
             name: "Enlace del Sitio:"
             url: "http://kensanangelo.com"
-          git-link:  
+          git-link:
             name: "Enlace de Git:"
             url: "https://github.com/kensanangelo/Portfolio"
-          summary: 
+          summary:
             title: "Resumen"
             text: >
               Bueno, sé que estas pensando: "¿Pusiste este sitio como un proyecto para 
@@ -382,18 +382,18 @@ es:
               tecnología que podría ser útil en proyectos futuros, para acostumbrarme 
               a esas específicamente, y para aprender de conceptos nuevos y formas de 
               pensar que podría darme una ventaja en el futuro.
-          writeup: 
-            role: 
+          writeup:
+            role:
               title: "Papel"
               text: >
                 Dueño, Diseño y Desarrollo
-            problem: 
+            problem:
               title: "Problema"
               text: >
                 Necesitaba un sitio nuevo de portafolio limpio, duradero, y muy fácil 
                 para mantener y actualizar. También quise tomar la oportunidad para 
                 aprender a usar herramientas y métodos nuevos.
-            solution: 
+            solution:
               title: "Solución"
               text: >
                 Elegí Jekyll como una manera de abstraer partes diferentes del sitio a 
@@ -415,13 +415,13 @@ es:
                 Como puede ver, ¡el sitio fue un éxito! Bien diseñado, accesible, y 
                 mantenible. Además tengo herramientas y metodología nueva que siempre 
                 podré usar en mis nuevos proyectos.
-            img-1: 
+            img-1:
               name: "thissite/editor.jpg"
               alt: "El editor de código, VSCode, mostrando la fuente de este sitio"
-            img-2: 
+            img-2:
               name: "thissite/wcag.jpg"
               alt: "El sitio de las Pautas de Accesibilidad para el Contenido Web (WCAG)"
-          
+
       - name: "Robbin the Bank"
         img:
           name: "robbinthebank/main.jpg"
@@ -434,7 +434,7 @@ es:
           git-link:
             name: "Enlace de Git:"
             url: ""
-          summary: 
+          summary:
             title: "Resumen"
             text: >
               Robbin the Bank es un grupo creciente de Florida central que buscaba una 
@@ -447,18 +447,18 @@ es:
               tensión hace que los elementos le den un toque de movimiento a la 
               página, de este modo transmiten un sentido de energía (sin moverse de 
               verdad).
-          writeup: 
-            role: 
+          writeup:
+            role:
               title: "Papel"
               text: >
                 Diseñador/Desarrollador Front-End
-            problem: 
+            problem:
               title: "Problema"
               text: >
                 Crear un sitio memorable que transmite su energía, exhibe al grupo, y 
                 provee información de eventos. Su meta fue para reservar más eventos y 
                 tener más asistentes en sus shows.
-            solution: 
+            solution:
               title: "Solución"
               text: >
                 Utilizando CSS Grids y otros trucos de desarrollo, creé un diseño que 
@@ -472,16 +472,16 @@ es:
                 Robbin the Bank vieron un repunte distinguible de promotores de 
                 eventos contactandolos, y asistentes yendo a sus eventos después del 
                 lanzamiento del sitio.
-            img-1: 
+            img-1:
               name: "robbinthebank/about.jpg"
               alt: "Sección acerca del sitio de Robbin the Bank"
-            img-2: 
+            img-2:
               name: "robbinthebank/events.jpg"
               alt: "Sección de eventos en el sitio de Robbin the Bank"
 
   contact:
     header: "¿Tiene un proyecto que me interesaría?"
-    button: 
+    button:
       text: "Envieme un email"
       link: "ken@kensanangelo.com"
     social:
@@ -494,3 +494,4 @@ es:
         title: "LinkedIn"
 
 ---
+

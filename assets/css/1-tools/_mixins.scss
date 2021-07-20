@@ -1,0 +1,24 @@
+
+@mixin mediaQuery($point) {
+  @if $point == 'mobile-l' {
+    @media (min-width: $breakpoint-mobile-l) { @content; }
+  }
+  @else if $point == 'tablet' {
+    @media (min-width: $breakpoint-tablet) { @content; }
+  }
+	  @else if $point == 'monitor-sm' {
+    @media (min-width: $breakpoint-monitor-sm) { @content; }
+  }
+	  @else if $point == 'monitor-sm' {
+    @media (min-width: $breakpoint-monitor-sm) { @content; }
+  }
+	  @else if $point == 'monitor-m' {
+    @media (min-width: $breakpoint-monitor-m) { @content; }
+  }
+	  @else if $point == 'monitor-l' {
+    @media (min-width: $breakpoint-monitor-l) { @content; }
+  }
+	  @else if $point == 'monitor-4k' {
+    @media (min-width: $breakpoint-monitor-4k) { @content; }
+  }
+}
