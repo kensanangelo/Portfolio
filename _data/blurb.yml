@@ -1,0 +1,31 @@
+---
+en:
+   headerHighlight: Hello
+   header: I'm <br />Ken San Angelo
+   summary:
+      - A web developer based in Orlando, Florida. Currently working as a technical developer.
+      - I am also a founder of Design+Code@UCF, and I have a passion for photography and videography,
+   moreButton:
+      text: Read More
+      link: /about
+   resume:
+      label: Resume
+      text: View Resume (pdf 100kb)
+      link: /portfolio.pdf
+
+es:
+   headerHighlight: Hola
+   header: me llamo <br />Ken San Angelo
+   summary:
+      - A web developer based in Orlando, Florida. Currently working as a technical developer.
+      - I am also a founder of Design+Code@UCF, and I have a passion for photography and videography,
+   moreButton:
+      text: Read More
+      link: /about
+   resume:
+      label: Resume
+      text: View Resume (pdf 100kb)
+      link: /portfolio.pdf
+
+---
+

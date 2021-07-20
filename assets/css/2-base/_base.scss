@@ -1,131 +1,146 @@
 // Basic Styles
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
-
-body{
-  background: $bg-color;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: .006em;
-  font-family: $text-font-body;
-  color: $text-color;
-  margin: 5px 10px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: $selection-color;
-  }
-
+body {
+	background: $bg-color;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.006em;
+	font-family: $text-font-body;
+	color: $text-color;
+	margin: 5px 10px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: $selection-color;
+}
 
 // Focus/selection states
-*:focus{
-  outline: none;
-  box-shadow: 0 0 0 3px $link-hover-color;
-  //outline: 3px solid $link-hover-color
-  }
+*:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px $link-hover-color;
+	//outline: 3px solid $link-hover-color
+}
 
 //Needed to remove Firefox default focus styling
--moz-focusring, *::-moz-focus-inner{
-  color: transparent !important;
-  text-shadow: 0 0 0 #000 !important;
-  background-image: none !important;
-  border: 0;
-  }
+-moz-focusring,
+*::-moz-focus-inner {
+	color: transparent !important;
+	text-shadow: 0 0 0 #000 !important;
+	background-image: none !important;
+	border: 0;
+}
 
 // Selection colors
 
-::selection{
-  background: $selection-color;
-  }
-  
-::-moz-selection{
-  background: $selection-color;
-  }
-  
-img::selection{
-  background: transparent;
-  }
-  
-img::-moz-selection{
-  background: transparent;
-  }
+::selection {
+	background: $selection-color;
+}
 
+::-moz-selection {
+	background: $selection-color;
+}
 
-img{
-  width: 100%;
-  margin: 0;
-  }
+img::selection {
+	background: transparent;
+}
 
-  //	Typography
- 
-h1, h2, h3, h4, h5, h6{
-  font-weight: 400;
-  }
+img::-moz-selection {
+	background: transparent;
+}
 
-h1{
-  font-size: 2.9rem;
-  line-height: 1.05;
-  letter-spacing: -1px;
-  font-family: $text-font-title;
-  margin: 0;
-  }
+img {
+	width: 100%;
+	margin: 0;
+}
 
-h2{
-  font-size: 2.1rem;
-  line-height: 1.14;
-  font-family: $text-font-body;
-  margin: 0;
-  }
+//	Typography
 
-h3{
-  font-size: 1.3rem;
-  line-height: 1.2;
-  font-family: $text-font-body;
-  font-weight: 700;
-  } 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+}
 
-h4{
-  font-size: 2rem;
-  line-height: 1.38;
-  font-family: $text-font-title;
-  }
+h1 {
+	font-size: 3.75rem;
+	line-height: 97.2%;
+	font-weight: 500;
 
-h5{
-  font-family: $text-font-body;
-  }
+	letter-spacing: -0.03em;
+	font-family: $text-font-main;
+	margin: 0;
 
-p{
-  margin: 0 0 20px 0;
-  font-size: 1.05rem;
-  }
+	.highlight {
+		font-weight: 700;
+	}
+}
 
-em{
-  font-style: italic;
-  }
+h2 {
+	font-size: 2.1rem;
+	line-height: 1.14;
+	font-family: $text-font-body;
+	margin: 0;
+}
 
-strong{
-  font-weight: bold;
-  }
+h3 {
+	font-size: 1.3rem;
+	line-height: 1.2;
+	font-family: $text-font-body;
+	font-weight: 700;
+}
 
+h4 {
+	font-size: 2rem;
+	line-height: 1.38;
+	font-family: $text-font-main;
+}
+
+h5 {
+	font-family: $text-font-body;
+}
+
+p {
+	font-family: $text-font-main;
+	font-size: 1.25rem;
+	font-weight: 400;
+	line-height: 1.3;
+	letter-spacing: -0.03em;
+
+	color: $text-color-lighter;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
 
 // Links
 
-a{
-  color: $link-color;
-  transition: color .2s;
-  
-  &:hover, &:focus{
-    color: $link-hover-color;
-    }
-  }
+a {
+	color: $link-color;
+	transition: color 0.2s;
 
-button{
-  background: none;
-  padding: 0;
-  border: none;
-  }
+	&:hover,
+	&:focus {
+		color: $link-hover-color;
+	}
+}
 
+button {
+	background: none;
+	padding: 0;
+	border: none;
+}

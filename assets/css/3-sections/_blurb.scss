@@ -1,0 +1,19 @@
+.blurb {
+	max-width: $container-m;
+	margin: 0 auto;
+
+	padding-left: $container-padding;
+	padding-right: $container-padding;
+
+	&__summary {
+	}
+
+	&__paragraph {
+		margin-top: 0;
+		margin-bottom: rem(15px);
+	}
+
+	&__more {
+		text-decoration: none;
+	}
+}
