@@ -1,21 +1,34 @@
 {% assign copy = site.data.blurb[page.language] %}
 
 <section class="blurb">
-	<h1>
-		<span class="highlight">{{copy.headerHighlight}}</span>, {{copy.header}}
-	</h1>
-	<div class="blurb__resume">
-		<p class="blurb__resume-label">{{copy.resume.label}}</p>
-		<a href="{{copy.resume.link}}" class="blurb__resume-link"
-			>{{copy.resume.text}}</a
-		>
+	<div class="blurb__content">
+		<h1 class="blurb__header">
+			<span class="highlight">{{copy.headerHighlight}}</span>,
+			{{copy.header}}
+		</h1>
+		<div class="blurb__split">
+			<div class="blurb__resume">
+				<p class="blurb__resume-label">{{copy.resume.label}}</p>
+				<a href="{{copy.resume.link}}" class="blurb__resume-link"
+					>{{copy.resume.text}}</a
+				>
+			</div>
+			<div class="blurb__summary">
+				{% for paragraph in copy.summary %}
+				<p class="blurb__paragraph">{{paragraph}}</p>
+				{% endfor %}
+				<a class="blurb__more" href="{{copy.moreButton.link}}"
+					>{{copy.moreButton.text}}</a
+				>
+			</div>
+		</div>
 	</div>
-	<div class="blurb__summary">
-		{% for paragraph in copy.summary %}
-		<p class="blurb__paragraph">{{paragraph}}</p>
-		{% endfor %}
-		<a class="blurb__more" href="{{copy.moreButton.link}}"
-			>{{copy.moreButton.text}}</a
-		>
-	</div>
+	<img
+		src="{{copy.portrait.img}}"
+		alt="{{copy.portrait.alt}}"
+		class="blurb__portrait"
+	/>
+	<a href="#work" class="blurb__down" data-scroll
+		>{% include icons/downArrow.svg %}</a
+	>
 </section>

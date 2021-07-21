@@ -1,11 +1,26 @@
 .blurb {
+	position: relative;
 	max-width: $container-m;
 	margin: 0 auto;
 
 	padding-left: $container-padding;
 	padding-right: $container-padding;
 
+	display: flex;
+	justify-content: space-between;
+
+	margin-bottom: rem(153px);
+
+	&__header {
+		margin-bottom: rem(48px);
+	}
+
+	&__split {
+		display: flex;
+	}
+
 	&__summary {
+		max-width: rem(384px);
 	}
 
 	&__paragraph {
@@ -15,5 +30,39 @@
 
 	&__more {
 		text-decoration: none;
+	}
+
+	&__resume {
+		margin-right: rem(50px);
+	}
+
+	&__resume-label {
+		font-family: $text-font-main;
+		font-style: normal;
+		font-weight: 700;
+		font-size: rem(18px);
+		line-height: 100.9%;
+		color: $white-pure;
+	}
+
+	&__resume-link {
+		font-family: $text-font-body;
+		font-size: rem(18px);
+		line-height: 121.5%;
+		letter-spacing: -0.03em;
+		margin-bottom: 7px;
+		text-decoration: none;
+	}
+
+	&__portrait {
+		border-radius: 0px 90px 0px 0px;
+		max-width: rem(352px);
+		mix-blend-mode: luminosity;
+	}
+
+	&__down {
+		position: absolute;
+		bottom: 0;
+		left: $container-padding;
 	}
 }

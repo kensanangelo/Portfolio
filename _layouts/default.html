@@ -3,27 +3,26 @@
 
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
+	<head>
+		<title>{{ copy.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="icon" href="/favicon.png" />
 
-<head>
-	<title>{{ copy.title }}</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="icon" href="/favicon.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/assets/css/main.css" />
+	</head>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="/assets/css/main.css" />
-</head>
+	<body>
+		{% include nav.html %} {{ content }}
 
-<body>
-	{% include nav.html %}
-	{{ content }}
-
-	<script src="/assets/js/jquery-2.1.1.min.js"></script>
-	<script src="/assets/js/functions.js"></script>
-</body>
-
+		<script src="/assets/js/jquery-2.1.1.min.js"></script>
+		<script src="/assets/js/functions.js"></script>
+	</body>
 </html>

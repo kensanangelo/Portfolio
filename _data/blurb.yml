@@ -12,6 +12,9 @@ en:
       label: Resume
       text: View Resume (pdf 100kb)
       link: /portfolio.pdf
+   portrait:
+      img: '/assets/img/portrait.png'
+      alt: 'A portrait of me, Ken San Angelo'
 
 es:
    headerHighlight: Hola
@@ -26,6 +29,9 @@ es:
       label: Resume
       text: View Resume (pdf 100kb)
       link: /portfolio.pdf
+   portrait:
+      img: '/assets/img/portrait.png'
+      alt: 'A portrait of me, Ken San Angelo'
 
 ---
 

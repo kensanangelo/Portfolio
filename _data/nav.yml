@@ -1,29 +1,29 @@
 ---
 en:
-  - name: "Work"
-    link: "#work"
+   - name: 'Work'
+     link: '#work'
 
-  - name: "About"
-    link: "#about"
+   - name: 'About'
+     link: '/about'
 
-  - name: "Contact"
-    link: "#contact"
+   - name: 'Contact'
+     link: '#contact'
 
-  - name: "ES"
-    link: "/es"
+   - name: 'ES'
+     link: '/es'
 
 es:
-  - name: "Trabajo"
-    link: "#work"
+   - name: 'Trabajo'
+     link: '#work'
 
-  - name: "Acerca de"
-    link: "#about"
+   - name: 'Acerca de'
+     link: '#about'
 
-  - name: "Contacto"
-    link: "#contact"
+   - name: 'Contacto'
+     link: '#contact'
 
-  - name: "EN"
-    link: "/"
+   - name: 'EN'
+     link: '/'
 
 ---
 

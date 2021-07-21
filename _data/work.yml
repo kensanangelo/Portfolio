@@ -1,0 +1,35 @@
+---
+en:
+   moreText: Learn more about this project
+   sites:
+      - title: 01 / H&H Products Company
+        desc:
+           - Test
+        siteLink: https://hhproductscompany.com
+        slug: /work/hh-products-company
+        img: /assets/img/goldtone/main.jpg
+
+      - title: 02 / Dollar Font Club
+        desc: >
+           Test
+        siteLink: https://www.dollarfontclub.com/
+        slug: /work/dollar-font-club
+
+      - title: 03 / Fracture Customizer
+        desc: >
+           Test
+        siteLink: https://fractureme.com/upload/
+        slug: /work/fracture
+
+      - title: 04 / Gold Tone Music Group
+        desc: >
+           Gold Tone is a company that has several very different brands under their umbrella. I designed and built one website for all the brands, allowing customers to explore the different brands.
+        siteLink: https://goldtonemusicgroup.com
+        slug: /work/gold-tone
+        img: /assets/img/goldtone/main.jpg
+        alt: Gold Tone's site
+
+es:
+
+---
+

@@ -1,69 +1,70 @@
-$(document).ready(function(){
-  //Hides work slides on load, so they are still accessable without JS
-  $(".project-slide").addClass("hidden");
+$(document).ready(function () {
+	//Hides work slides on load, so they are still accessable without JS
+	$('.project-slide').addClass('hidden');
 
-  navScroll();
-  workSlide();
+	navScroll();
+	workSlide();
 });
 
-
 //Scrolls to selected section from top nav
-function navScroll(){
-  $("nav a").click(function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
+function navScroll() {
+	$('[data-scroll]').click(function (event) {
+		if (this.hash !== '') {
+			event.preventDefault();
+			var hash = this.hash;
 
-      scrollTo(hash);
-    }
-  });
+			scrollTo(hash);
+		}
+	});
 }
 
-
-//Scrolls between work sections by showing and hiding sections 
+//Scrolls between work sections by showing and hiding sections
 //while sliding left to right
-function workSlide(){
-  //For main thumb-slide
-  $(".thumb").click(function(){
-    //Grabs which slide they are choosing
-    var which_slide = $(this).data("order");
+function workSlide() {
+	//For main thumb-slide
+	$('.thumb').click(function () {
+		//Grabs which slide they are choosing
+		var which_slide = $(this).data('order');
 
-    //Slides big slides div to the right
-    $(".slides").addClass('project-open');
+		//Slides big slides div to the right
+		$('.slides').addClass('project-open');
 
-    $("#slide-"+which_slide).removeClass('hidden');
+		$('#slide-' + which_slide).removeClass('hidden');
 
-    //Delays hiding slide, so it's less of a noticible pop
-    setTimeout(function () {
-      $(".thumb-slide").addClass('hidden');
-    }, 800);
+		//Delays hiding slide, so it's less of a noticible pop
+		setTimeout(function () {
+			$('.thumb-slide').addClass('hidden');
+		}, 800);
 
-    scrollTo("#work"); //Scrolls to top of section (less awkward to start reading from)
-    $("#work").focus(); //For accessibility
-  });
+		scrollTo('#work'); //Scrolls to top of section (less awkward to start reading from)
+		$('#work').focus(); //For accessibility
+	});
 
-  //For project slides
-  $(".return-arrow").click(function(){
-    //Grabs which slide they are on
-    var which_slide = $(this).data("slide");
-    
-    $(".slides").removeClass('project-open');
-    $(".thumb-slide").removeClass('hidden');
-    
-    setTimeout(function () {
-      $("#slide-"+which_slide).addClass('hidden');
-    }, 800);
+	//For project slides
+	$('.return-arrow').click(function () {
+		//Grabs which slide they are on
+		var which_slide = $(this).data('slide');
 
-    scrollTo("#work");
-    $("#work").focus();
-  });
+		$('.slides').removeClass('project-open');
+		$('.thumb-slide').removeClass('hidden');
+
+		setTimeout(function () {
+			$('#slide-' + which_slide).addClass('hidden');
+		}, 800);
+
+		scrollTo('#work');
+		$('#work').focus();
+	});
 }
 
 //Smooth scroll function
 function scrollTo(location) {
-  $('html, body').animate({
-      scrollTop: $(location).offset().top
-  }, 800);
+	$('html, body').animate(
+		{
+			scrollTop: $(location).offset().top,
+		},
+		800
+	);
 
-  $(location).focus();
+	$(location).focus();
 }

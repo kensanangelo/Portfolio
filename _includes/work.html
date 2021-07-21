@@ -1,0 +1,22 @@
+{% assign copy = site.data.work[page.language] %}
+
+<section class="work" id="work">
+	{% for article in copy.sites %}
+	<article class="work__article">
+		<div class="work__content">
+			<a href="{{article.slug}}">
+				<h3 class="work__header">{{article.title}}</h3>
+			</a>
+			<div class="work__desc">
+				{% for paragraph in article.desc %}
+				<p class="work__paragraph">{{paragraph}}</p>
+				{% endfor %}
+			</div>
+			<a href="{{article.slug}}" class="work__more">{{copy.moreText}}</a>
+		</div>
+		<a href="{{article.slug}}" class="work__img-link">
+			<img src="{{article.img}}" alt="{{article.alt}}" class="work__img" />
+		</a>
+	</article>
+	{% endfor %}
+</section>

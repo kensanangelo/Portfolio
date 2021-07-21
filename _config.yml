@@ -6,5 +6,5 @@ permalink: pretty
 port: 4000
 
 sass:
-  sass_dir: assets/css
-  style: :nested
+   sass_dir: assets/css
+   style: :nested

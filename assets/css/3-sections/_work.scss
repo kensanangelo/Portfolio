@@ -1,0 +1,50 @@
+.work {
+	max-width: $container-m;
+	margin: 0 auto;
+	margin-bottom: rem(73px);
+
+	&__article {
+		display: flex;
+		justify-content: space-between;
+
+		padding-bottom: rem(106px);
+		border-bottom: 1.5px solid #ffffff;
+
+		&:not(:last-child) {
+			margin-bottom: rem(80px);
+		}
+	}
+
+	&__content {
+		margin-right: rem(124px);
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__header {
+		font-family: $text-font-body;
+		font-weight: 500;
+		font-size: rem(18px);
+		line-height: 121.5%;
+		letter-spacing: -0.03em;
+	}
+
+	&__paragraph {
+		font-family: $text-font-body;
+		font-size: rem(18px);
+		line-height: 121.5%;
+		letter-spacing: -0.03em;
+		color: $white-pure;
+		margin-bottom: 30px;
+	}
+
+	&__more {
+		margin-top: auto;
+	}
+
+	&__img-link {
+		max-width: rem(640px);
+		flex: 0 0 rem(640px);
+	}
+}
