@@ -1,0 +1,22 @@
+{% assign copy = site.data.about[page.language] %}
+
+<section class="about">
+	<div class="about__main">
+		<div class="about__content">
+			<h1 class="about__header">
+				<span class="highlight">{{copy.titleHighlight}}</span>,
+				{{copy.title}}
+			</h1>
+			<div class="about__summary">
+				{% for paragraph in copy.summary %}
+				<p class="about__paragraph">{{paragraph}}</p>
+				{% endfor %}
+			</div>
+		</div>
+		<img
+			src="{{copy.portrait.img}}"
+			alt="{{copy.portrait.alt}}"
+			class="about__portrait"
+		/>
+	</div>
+</section>

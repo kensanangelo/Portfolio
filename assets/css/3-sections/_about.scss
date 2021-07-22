@@ -1,0 +1,36 @@
+.about {
+	max-width: $container-m;
+	margin: 0 auto;
+
+	padding-left: $container-padding;
+	padding-right: $container-padding;
+
+	&__main {
+		display: flex;
+	}
+
+	&__content {
+		padding-right: rem(76px);
+	}
+
+	&__header {
+		font-family: $text-font-main;
+		font-weight: 500;
+		font-size: rem(55px);
+		line-height: 97.2%;
+		letter-spacing: -0.03em;
+		margin-bottom: rem(60px);
+	}
+
+	&__summary {
+		p {
+			font-size: rem(24px);
+		}
+	}
+
+	&__portrait {
+		max-width: rem(469px);
+		flex: 0 0 rem(469px);
+		mix-blend-mode: luminosity;
+	}
+}
