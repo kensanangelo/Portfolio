@@ -164,7 +164,7 @@ en:
                  problem:
                     title: 'Problem'
                     text: >
-                       They needed a photo uploading/customizing that made it easier for customers to select the right frame, as well as driving sales and addons.
+                       They needed a photo uploading/customizing system that made it easier for customers to select the right frame, as well as driving sales and addons.
                  solution:
                     title: 'Solution'
                     text: >
@@ -297,161 +297,161 @@ es:
          - name: 'H&H Products'
            img:
               name: 'hh/hh-main.jpg'
-              alt: 'The home page of H&H Products Company'
+              alt: 'La página de aterrizaje de H&H Products Company'
            slide:
               full-name: 'H&H Products Company'
               site-link:
-                 name: 'Site Link:'
+                 name: 'Enlace del Sitio:'
                  url: 'https://hhproductscompany.com/'
               git-link:
-                 name: 'Big Vision Link:'
+                 name: 'Enlace de Big Vision:'
                  url: 'https://www.big.vision/case-studies/hh-products/'
               summary:
-                 title: 'Summary'
+                 title: 'Resumen'
                  text: >
-                    H&H Products Company is a specialty beverage manufacturer, that wanted to revamp their branding that better represented their company. The site is a continuation of that, featuring bright, interesting photography, and smooth animations.
+                    H&H Products Company es un productor de bebidas de especialidad, que quería reformar su marca para representar mejor su compañía. El sitio es una continuación de eso, incluyo fotografía brillante interesante, y animaciónes finos.
               writeup:
                  role:
-                    title: 'Role'
+                    title: 'Papel'
                     text: >
-                       Developer, as a member of the Big Vision team
+                       Desarrollador, como miembro del equipo de Big Vision.
                  problem:
-                    title: 'Problem'
+                    title: 'Problema'
                     text: >
-                       The company needed an e-commerce site that they could maintain and update over time to support their business strategies, while still being functional and great looking.
+                       La compañía necesitó un sitio e-commerce que podían mantener y actualizar con el tiempo para apoyar sus estratégias de negocio, mientras todavía funccional y bonito.
                  solution:
-                    title: 'Solution'
+                    title: 'Solución'
                     text: >
-                       For this site, I chose to use Wordpress with Woocommerce so they could have the e-commerce functionality, and also have the ease of updating the site content as needed. I built a custom theme so that I could create the pages with handcrafted animations, and still give them the ability to add more pages as needed.
+                       Para este sitio, elegí usar Wordpress con Woocommerce asi que podían tener la funcionalidad de e-commerce, y tambien tener la facilidad de actualizar el contento del sitio. Construí una tema a medida así que podía crear las páginas con animaciones hecho a mano, y todavía darlos la habilidad de añadir más páginas según sea necesario.
                  results:
-                    title: 'Results'
+                    title: 'Resultados'
                     text: >
-                       H&H Products was very happy with the quality of their site, and they saw an increase in sales and attention from their clients and industry peers.
+                       H&H Products estaba muy contento con la calidad de su sitio, y veían un aumento de ventas y attención de sus clientes y los pares de la industria.
                  img-1:
                     name: 'hh/hh-2.jpg'
-                    alt: 'A product categories section of the H&H site'
+                    alt: 'Una sección de categorias de productions en H&H'
                  img-2:
                     name: 'hh/hh-3.jpg'
-                    alt: 'A product list from the H&H site'
+                    alt: 'Una lista de productos en H&H'
 
          - name: 'Dollar Font Club'
            img:
               name: 'dfc/dfc-main.jpg'
-              alt: 'The landing page of the Dollar Font Club website'
+              alt: 'La página de aterrizaje de Dollar Font Club'
            slide:
               full-name: 'Dollar Font Club'
               site-link:
-                 name: 'Site Link:'
+                 name: 'Enlace del Sitio:'
                  url: 'https://www.dollarfontclub.com/'
               git-link:
-                 name: 'Big Vision Link:'
+                 name: 'Enlace de Big Vision:'
                  url: 'https://www.big.vision/'
               summary:
-                 title: 'Summary'
+                 title: 'Resumen'
                  text: >
-                    A font service developed by Big Vision that features a new font released every month, that users can link to and use on their site (similar to Google Fonts or Adobe Fonts), as well as a desktop app where users can download the fonts for use in their preferred programs.
+                    Un servicio de fuentes desarrollado por Big Vision que lanza un fuente nuevo cada mes, con que los usuarios pueden unir y usar con su sitio (semejante a Google Fonts o Adobe Fonts), además de un app de escritorio donde usuarios pueden descargar los fuentes para usar en sus aplicaciones preferidos.
               writeup:
                  role:
-                    title: 'Role'
+                    title: 'Papel'
                     text: >
-                       Developer, as a member of the Big Vision team
+                       Desarrollador, como miembro del equipo de Big Vision.
                  problem:
-                    title: 'Problem'
+                    title: 'Problema'
                     text: >
-                       Users needed to be able to use the fonts on their websites, or bring them into their desktop applications for professional use (all while being secure, so that the fonts can’t be stolen or linked to on the wrong website).
+                       Usuarios necesitaron poder usar los fuentes en sus sitios, o traerlo a dentro de sus applicaciones de escritorio para uso profesional (mientras ser seguro, así que los fuentes no pueden ser robados o unido a un sitio incorrecto).
                  solution:
-                    title: 'Solution'
+                    title: 'Solución'
                     text: >
-                       I built a desktop application using Electron that securely installed/uninstalled fonts so the user could use them in their applications, as well as a Node web application that generated and hosted CSS files, which approved sites could link or import and use on their websites.
+                       Construí un app de escritorio usando Electron que instalaba/desinstalaba seguramente los fuentes así que el usuario podría usar los en sus aplicaciónes, además de un aplicación web de Node que generaba y servía archivos de CSS, de que sitios aceptados podría unir o importar y usar en sus sitios.
                  results:
-                    title: 'Results'
+                    title: 'Resultados'
                     text: >
-                       The functionality was a success, and the site continues to be maintained and improved over time for its users.
+                       La funcionalidad fue un éxito, y el sitio continua ser mantenido y mejorado en el tiempo para sus usuarios.
                  img-1:
                     name: 'dfc/dfc-2.jpg'
-                    alt: 'A font list view on the Dollar Font Club website'
+                    alt: 'Una lista de fuentes en el sitio de Dollar Font Club'
                  img-2:
                     name: 'dfc/dfc-3.jpg'
-                    alt: 'A screenshot of the desktop app'
+                    alt: 'Una captura de pantalla del app de escritorio'
 
          - name: 'Fracture'
            img:
               name: 'fcr/fcr-main.jpg'
-              alt: 'The customizer for Fracture'
+              alt: 'El personalizador de Fracture'
            slide:
               full-name: 'Fracture Customizer'
               site-link:
-                 name: 'Site Link:'
+                 name: 'Enlace del Sitio:'
                  url: 'https://fractureme.com/upload/'
               git-link:
-                 name: 'Big Vision Link:'
+                 name: 'Enlace de Big Vision:'
                  url: 'https://www.big.vision/'
               summary:
-                 title: 'Summary'
+                 title: 'Resumen'
                  text: >
-                    Fracture is a photo printing company that specializes in printing on glass. They wanted an updated uploading/editing application that increased conversions and made the process easier to use for customers.
+                    Fracture es una compañía de impresiones fotográficas que se especializa en impresiones de vidrio. Querían un app actualizado para subir/editar fotos que aumentó las conversiones y hacía más facil el proceso para clientes.
               writeup:
                  role:
-                    title: 'Role'
+                    title: 'Papel'
                     text: >
-                       Developer, as a member of the Big Vision team
+                       Desarrollador, como miembro del equipo de Big Vision.
                  problem:
-                    title: 'Problem'
+                    title: 'Problema'
                     text: >
-                       They needed a photo uploading/customizing that made it easier for customers to select the right frame, as well as driving sales and addons.
+                       Necesitaban  una sistema de subir/personalizar fotos que fue más facil para elegir el marco correcto, además de subir ventas y compras de addons.
                  solution:
-                    title: 'Solution'
+                    title: 'Solución'
                     text: >
-                       We built a full web application in React that connected to their backend services, then continued to test, develop, and work with their team to improve the app over time.
+                       Construimos una aplicación completo en React que conectaba a sus servicios backend, entonces continuamos probar, desarrolar y trabajar con su equipo para mejorar el app con el tiempo.
                  results:
-                    title: 'Results'
+                    title: 'Resultados'
                     text: >
-                       They saw a notable increase in sales, as well as a lower bounce rate on the site.
+                       Vieron un aumento notable en ventas, además de un porcentaje más bajo de rebote en su sitio.
                  img-1:
                     name: 'fcr/fcr-2.jpg'
-                    alt: 'The product selection view for Fracture'
+                    alt: 'La vista de la selección de productions en el sitio de Fracture'
                  img-2:
                     name: 'fcr/fcr-3.jpg'
-                    alt: 'The addons view for Fracture'
+                    alt: 'La vista de addons en el sitio de Fracture'
          - name: 'Gold Tone'
            img:
               name: 'goldtone/main.jpg'
-              alt: "The home page of Gold Tone's website"
+              alt: 'La página de aterrizaje de Gold Tone Music Group'
            slide:
               full-name: 'Gold Tone Music Group'
               site-link:
-                 name: 'Site Link:'
+                 name: 'Enlace del Sitio:'
                  url: 'https://goldtone.com'
               git-link:
-                 name: 'Git Link:'
+                 name: 'Enlace:'
                  url: ''
               summary:
-                 title: 'Summary'
+                 title: 'Resumen'
                  text: >
-                    Gold Tone is a company that has several very different brands under their umbrella. Originally, they had separate websites for each one, but were unhappy with the lack of cross-promotion and brand awareness. I designed and built one website for all the brands, allowing customers to explore the different brands (including adding products from any brand to the same cart). They then saw a substantial increase in sales and leads for their lesser-known brands.
+                    Gold Tone es una compañía que maneja varias marcas muy diferentes entre sí. Originalmente, tenían sitios separados para cada marca, pero estaban discontentos con la falta de interpromoción y conciencia de marca. Diseñé y construí un sitio para explorar todas las marcas en un mismo lugar (incluso añadir productos de cualquier marca al mismo carrito). Entonces vieron un aumento considerable en ventas y clientes potenciales para sus marcas menos conocidas.
               writeup:
                  role:
-                    title: 'Role'
+                    title: 'Papel'
                     text: >
-                       Product owner, designer, developer, photographer
+                       Propietario del producto, diseñador, desarrollador, fotógrafo
                  problem:
-                    title: 'Problem'
+                    title: 'Problema'
                     text: >
-                       They wanted to increase cross-promotion and brand awareness between the customers of the different brand sites, as they were missing leads due to the separate sites.
+                       Querían aumentar interpromoción y conciencia de marca entre los clientes de los sitios de las marcas distintas, porque se perdían clientes potenciales debido a los sitios separados.
                  solution:
-                    title: 'Solution'
+                    title: 'Solución'
                     text: >
-                       I built one website that encompassed all of the brands, so customers could explore the different brands, switch between them, as well as add a mix of products to purchase all at once.
+                       Construí un sitio que abarcó todas las marcas, así que los clientes podían explorarlas todas, cambiar entre ellas y además de añadir una mezcla de productos para comprar al mismo tiempo.
                  results:
-                    title: 'Results'
+                    title: 'Resultados'
                     text: >
-                       They saw an enormous boost in sales and leads on all sites, especially in their smaller/newer brands.
+                       Vieron un aumento enorme de ventas y clientes potenciales para todas las marcas, especialmente las mas pequeñas/nuevas.
                  img-1:
                     name: 'goldtone/gt-home.jpg'
-                    alt: "Gold Tone's Home Page"
+                    alt: 'La página de aterrizaje de la marca, Gold Tone'
                  img-2:
                     name: 'goldtone/product-page.jpg'
-                    alt: "One of Gold Tone's product pages"
+                    alt: 'Una de las páginas de productos de Gold Tone'
 
    contact:
       header: '¿Tiene un proyecto que me interesaría?'
