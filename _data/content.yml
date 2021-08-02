@@ -1,496 +1,471 @@
 ---
-img-src-path: "/assets/img/"
+img-src-path: '/assets/img/'
 
 en:
-  title: "Ken San Angelo - Web Developer"
-  header:
-    buttons:
-      - name: "about"
-        link: "#about"
+   title: 'Ken San Angelo - Web Developer'
+   header:
+      buttons:
+         - name: 'about'
+           link: '#about'
 
-      - name: "work"
-        link: "#work"
+         - name: 'work'
+           link: '#work'
 
-      - name: "contact"
-        link: "#contact"
+         - name: 'contact'
+           link: '#contact'
 
-      - name: "español"
-        link: "/es"
+         - name: 'español'
+           link: '/es'
 
-  landing: 
-    title: "Ken San Angelo"
-    subtitle: "Web Developer"
-    img:
-      name: "portrait.jpg"
-      alt: "A portrait of me, Ken San Angelo"
+   landing:
+      title: 'Ken San Angelo'
+      subtitle: 'Web Developer'
+      img:
+         name: 'portrait.jpg'
+         alt: 'A portrait of me, Ken San Angelo'
 
-  about:
-    header: "Hi, my name's Ken. I am a web developer based in Orlando, Florida."
-    bio:
-      - paragraph: >
-          I am currently working as a technical developer at 
-          <a href='https://www.big.vision/' target="_blank">Big Vision</a>, which allows me to
-          constantly challenge myself and improve my skills. I’m not currently accepting
-          freelance work, but I am always open to meeting new people so <strong>feel free to get in
-          touch.</strong>
-      - paragraph: >
-          I am a graduate of the Web Design program at the University of Central Florida.
-          While there, I was included in the School of Visual Arts and Design Premiere and
-          Exhibition 2 years in a row for web-based projects that I worked on. I am also a
-          founder of Design+Code@UCF, the web design and development club at UCF.
-      - paragraph: >
-          Besides web development, I also have a passion for photography and videography, 
-          which you can check out at 
-          <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
-    resume: 
-      title: "Resume"
-      link: "/resume.pdf"
+   about:
+      header: "Hi, my name's Ken. I am a web developer based in Orlando, Florida."
+      bio:
+         - paragraph: >
+              I am currently working as a technical developer at 
+              <a href='https://www.big.vision/' target="_blank">Big Vision</a>, which allows me to
+              constantly challenge myself and improve my skills. I’m not currently accepting
+              freelance work, but I am always open to meeting new people so <strong>feel free to get in
+              touch.</strong>
+         - paragraph: >
+              I am a graduate of the Web Design program at the University of Central Florida.
+              While there, I was included in the School of Visual Arts and Design Premiere and
+              Exhibition 2 years in a row for web-based projects that I worked on. I am also a
+              founder of Design+Code@UCF, the web design and development club at UCF.
+         - paragraph: >
+              Besides web development, I also have a passion for photography and videography, 
+              which you can check out at 
+              <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
+      resume:
+         title: 'Resume'
+         link: '/resume.pdf'
 
-  testimonial:
-    quote: >
-      Our new site has created huge opportunities for cross-promotion between our brands
-      and makes it easier to inform customers and convert leads. Beyond that, Ken has
-      always been knowledgable, professional, and a blast to work with.
-    name: "Mike Johnson"
-    position: "Sales Manager, Gold Tone Music Group"
-    img:
-      name: "testimonial.jpg"
-      alt: "A portrait of Mike Johnson"
+   testimonial:
+      quote: >
+         Our new site has created huge opportunities for cross-promotion between our brands
+         and makes it easier to inform customers and convert leads. Beyond that, Ken has
+         always been knowledgable, professional, and a blast to work with.
+      name: 'Mike Johnson'
+      position: 'Sales Manager, Gold Tone Music Group'
+      img:
+         name: 'testimonial.jpg'
+         alt: 'A portrait of Mike Johnson'
 
-  work:
-    back-button: "Go Back"
-    projects:
-      - name: "Gold Tone"
-        img:
-          name: "goldtone/main.jpg"
-          alt: "The home page of Gold Tone's website"
-        slide:
-          full-name: "Gold Tone Music Group"
-          site-link: 
-            name: "Site Link:"
-            url: "https://goldtone.com"
-          git-link:  
-            name: "Git Link:"
-            url: ""
-          summary: 
-            title: "Summary"
-            text: >
-              Gold Tone is a company that has several very different brands under their 
-              umbrella. Originally, they had separate websites for each one, but were 
-              unhappy with the lack of cross-promotion and brand awareness. I designed 
-              and built one website for all the brands, allowing customers to explore 
-              the different brands (including adding products from any brand to the same 
-              cart). They then saw a substantial increase in sales and leads for their 
-              lesser known brands.
-          writeup: 
-            role: 
-              title: "My Role"
-              text: >
-                I was brought on at Gold Tone Music Group as their technical developer, 
-                responsible for building and maintaining their websites (full-stack), 
-                as well as overseeing software/app development.
-            problem: 
-              title: "Problem"
-              text: >
-                They wanted to increase cross-promotion and brand awareness between 
-                the customers of the different brand sites, as they were missing leads 
-                due to the separate sites.
-            solution: 
-              title: "Solution"
-              text: >
-                I built one website that encompassed all of the brands, so customers 
-                could explore the different brands, switch between them, as well as 
-                add a mix of products to purchase all at once.
-            results: 
-              title: "Results"
-              text: >
-                They saw an enormous boost in sales and leads on all sites, especially 
-                in their smaller/newer brands.
-            img-1: 
-              name: "goldtone/gt-home.jpg"
-              alt: "Gold Tone's Home Page"
-            img-2: 
-              name: "goldtone/product-page.jpg"
-              alt: "One of Gold Tone's product pages"
-      
-      - name: "This Site"
-        img:
-          name: "thissite/main.jpg"
-          alt: "The landing page of this website"
-        slide:
-          full-name: "KenSanAngelo.com"
-          site-link: 
-            name: "Site Link:"
-            url: "http://kensanangelo.com"
-          git-link:  
-            name: "Git Link:"
-            url: "https://github.com/kensanangelo/Portfolio"
-          summary: 
-            title: "Summary"
-            text: >
-              Now I know what you’re thinking: “You put this site I’m currently on 
-              as a project to showcase?”. I did and for good reason. I’m always 
-              looking forward to using new tools and when building this site, I was 
-              excited to try out technology that I hadn’t experienced before. I chose 
-              technology I could see being useful on future projects, both to 
-              familiarize myself with those specifically, and to learn of new 
-              concepts and ways of thinking that may give me an advantage in the 
-              future.
-          writeup: 
-            role: 
-              title: "My Role"
-              text: >
-                Owner, Design & Development
-            problem: 
-              title: "Problem"
-              text: >
-                I needed a new portfolio site that would be clean, lasting, and very easy
-                to maintain and update. I also wanted to take the opportunity to learn 
-                some new tools and methods.
-            solution: 
-              title: "Solution"
-              text: >
-                I chose Jekyll as a way of abstracting different parts of the site to 
-                their own files, as well as to put the actual content to its own file, 
-                which made it very easy to include both English and Spanish versions of 
-                the site (without repeating any code) and makes it easier to update at a 
-                later time. I was pleasantly surprised at just how easy this tool made 
-                it to build and manage my site. Not only did it include preprocessors 
-                (SASS in my case), but it was incredibly flexible and allowed me to set 
-                up and organize the project in a way that I felt most comfortable with.
-                
-                In addition, I researched web accessibility best practices to ensure 
-                that I would be able to provide a great user experience no matter how 
-                the site was being accessed (which I can bring with me into future 
-                projects).
-            results: 
-              title: "Results"
-              text: >
-                As you can see, the site was a success! Well-designed, accessible, and 
-                maintainable. Plus I have some new tools and methodology under my belt, 
-                which I can bring with me into future projects.
-            img-1: 
-              name: "thissite/editor.jpg"
-              alt: "The code editor VSCode showing the source of this site"
-            img-2: 
-              name: "thissite/wcag.jpg"
-              alt: "The site for the Web Content Accessibility Guidelines (WCAG)"
-          
-      - name: "Robbin the Bank"
-        img:
-          name: "robbinthebank/main.jpg"
-          alt: "The landing page of the band, Robbin the Bank"
-        slide:
-          full-name: "RobbinTheBank.com"
-          site-link:
-            name: "Site Link:"
-            url: "http://robbinthebank.com"
-          git-link:
-            name: "Git Link:"
-            url: ""
-          summary: 
-            title: "Summary"
-            text: >
-              Robbin the Bank is a rising Central Florida band that was looking for a 
-              way to provide event information and music samples to fans and 
-              promoters, but wanted a design that conveyed the energy of their live 
-              show (all while being memorable). I followed in the footsteps of 
-              brutalist design trends and created a site that appears to ‘break out 
-              of the grid’. Elements are scattered around, and some parts seem 
-              slightly disjointed and out of place. This tension makes the elements 
-              feel like they almost move on the page, thus conveying a sense of 
-              energy (without actually moving).
-          writeup: 
-            role: 
-              title: "My Role"
-              text: >
-                Designer/Front-End Developer
-            problem: 
-              title: "Problem"
-              text: >
-                Create a memorable site that conveyed their energy, showcased the band 
-                and provided event information. Their goal was to book more events and 
-                get more attendees to their shows.
-            solution: 
-              title: "Solution"
-              text: >
-                Using CSS Grids and other development tricks, I created a design that 
-                appears disjointed and slightly off (design elements in the wrong place, 
-                things not quite lining up). This creates an almost jolting feeling, 
-                which makes the page feel like it’s almost moving, similar to the moving 
-                energy of the band’s live show.
-            results: 
-              title: "Results"
-              text: >
-                Robbin the Bank saw a noticeable uptick in event promotors reaching out 
-                to them, and people attending events after the launch of the site.
-            img-1: 
-              name: "robbinthebank/about.jpg"
-              alt: "The about section of Robbin the Bank's site"
-            img-2: 
-              name: "robbinthebank/events.jpg"
-              alt: "The events section of Robbin the Bank's site"
+   work:
+      back-button: 'Go Back'
+      projects:
+         - name: 'H&H Products'
+           img:
+              name: 'hh/hh-main.jpg'
+              alt: 'The home page of H&H Products Company'
+           slide:
+              full-name: 'H&H Products Company'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://hhproductscompany.com/'
+              git-link:
+                 name: 'Big Vision Link:'
+                 url: 'https://www.big.vision/case-studies/hh-products/'
+              summary:
+                 title: 'Summary'
+                 text: >
+                    H&H Products Company is a specialty beverage manufacturer, that wanted to revamp their branding that better represented their company. The site is a continuation of that, featuring bright, interesting photography, and smooth animations.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Developer, as a member of the Big Vision team
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       The company needed an e-commerce site that they could maintain and update over time to support their business strategies, while still being functional and great looking.
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       For this site, I chose to use Wordpress with Woocommerce so they could have the e-commerce functionality, and also have the ease of updating the site content as needed. I built a custom theme so that I could create the pages with handcrafted animations, and still give them the ability to add more pages as needed.
+                 results:
+                    title: 'Results'
+                    text: >
+                       H&H Products was very happy with the quality of their site, and they saw an increase in sales and attention from their clients and industry peers.
+                 img-1:
+                    name: 'hh/hh-2.jpg'
+                    alt: 'A product categories section of the H&H site'
+                 img-2:
+                    name: 'hh/hh-3.jpg'
+                    alt: 'A product list from the H&H site'
 
-  contact:
-    header: "Have a project I’d be interested in?"
-    button: 
-      text: "Email Me"
-      link: "ken@kensanangelo.com"
-    social:
-      - icon: "fab fa-github-square"
-        link: "https://github.com/kensanangelo"
-        title: "GitHub"
+         - name: 'Dollar Font Club'
+           img:
+              name: 'dfc/dfc-main.jpg'
+              alt: 'The landing page of the Dollar Font Club website'
+           slide:
+              full-name: 'Dollar Font Club'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://www.dollarfontclub.com/'
+              git-link:
+                 name: 'Big Vision Link:'
+                 url: 'https://www.big.vision/'
+              summary:
+                 title: 'Summary'
+                 text: >
+                    A font service developed by Big Vision that features a new font released every month, that users can link to and use on their site (similar to Google Fonts or Adobe Fonts), as well as a desktop app where users can download the fonts for use in their preferred programs.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Developer, as a member of the Big Vision team
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       Users needed to be able to use the fonts on their websites, or bring them into their desktop applications for professional use (all while being secure, so that the fonts can’t be stolen or linked to on the wrong website).
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       I built a desktop application using Electron that securely installed/uninstalled fonts so the user could use them in their applications, as well as a Node web application that generated and hosted CSS files, which approved sites could link or import and use on their websites.
+                 results:
+                    title: 'Results'
+                    text: >
+                       The functionality was a success, and the site continues to be maintained and improved over time for its users.
+                 img-1:
+                    name: 'dfc/dfc-2.jpg'
+                    alt: 'A font list view on the Dollar Font Club website'
+                 img-2:
+                    name: 'dfc/dfc-3.jpg'
+                    alt: 'A screenshot of the desktop app'
 
-      - icon: "fab fa-linkedin"
-        link: "https://www.linkedin.com/in/kensanangelo"
-        title: "LinkedIn"
+         - name: 'Fracture'
+           img:
+              name: 'fcr/fcr-main.jpg'
+              alt: 'The customizer for Fracture'
+           slide:
+              full-name: 'Fracture Customizer'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://fractureme.com/upload/'
+              git-link:
+                 name: 'Big Vision Link:'
+                 url: 'https://www.big.vision/'
+              summary:
+                 title: 'Summary'
+                 text: >
+                    Fracture is a photo printing company that specializes in printing on glass. They wanted an updated uploading/editing application that increased conversions and made the process easier to use for customers.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Developer, as a member of the Big Vision team
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       They needed a photo uploading/customizing that made it easier for customers to select the right frame, as well as driving sales and addons.
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       We built a full web application in React that connected to their backend services, then continued to test, develop, and work with their team to improve the app over time.
+                 results:
+                    title: 'Results'
+                    text: >
+                       They saw a notable increase in sales, as well as a lower bounce rate on the site.
+                 img-1:
+                    name: 'fcr/fcr-2.jpg'
+                    alt: 'The product selection view for Fracture'
+                 img-2:
+                    name: 'fcr/fcr-3.jpg'
+                    alt: 'The addons view for Fracture'
+         - name: 'Gold Tone'
+           img:
+              name: 'goldtone/main.jpg'
+              alt: "The home page of Gold Tone's website"
+           slide:
+              full-name: 'Gold Tone Music Group'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://goldtone.com'
+              git-link:
+                 name: 'Git Link:'
+                 url: ''
+              summary:
+                 title: 'Summary'
+                 text: >
+                    Gold Tone is a company that has several very different brands under their umbrella. Originally, they had separate websites for each one, but were unhappy with the lack of cross-promotion and brand awareness. I designed and built one website for all the brands, allowing customers to explore the different brands (including adding products from any brand to the same cart). They then saw a substantial increase in sales and leads for their lesser-known brands.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Product owner, designer, developer, photographer
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       They wanted to increase cross-promotion and brand awareness between the customers of the different brand sites, as they were missing leads due to the separate sites.
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       I built one website that encompassed all of the brands, so customers could explore the different brands, switch between them, as well as add a mix of products to purchase all at once.
+                 results:
+                    title: 'Results'
+                    text: >
+                       They saw an enormous boost in sales and leads on all sites, especially in their smaller/newer brands.
+                 img-1:
+                    name: 'goldtone/gt-home.jpg'
+                    alt: "Gold Tone's Home Page"
+                 img-2:
+                    name: 'goldtone/product-page.jpg'
+                    alt: "One of Gold Tone's product pages"
+
+   contact:
+      header: 'Have a project I’d be interested in?'
+      button:
+         text: 'Email Me'
+         link: 'ken@kensanangelo.com'
+      social:
+         - icon: 'fab fa-github-square'
+           link: 'https://github.com/kensanangelo'
+           title: 'GitHub'
+
+         - icon: 'fab fa-linkedin'
+           link: 'https://www.linkedin.com/in/kensanangelo'
+           title: 'LinkedIn'
 
 es:
-  title: "Ken San Angelo - Desarrollador Web"
-  header:
-    buttons:
-      - name: "acerca de"
-        link: "#about"
+   title: 'Ken San Angelo - Desarrollador Web'
+   header:
+      buttons:
+         - name: 'acerca de'
+           link: '#about'
 
-      - name: "trabajo"
-        link: "#work"
+         - name: 'trabajo'
+           link: '#work'
 
-      - name: "contacto"
-        link: "#contact"
+         - name: 'contacto'
+           link: '#contact'
 
-      - name: "english"
-        link: "/"
+         - name: 'english'
+           link: '/'
 
-  landing: 
-    title: Ken San Angelo
-    subtitle: Desarrollador Web
-    img:
-      name: "portrait.jpg"
-      alt: "Un retrato de mi, Ken San Angelo"
+   landing:
+      title: Ken San Angelo
+      subtitle: Desarrollador Web
+      img:
+         name: 'portrait.jpg'
+         alt: 'Un retrato de mi, Ken San Angelo'
 
-  about:
-    header: "Hola, me llamo Ken. Soy un desarrollador web trabajando en Orlando, Florida."
-    bio:
-      - paragraph: >
-          Actualmente, soy empleado como desarrollador técnico en  
-          <a href='https://goldtone.com' target="_blank">Gold Tone Music Group</a>, que me ayuda a 
-          superar retos continuamente y mejorar mis habilidades. Por el momento, no 
-          acepto trabajo independiente, pero siempre estoy abierto de conocer gente 
-          nueva entonces <strong>no dudes en contactarme</strong>.
-      - paragraph: >
-          Me gradué del programa de diseño web en la Universidad Central de Florida. 
-          Mientras allá, me incluían en el Estreno y Exhibición de la Escuela de Artes 
-          Visuales y Diseño, estuvé 2 años consecutivos trabajando para proyectos de 
-          web. Soy uno de los fundadores de Design+Code@UCF, el club de diseño y 
-          desarrollo en UCF.
-      - paragraph: >
-          Además de desarrollo web, también tengo una pasión por la fotografía y 
-          videografía, el cuál puedes mirar en 
-          <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
-    resume: 
-      title: "Currículum"
-      link: "/curriculum.pdf"
+   about:
+      header: 'Hola, me llamo Ken. Soy un desarrollador web trabajando en Orlando, Florida.'
+      bio:
+         - paragraph: >
+              Actualmente, soy empleado como desarrollador técnico en  
+              <a href='https://goldtone.com' target="_blank">Gold Tone Music Group</a>, que me ayuda a 
+              superar retos continuamente y mejorar mis habilidades. Por el momento, no 
+              acepto trabajo independiente, pero siempre estoy abierto de conocer gente 
+              nueva entonces <strong>no dudes en contactarme</strong>.
+         - paragraph: >
+              Me gradué del programa de diseño web en la Universidad Central de Florida. 
+              Mientras allá, me incluían en el Estreno y Exhibición de la Escuela de Artes 
+              Visuales y Diseño, estuvé 2 años consecutivos trabajando para proyectos de 
+              web. Soy uno de los fundadores de Design+Code@UCF, el club de diseño y 
+              desarrollo en UCF.
+         - paragraph: >
+              Además de desarrollo web, también tengo una pasión por la fotografía y 
+              videografía, el cuál puedes mirar en 
+              <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
+      resume:
+         title: 'Currículum'
+         link: '/curriculum.pdf'
 
-  testimonial:
-    quote: >
-      Nuestro nuevo sitio ha creado oportunidades enormes para promoción mutua entre 
-      nuestras marcas y se hace más fácil para informar a los clientes y convertir 
-      prospectos. Además de eso, Ken siempre ha sido muy conocedor, profesional, y 
-      muy divertido en el trabajo. 
-    name: "Mike Johnson"
-    position: "Gerente de Ventas, Gold Tone Music Group"
-    img:
-      name: "testimonial.jpg"
-      alt: "Un retrato de Mike Johnson"
+   testimonial:
+      quote: >
+         Nuestro nuevo sitio ha creado oportunidades enormes para promoción mutua entre 
+         nuestras marcas y se hace más fácil para informar a los clientes y convertir 
+         prospectos. Además de eso, Ken siempre ha sido muy conocedor, profesional, y 
+         muy divertido en el trabajo.
+      name: 'Mike Johnson'
+      position: 'Gerente de Ventas, Gold Tone Music Group'
+      img:
+         name: 'testimonial.jpg'
+         alt: 'Un retrato de Mike Johnson'
 
-  work:
-    back-button: "Atrás"
-    projects:
-      - name: "Gold Tone"
-        img:
-          name: "goldtone/main.jpg"
-          alt: "La página de aterrizaje de Gold Tone Music Group"
-        slide:
-          full-name: "Gold Tone Music Group"
-          site-link: 
-            name: "Enlace del Sitio:"
-            url: "https://goldtone.com"
-          git-link:  
-            name: "Enlace de Git:"
-            url: ""
-          summary: 
-            title: "Resumen"
-            text: >
-              Gold Tone es una compañía que maneja varias marcas muy diferentes entre 
-              sí. Originalmente, tenían sitios separados para cada marca, pero estaban 
-              discontentos con la falta de interpromoción y conciencia de marca. 
-              Diseñé y construí un sitio para explorar todas las marcas en un mismo 
-              lugar (incluso añadir productos de cualquier marca al mismo carrito). 
-              Entonces vieron un aumento considerable en ventas y clientes potenciales 
-              para sus marcas menos conocidas.
-          writeup: 
-            role: 
-              title: "Papel"
-              text: >
-                Yo estaba empleado en Gold Tone Music Group como su desarrollador 
-                técnico, responsable para construir y mantener sus sitios 
-                (full-stack), además de supervisar el desarrollo de software y una 
-                app.
-            problem: 
-              title: "Problema"
-              text: >
-                Querían aumentar interpromoción y conciencia de marca entre los 
-                clientes de los sitios de las marcas distintas, porque se perdían 
-                clientes potenciales debido a los sitios separados.
-            solution: 
-              title: "Solución"
-              text: >
-                Construí un sitio que abarcó todas las marcas, así que los clientes 
-                podían explorarlas todas, cambiar entre ellas y además de añadir una 
-                mezcla de productos para comprar al mismo tiempo.
-            results: 
-              title: "Resultados"
-              text: >
-                Vieron un aumento enorme de ventas y clientes potenciales para todas 
-                las marcas, especialmente las mas pequeñas/nuevas.
-            img-1: 
-              name: "goldtone/gt-home.jpg"
-              alt: "La página de aterrizaje de la marca, Gold Tone"
-            img-2: 
-              name: "goldtone/product-page.jpg"
-              alt: "Una de las páginas de productos de Gold Tone"
-      
-      - name: "Este Sitio"
-        img:
-          name: "thissite/main.jpg"
-          alt: "La página de aterrizaje de este sitio"
-        slide:
-          full-name: "KenSanAngelo.com"
-          site-link: 
-            name: "Enlace del Sitio:"
-            url: "http://kensanangelo.com"
-          git-link:  
-            name: "Enlace de Git:"
-            url: "https://github.com/kensanangelo/Portfolio"
-          summary: 
-            title: "Resumen"
-            text: >
-              Bueno, sé que estas pensando: "¿Pusiste este sitio como un proyecto para 
-              exhibir?" Sí. Y por una buena razón. Siempre tengo muchas ganas de usar 
-              herramientas nuevas, y durante la construcción de este sitio, estaba 
-              emocionado de probar tecnologías que no había usado en el pasado. Elegí 
-              tecnología que podría ser útil en proyectos futuros, para acostumbrarme 
-              a esas específicamente, y para aprender de conceptos nuevos y formas de 
-              pensar que podría darme una ventaja en el futuro.
-          writeup: 
-            role: 
-              title: "Papel"
-              text: >
-                Dueño, Diseño y Desarrollo
-            problem: 
-              title: "Problema"
-              text: >
-                Necesitaba un sitio nuevo de portafolio limpio, duradero, y muy fácil 
-                para mantener y actualizar. También quise tomar la oportunidad para 
-                aprender a usar herramientas y métodos nuevos.
-            solution: 
-              title: "Solución"
-              text: >
-                Elegí Jekyll como una manera de abstraer partes diferentes del sitio a 
-                sus archivos propios, además de poner el contenido en su archivo 
-                propio, que sea muy fácil de incluir ambas versiones en inglés y 
-                español del sitio (sin repetir ningún código) y hace más fácil su 
-                actualización. Me tomó por sorpresa lo fácil que esta herramienta me 
-                permitía construir y manejar mi sitio. No solamente se incluyó 
-                preprocesadores (SASS en mi caso), pero fue increíblemente flexible y 
-                me permitó establecer y organizar el proyecto de una manera más cómoda. 
+   work:
+      back-button: 'Atrás'
+      projects:
+         - name: 'H&H Products'
+           img:
+              name: 'hh/hh-main.jpg'
+              alt: 'The home page of H&H Products Company'
+           slide:
+              full-name: 'H&H Products Company'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://hhproductscompany.com/'
+              git-link:
+                 name: 'Big Vision Link:'
+                 url: 'https://www.big.vision/case-studies/hh-products/'
+              summary:
+                 title: 'Summary'
+                 text: >
+                    H&H Products Company is a specialty beverage manufacturer, that wanted to revamp their branding that better represented their company. The site is a continuation of that, featuring bright, interesting photography, and smooth animations.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Developer, as a member of the Big Vision team
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       The company needed an e-commerce site that they could maintain and update over time to support their business strategies, while still being functional and great looking.
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       For this site, I chose to use Wordpress with Woocommerce so they could have the e-commerce functionality, and also have the ease of updating the site content as needed. I built a custom theme so that I could create the pages with handcrafted animations, and still give them the ability to add more pages as needed.
+                 results:
+                    title: 'Results'
+                    text: >
+                       H&H Products was very happy with the quality of their site, and they saw an increase in sales and attention from their clients and industry peers.
+                 img-1:
+                    name: 'hh/hh-2.jpg'
+                    alt: 'A product categories section of the H&H site'
+                 img-2:
+                    name: 'hh/hh-3.jpg'
+                    alt: 'A product list from the H&H site'
 
-                Además, investigué las mejores pautas de accesibilidad para el 
-                contenido web y asegurar que podría proveer una gran experiencia para 
-                los usuarios, sin importar como se accede al sitio (que puedo usar en 
-                proyectos futuros).
-            results:
-              title: "Resultados"
-              text: >
-                Como puede ver, ¡el sitio fue un éxito! Bien diseñado, accesible, y 
-                mantenible. Además tengo herramientas y metodología nueva que siempre 
-                podré usar en mis nuevos proyectos.
-            img-1: 
-              name: "thissite/editor.jpg"
-              alt: "El editor de código, VSCode, mostrando la fuente de este sitio"
-            img-2: 
-              name: "thissite/wcag.jpg"
-              alt: "El sitio de las Pautas de Accesibilidad para el Contenido Web (WCAG)"
-          
-      - name: "Robbin the Bank"
-        img:
-          name: "robbinthebank/main.jpg"
-          alt: "La página de aterrizaje del grupo, Robbin the Bank"
-        slide:
-          full-name: "RobbinTheBank.com"
-          site-link:
-            name: "Enlace del Sitio:"
-            url: "http://robbinthebank.com"
-          git-link:
-            name: "Enlace de Git:"
-            url: ""
-          summary: 
-            title: "Resumen"
-            text: >
-              Robbin the Bank es un grupo creciente de Florida central que buscaba una 
-              manera para proveer información de eventos y muestras de música a los 
-              fanáticos y promotores, pero querían un diseño que expresará la energía 
-              de sus shows en vivo (al mismo tiempo de ser memorable). Seguí los pasos 
-              de las modas de diseño brutalista y creé un sitio que pareció 'liberarse 
-              de la cuadrícula'. Los elementos están esparcidos por todo el sitio, y 
-              algunas partes parecen un poco desarticuladas y fuera de lugar. Esta 
-              tensión hace que los elementos le den un toque de movimiento a la 
-              página, de este modo transmiten un sentido de energía (sin moverse de 
-              verdad).
-          writeup: 
-            role: 
-              title: "Papel"
-              text: >
-                Diseñador/Desarrollador Front-End
-            problem: 
-              title: "Problema"
-              text: >
-                Crear un sitio memorable que transmite su energía, exhibe al grupo, y 
-                provee información de eventos. Su meta fue para reservar más eventos y 
-                tener más asistentes en sus shows.
-            solution: 
-              title: "Solución"
-              text: >
-                Utilizando CSS Grids y otros trucos de desarrollo, creé un diseño que 
-                parece un poco desarticulado y fuera de lugar (elementos de diseño en 
-                lugares incorrectos, cosas que no alinean perfectamente). Este crea 
-                una sensibilidad casí sacudida, que hace a la página sentir como casí 
-                se mueve, similar al de la energía emotiva del show en vivo del grupo.
-            results:
-              title: "Resultados"
-              text: >
-                Robbin the Bank vieron un repunte distinguible de promotores de 
-                eventos contactandolos, y asistentes yendo a sus eventos después del 
-                lanzamiento del sitio.
-            img-1: 
-              name: "robbinthebank/about.jpg"
-              alt: "Sección acerca del sitio de Robbin the Bank"
-            img-2: 
-              name: "robbinthebank/events.jpg"
-              alt: "Sección de eventos en el sitio de Robbin the Bank"
+         - name: 'Dollar Font Club'
+           img:
+              name: 'dfc/dfc-main.jpg'
+              alt: 'The landing page of the Dollar Font Club website'
+           slide:
+              full-name: 'Dollar Font Club'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://www.dollarfontclub.com/'
+              git-link:
+                 name: 'Big Vision Link:'
+                 url: 'https://www.big.vision/'
+              summary:
+                 title: 'Summary'
+                 text: >
+                    A font service developed by Big Vision that features a new font released every month, that users can link to and use on their site (similar to Google Fonts or Adobe Fonts), as well as a desktop app where users can download the fonts for use in their preferred programs.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Developer, as a member of the Big Vision team
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       Users needed to be able to use the fonts on their websites, or bring them into their desktop applications for professional use (all while being secure, so that the fonts can’t be stolen or linked to on the wrong website).
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       I built a desktop application using Electron that securely installed/uninstalled fonts so the user could use them in their applications, as well as a Node web application that generated and hosted CSS files, which approved sites could link or import and use on their websites.
+                 results:
+                    title: 'Results'
+                    text: >
+                       The functionality was a success, and the site continues to be maintained and improved over time for its users.
+                 img-1:
+                    name: 'dfc/dfc-2.jpg'
+                    alt: 'A font list view on the Dollar Font Club website'
+                 img-2:
+                    name: 'dfc/dfc-3.jpg'
+                    alt: 'A screenshot of the desktop app'
 
-  contact:
-    header: "¿Tiene un proyecto que me interesaría?"
-    button: 
-      text: "Envieme un email"
-      link: "ken@kensanangelo.com"
-    social:
-      - icon: "fab fa-github-square"
-        link: "https://github.com/kensanangelo"
-        title: "GitHub"
+         - name: 'Fracture'
+           img:
+              name: 'fcr/fcr-main.jpg'
+              alt: 'The customizer for Fracture'
+           slide:
+              full-name: 'Fracture Customizer'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://fractureme.com/upload/'
+              git-link:
+                 name: 'Big Vision Link:'
+                 url: 'https://www.big.vision/'
+              summary:
+                 title: 'Summary'
+                 text: >
+                    Fracture is a photo printing company that specializes in printing on glass. They wanted an updated uploading/editing application that increased conversions and made the process easier to use for customers.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Developer, as a member of the Big Vision team
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       They needed a photo uploading/customizing that made it easier for customers to select the right frame, as well as driving sales and addons.
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       We built a full web application in React that connected to their backend services, then continued to test, develop, and work with their team to improve the app over time.
+                 results:
+                    title: 'Results'
+                    text: >
+                       They saw a notable increase in sales, as well as a lower bounce rate on the site.
+                 img-1:
+                    name: 'fcr/fcr-2.jpg'
+                    alt: 'The product selection view for Fracture'
+                 img-2:
+                    name: 'fcr/fcr-3.jpg'
+                    alt: 'The addons view for Fracture'
+         - name: 'Gold Tone'
+           img:
+              name: 'goldtone/main.jpg'
+              alt: "The home page of Gold Tone's website"
+           slide:
+              full-name: 'Gold Tone Music Group'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://goldtone.com'
+              git-link:
+                 name: 'Git Link:'
+                 url: ''
+              summary:
+                 title: 'Summary'
+                 text: >
+                    Gold Tone is a company that has several very different brands under their umbrella. Originally, they had separate websites for each one, but were unhappy with the lack of cross-promotion and brand awareness. I designed and built one website for all the brands, allowing customers to explore the different brands (including adding products from any brand to the same cart). They then saw a substantial increase in sales and leads for their lesser-known brands.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Product owner, designer, developer, photographer
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       They wanted to increase cross-promotion and brand awareness between the customers of the different brand sites, as they were missing leads due to the separate sites.
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       I built one website that encompassed all of the brands, so customers could explore the different brands, switch between them, as well as add a mix of products to purchase all at once.
+                 results:
+                    title: 'Results'
+                    text: >
+                       They saw an enormous boost in sales and leads on all sites, especially in their smaller/newer brands.
+                 img-1:
+                    name: 'goldtone/gt-home.jpg'
+                    alt: "Gold Tone's Home Page"
+                 img-2:
+                    name: 'goldtone/product-page.jpg'
+                    alt: "One of Gold Tone's product pages"
 
-      - icon: "fab fa-linkedin"
-        link: "https://www.linkedin.com/in/kensanangelo"
-        title: "LinkedIn"
+   contact:
+      header: '¿Tiene un proyecto que me interesaría?'
+      button:
+         text: 'Envieme un email'
+         link: 'ken@kensanangelo.com'
+      social:
+         - icon: 'fab fa-github-square'
+           link: 'https://github.com/kensanangelo'
+           title: 'GitHub'
+
+         - icon: 'fab fa-linkedin'
+           link: 'https://www.linkedin.com/in/kensanangelo'
+           title: 'LinkedIn'
 
 ---
+
