@@ -260,8 +260,8 @@ es:
       header: 'Hola, me llamo Ken. Soy un desarrollador web trabajando en Orlando, Florida.'
       bio:
          - paragraph: >
-              Actualmente, soy empleado como desarrollador técnico en  
-              <a href='https://goldtone.com' target="_blank">Gold Tone Music Group</a>, que me ayuda a 
+              Actualmente, soy empleado como desarrollador web en  
+              <a href='https://big.vision' target="_blank">Big Vision</a>, que me ayuda a 
               superar retos continuamente y mejorar mis habilidades. Por el momento, no 
               acepto trabajo independiente, pero siempre estoy abierto de conocer gente 
               nueva entonces <strong>no dudes en contactarme</strong>.
@@ -309,24 +309,24 @@ es:
               summary:
                  title: 'Resumen'
                  text: >
-                    H&H Products Company es un productor de bebidas de especialidad, que quería reformar su marca para representar mejor su compañía. El sitio es una continuación de eso, incluyo fotografía brillante interesante, y animaciónes finos.
+                    H&H Products Company es un proveedor de saborizantes liquidos para bebidas. Su meta era transformar su marca para representar mejor su compañía. El sitio Web es una continuación de esto ya que incluye fotografía visualmente llamativa e interesante, y animaciónes que dan personalidad a la marca.
               writeup:
                  role:
                     title: 'Papel'
                     text: >
-                       Desarrollador, como miembro del equipo de Big Vision.
+                       Desarrollador Web como miembro del equipo de Big Vision.
                  problem:
                     title: 'Problema'
                     text: >
-                       La compañía necesitó un sitio e-commerce que podían mantener y actualizar con el tiempo para apoyar sus estratégias de negocio, mientras todavía funccional y bonito.
+                       La compañía necesitaba un sitio e-commerce que pudieran mantener y actualizar con el tiempo para apoyar sus estratégias de negocio. Requerían algo que fuera funccional y al mismo tiempo tuviera personalidad.
                  solution:
                     title: 'Solución'
                     text: >
-                       Para este sitio, elegí usar Wordpress con Woocommerce asi que podían tener la funcionalidad de e-commerce, y tambien tener la facilidad de actualizar el contento del sitio. Construí una tema a medida así que podía crear las páginas con animaciones hecho a mano, y todavía darlos la habilidad de añadir más páginas según sea necesario.
+                       Para este sitio, elegí usar Wordpress con Woocommerce asi que podían tener la funcionalidad de e-commerce, y tambien tener la facilidad de actualizar el contento del sitio. Construí una plantilla a medida para así poder crear las páginas con animaciones únicas, hechas a la medida para la marca. Esta plantilla también les da la habilidad de añadir más páginas según sea necesario.
                  results:
                     title: 'Resultados'
                     text: >
-                       H&H Products estaba muy contento con la calidad de su sitio, y veían un aumento de ventas y attención de sus clientes y los pares de la industria.
+                       H&H Products estan muy satisfechos con la calidad de su sitio, y vieron un aumento de ventas y atención de sus clientes y los pares de la industria.
                  img-1:
                     name: 'hh/hh-2.jpg'
                     alt: 'Una sección de categorias de productions en H&H'
@@ -349,24 +349,24 @@ es:
               summary:
                  title: 'Resumen'
                  text: >
-                    Un servicio de fuentes desarrollado por Big Vision que lanza un fuente nuevo cada mes, con que los usuarios pueden unir y usar con su sitio (semejante a Google Fonts o Adobe Fonts), además de un app de escritorio donde usuarios pueden descargar los fuentes para usar en sus aplicaciones preferidos.
+                    Un servicio de fuentes desarrollado por Big Vision que lanza una fuente nueva cada mes, con que los usuarios pueden unir y usar con su sitio (semejante a Google Fonts o Adobe Fonts), además de un app de escritorio donde usuarios pueden descargar las fuentes para usar en sus aplicaciones preferidas.
               writeup:
                  role:
                     title: 'Papel'
                     text: >
-                       Desarrollador, como miembro del equipo de Big Vision.
+                       Desarrollador Web, como miembro del equipo de Big Vision.
                  problem:
                     title: 'Problema'
                     text: >
-                       Usuarios necesitaron poder usar los fuentes en sus sitios, o traerlo a dentro de sus applicaciones de escritorio para uso profesional (mientras ser seguro, así que los fuentes no pueden ser robados o unido a un sitio incorrecto).
+                       Los Usuarios necesitaban poder usar las fuentes en sus sitios web, o tenerlo instalado dentro de sus applicaciones de escritorio para uso profesional (Una aplicación segura donde las fuentes no puedes ser robadas o enlazadas a un sitio incorrecto).
                  solution:
                     title: 'Solución'
                     text: >
-                       Construí un app de escritorio usando Electron que instalaba/desinstalaba seguramente los fuentes así que el usuario podría usar los en sus aplicaciónes, además de un aplicación web de Node que generaba y servía archivos de CSS, de que sitios aceptados podría unir o importar y usar en sus sitios.
+                       Construí un app de escritorio usando Electron que instalaba/desinstalaba seguramente las fuentes así el usuario podría usarlas en sus aplicaciónes, además de un aplicación web de Node que generaba y servía archivos de CSS, de que sitios aceptados podría unir o importar y usar en sus sitios.
                  results:
                     title: 'Resultados'
                     text: >
-                       La funcionalidad fue un éxito, y el sitio continua ser mantenido y mejorado en el tiempo para sus usuarios.
+                       La funcionalidad fue un éxito, y el sitio continua siendo mantenido y mejorado a medida de el tiempo para sus usuarios.
                  img-1:
                     name: 'dfc/dfc-2.jpg'
                     alt: 'Una lista de fuentes en el sitio de Dollar Font Club'
@@ -389,27 +389,27 @@ es:
               summary:
                  title: 'Resumen'
                  text: >
-                    Fracture es una compañía de impresiones fotográficas que se especializa en impresiones de vidrio. Querían un app actualizado para subir/editar fotos que aumentó las conversiones y hacía más facil el proceso para clientes.
+                    Fracture es una compañía de impresiones fotográficas que se especializa en impresiones de vidrio. Querían un app actualizado para subir/editar fotos que aumentara las conversiones e hiciera el proceso más facil para sus clientes.
               writeup:
                  role:
                     title: 'Papel'
                     text: >
-                       Desarrollador, como miembro del equipo de Big Vision.
+                       Desarrollador Web, como miembro del equipo de Big Vision.
                  problem:
                     title: 'Problema'
                     text: >
-                       Necesitaban  una sistema de subir/personalizar fotos que fue más facil para elegir el marco correcto, además de subir ventas y compras de addons.
+                       Necesitaban  una sistema para subir y personalizar fotos que fuera más facil de usar al momento de elegir el marco correcto, además requerían de algo que aumentara las ventas y las compras de extras.
                  solution:
                     title: 'Solución'
                     text: >
-                       Construimos una aplicación completo en React que conectaba a sus servicios backend, entonces continuamos probar, desarrolar y trabajar con su equipo para mejorar el app con el tiempo.
+                       Construimos una aplicación completa en React que conectaba a sus servicios backend, hasta el dia de hoy continuamos desarrollando y trabajando con su equipo para mejorar la aplicación con el tiempo.
                  results:
                     title: 'Resultados'
                     text: >
                        Vieron un aumento notable en ventas, además de un porcentaje más bajo de rebote en su sitio.
                  img-1:
                     name: 'fcr/fcr-2.jpg'
-                    alt: 'La vista de la selección de productions en el sitio de Fracture'
+                    alt: 'La vista de la selección de productos en el sitio de Fracture'
                  img-2:
                     name: 'fcr/fcr-3.jpg'
                     alt: 'La vista de addons en el sitio de Fracture'
@@ -441,7 +441,7 @@ es:
                  solution:
                     title: 'Solución'
                     text: >
-                       Construí un sitio que abarcó todas las marcas, así que los clientes podían explorarlas todas, cambiar entre ellas y además de añadir una mezcla de productos para comprar al mismo tiempo.
+                       Construí un sitio que abarcará todas las marcas, así los clientes podían explorarlas, cambiar entre ellas y además añadir una mezcla de productos para comprar al mismo tiempo.
                  results:
                     title: 'Resultados'
                     text: >
