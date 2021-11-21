@@ -28,8 +28,8 @@ en:
       header: "Hi, my name's Ken. I am a web developer based in Orlando, Florida."
       bio:
          - paragraph: >
-              I am currently working as a technical developer at 
-              <a href='https://www.big.vision/' target="_blank">Big Vision</a>, which allows me to
+              I am currently working as a front-end developer at 
+              <a href='https://espireservices.com/' target="_blank">Espire Services</a>, which allows me to
               constantly challenge myself and improve my skills. I’m not currently accepting
               freelance work, but I am always open to meeting new people so <strong>feel free to get in
               touch.</strong>
@@ -221,8 +221,8 @@ es:
       header: 'Hola, me llamo Ken. Soy un desarrollador web trabajando en Orlando, Florida.'
       bio:
          - paragraph: >
-              Actualmente, soy empleado como desarrollador web en  
-              <a href='https://big.vision' target="_blank">Big Vision</a>, que me ayuda a 
+              Actualmente, soy empleado como desarrollador front-end en  
+              <a href='https://espireservices.com/' target="_blank">Espire Services</a>, que me ayuda a 
               superar retos continuamente y mejorar mis habilidades. Por el momento, no 
               acepto trabajo independiente, pero siempre estoy abierto de conocer gente 
               nueva entonces <strong>no dudes en contactarme</strong>.
