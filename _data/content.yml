@@ -140,6 +140,45 @@ en:
                     name: 'dfc/dfc-3.jpg'
                     alt: 'A screenshot of the desktop app'
 
+         - name: 'Fracture'
+           img:
+              name: 'fcr/fcr-main.jpg'
+              alt: 'The customizer for Fracture'
+           slide:
+              full-name: 'Fracture Customizer'
+              site-link:
+                 name: 'Site Link:'
+                 url: 'https://fractureme.com/upload/'
+              git-link:
+                 name: 'Big Vision Link:'
+                 url: 'https://www.big.vision/'
+              summary:
+                 title: 'Summary'
+                 text: >
+                    Fracture is a photo printing company that specializes in printing on glass. They wanted an updated uploading/editing application that increased conversions and made the process easier to use for customers.
+              writeup:
+                 role:
+                    title: 'Role'
+                    text: >
+                       Developer, as a member of the Big Vision team
+                 problem:
+                    title: 'Problem'
+                    text: >
+                       They needed a photo uploading/customizing system that made it easier for customers to select the right frame, as well as driving sales and addons.
+                 solution:
+                    title: 'Solution'
+                    text: >
+                       We built a full web application in React that connected to their backend services, then continued to test, develop, and work with their team to improve the app over time.
+                 results:
+                    title: 'Results'
+                    text: >
+                       They saw a notable increase in sales, as well as a lower bounce rate on the site.
+                 img-1:
+                    name: 'fcr/fcr-2.jpg'
+                    alt: 'The product selection view for Fracture'
+                 img-2:
+                    name: 'fcr/fcr-3.jpg'
+                    alt: 'The addons view for Fracture'
          - name: 'Gold Tone'
            img:
               name: 'goldtone/main.jpg'
@@ -334,6 +373,46 @@ es:
                  img-2:
                     name: 'dfc/dfc-3.jpg'
                     alt: 'Una captura de pantalla del app de escritorio'
+
+         - name: 'Fracture'
+           img:
+              name: 'fcr/fcr-main.jpg'
+              alt: 'El personalizador de Fracture'
+           slide:
+              full-name: 'Fracture Customizer'
+              site-link:
+                 name: 'Enlace del Sitio:'
+                 url: 'https://fractureme.com/upload/'
+              git-link:
+                 name: 'Enlace de Big Vision:'
+                 url: 'https://www.big.vision/'
+              summary:
+                 title: 'Resumen'
+                 text: >
+                    Fracture es una compañía de impresiones fotográficas que se especializa en impresiones de vidrio. Querían un app actualizado para subir/editar fotos que aumentara las conversiones e hiciera el proceso más facil para sus clientes.
+              writeup:
+                 role:
+                    title: 'Papel'
+                    text: >
+                       Desarrollador Web, como miembro del equipo de Big Vision.
+                 problem:
+                    title: 'Problema'
+                    text: >
+                       Necesitaban  una sistema para subir y personalizar fotos que fuera más facil de usar al momento de elegir el marco correcto, además requerían de algo que aumentara las ventas y las compras de extras.
+                 solution:
+                    title: 'Solución'
+                    text: >
+                       Construimos una aplicación completa en React que conectaba a sus servicios backend, hasta el dia de hoy continuamos desarrollando y trabajando con su equipo para mejorar la aplicación con el tiempo.
+                 results:
+                    title: 'Resultados'
+                    text: >
+                       Vieron un aumento notable en ventas, además de un porcentaje más bajo de rebote en su sitio.
+                 img-1:
+                    name: 'fcr/fcr-2.jpg'
+                    alt: 'La vista de la selección de productos en el sitio de Fracture'
+                 img-2:
+                    name: 'fcr/fcr-3.jpg'
+                    alt: 'La vista de addons en el sitio de Fracture'
          - name: 'Gold Tone'
            img:
               name: 'goldtone/main.jpg'
