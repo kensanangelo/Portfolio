@@ -25,32 +25,21 @@ en:
          alt: 'A portrait of me, Ken San Angelo'
 
    about:
-      header: "Hi, my name's Ken. I am a web developer based in Orlando, Florida."
+      header: "Hi, my name's Ken. I am a front-end web developer based in Orlando, Florida."
       bio:
          - paragraph: >
-              I am currently working as a front-end developer at 
-              <a href='https://espireservices.com/' target="_blank">Espire Services</a>, which allows me to
-              constantly challenge myself and improve my skills. I’m not currently accepting
-              freelance work, but I am always open to meeting new people so <strong>feel free to get in
-              touch.</strong>
+              I have been a developer in the industry for <span id="years-modifier">6</span> years, and have worked with several languages, tools and frameworks (including React, Typescript, Node, Express, and Wordpress), which has allowed me to constantly challenge myself and improve my skills. I’m not currently accepting freelance work, but I am always open to meeting new people so <strong>feel free to get in touch.</strong>
          - paragraph: >
-              I am a graduate of the Web Design program at the University of Central Florida.
-              While there, I was included in the School of Visual Arts and Design Premiere and
-              Exhibition 2 years in a row for web-based projects that I worked on. I am also a
-              founder of Design+Code@UCF, the web design and development club at UCF.
+              I am a graduate of the Web Design program at the University of Central Florida. While there, I was included in the School of Visual Arts and Design Premiere and Exhibition 2 years in a row for web-based projects that I worked on. I am also a founder of Design+Code@UCF, the web design and development club at UCF.
          - paragraph: >
-              Besides web development, I also have a passion for photography and videography, 
-              which you can check out at 
-              <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
+              Besides web development, I also have a passion for photography and videography, which you can check out at <a href='https://sanangelophoto.com' target="_blank">sanangelophoto.com</a>.
       resume:
          title: 'Resume'
          link: '/resume.pdf'
 
    testimonial:
       quote: >
-         Our new site has created huge opportunities for cross-promotion between our brands
-         and makes it easier to inform customers and convert leads. Beyond that, Ken has
-         always been knowledgable, professional, and a blast to work with.
+         Our new site has created huge opportunities for cross-promotion between our brands and makes it easier to inform customers and convert leads. Beyond that, Ken has always been knowledgable, professional, and a blast to work with.
       name: 'Mike Johnson'
       position: 'Sales Manager, Gold Tone Music Group'
       img:
@@ -257,7 +246,7 @@ es:
          alt: 'Un retrato de mi, Ken San Angelo'
 
    about:
-      header: 'Hola, me llamo Ken. Soy un desarrollador web trabajando en Orlando, Florida.'
+      header: 'Hola, me llamo Ken. Soy un desarrollador front-end trabajando en Orlando, Florida.'
       bio:
          - paragraph: >
               Actualmente, soy empleado como desarrollador front-end en  
